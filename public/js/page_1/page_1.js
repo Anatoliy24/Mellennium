@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){$(".section__slider").bxSlider(),$("body").on("click",'[href*="#"]',function(e){$("html,body").stop().animate({scrollTop:$(this.hash).offset().top-100},1e3),e.preventDefault()})});

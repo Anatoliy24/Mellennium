@@ -1,0 +1,20 @@
+jQuery(document).ready(function(){
+  // $('.section__clients-list').slick({
+  //   centerMode: true,
+  //   centerPadding: '0px',
+  //   slidesToShow: 1,
+  //   arrows: true
+  // });
+
+  $('.section__slider').bxSlider();
+
+
+  // Scroll navigation
+  $("body").on('click', '[href*="#"]', function(e){
+    var fixed_offset = 100;
+    $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
+    e.preventDefault();
+  });
+
+});
+
