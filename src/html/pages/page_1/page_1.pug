@@ -1,8 +1,8 @@
-head
-  include ../_components/head
-  title Page_1
 doctype html
 html(lang='ru')
+  head
+    include ../_components/head
+    title Page_1
   body#header
     wrapper
       header.header
@@ -12,22 +12,23 @@ html(lang='ru')
           .header__contact
             ul.header__contact-list
               li.header__contact-item
-                a(href="#").header__contact-link
+                a(href="tel:+74957838311").header__contact-link
                   img.header__contact-img(src='../../../assets/img/header/telefon.png' alt='Телефон' width='27' height='27')
                   span +7(495)783 83 11
               li.header__contact-item
-                a(href="#").header__contact-link
+                a(href="tel:+79057703090").header__contact-link
                   img.header__contact-img(src='../../../assets/img/header/24.png' alt='Поддержка' width='27' height='27')
                   span +7(905)770 30 90
               li.header__contact-item
-                a(href="#").header__contact-link
+                a(href="mailto:visa@mltravel.ru").header__contact-link
                   span Написать нам
-              li.header__contact-item
+              li.header__contact-item.lang-height
                 .header__contact-lang
                   a(href="#").header__contact-lang_eng
-                    img.header__contact-img(src='../../../assets/img/header/En.png' alt='English' width='27' height='27')
+                    .header__contact-lang-text En
                   a(href="#").header__contact-lang_ru
-                    img.header__contact-img(src='../../../assets/img/header/Ru.png' alt='Русский язык' width='27' height='27')
+                    .header__contact-lang-text Ru
+
             .header__menu
               ul.header__menu-list
                 li.header__menu-item
@@ -44,7 +45,7 @@ html(lang='ru')
           .sidebar
             ul.sidebar-list
               li.sidebar-item
-                a(href="#").sidebar-link
+                a(href="https://ya.ru").sidebar-link
                   img.sidebar-img.img-responsive(src="../../../assets/img/sidebar/visa.png" alt='')
                   .sidebar-desc Виза в Россию
               li.sidebar-item
@@ -67,46 +68,46 @@ html(lang='ru')
                 a(href="#").sidebar-link
                   img.sidebar-img.img-responsive(src="../../../assets/img/sidebar/service.png" alt='')
                   .sidebar-desc Другие услуги
+
+
           .content-wrapper
-            .container
+            .container-block
               .row
                 .section__header.section
                   .section__header-bg.section__bg
                     img.section__header-img.img-responsive(src="../../../assets/img/header/fon_up_paris.jpg" alt='')
-                  .section__content.section__header-title the art of services
+                  .section__header-title the art of services
 
-                .section__aboutComp.section#company
-                  .section__aboutComp-bg.section__bg
-                  .section__aboutComp-content.section__content
-                    .row
+                .section__about.section
+                  .section__about-bg.section__bg
+                  .section__about-content.section__content
+                    .row#company
                       .col-xs-12
-                        .section__aboutComp-title.section__title_purple
+                        .section__about-title.section__title_purple
                           h1 О компании
                     .row
                       .col-xs-12
-                        .section__aboutComp-text.section__content-text
+                        .section__about-text.section__content-text
                           span Mellennium travel
-                          |- Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa odio nam sed: nibh elementum. Proin, maecenas sed magna vivamus adipiscing sem: sagittis fusce maecenas ligula, leo sit ultricies gravida proin adipiscing ultricies elementum et integer quisque, sem porta.
-                          |Lorem lectus orci gravida molestie proin metus porta mattis maecenas — proin arcu leo orci proin sit. Congue molestie et nec arcu — nibh eu mauris justo auctor molestie integer arcu congue ultricies sodales in vivamus cursus sodales sem. Mauris — diam nam nec morbi: elementum nam pharetra lorem vulputate sodales quam: amet nam bibendum ut duis proin morbi. Non arcu tellus integer, amet fusce quam mattis ultricies pharetra. Nulla sem quisque mauris fusce tempus arcu orci quisque pellentesque sem mauris diam, non cursus risus porta vulputate malesuada. Donec nec vitae: porttitor bibendum, mauris, leo sem rutrum integer, pellentesque donec cursus urna congue sed enim arcu et leo — vitae odio.
-                          |Justo gravida tempus: commodo cursus sapien eget, nulla vitae eu lectus odio porta leo massa risus duis tellus, malesuada proin. Integer morbi adipiscing, risus justo lectus mattis vitae cursus sapien sagittis sem risus eget tellus at tellus — arcu lorem rutrum proin amet mattis cursus enim. Tempus curabitur pharetra adipiscing, proin vulputate bibendum elementum duis arcu pharetra, at vitae mauris nibh ipsum eget sit eget auctor congue, in sagittis congue. Sodales adipiscing, congue: amet gravida eros ligula mauris rutrum, sit congue eget risus donec orci duis nec in: adipiscing.
-                    .row
-                      .col-xs-12
-                        .aboutComp-social-list.section__social
-                          ul.aboutComp-social-list
-                            li.aboutComp-social-item
-                              a(href="#").section__aboutComp-social_fb
-                                img.header__contact-img(src='../../../assets/img/about_comp/fb.png' alt='Поддержка' width='30' height='30')
-                            li.aboutComp-social-item
-                              a(href="#").aboutComp-social-link_vk
-                                img.header__contact-img(src='../../../assets/img/about_comp/vk.png' alt='Поддержка' width='30' height='30')
-                            li.aboutComp-social-item
-                              a(href="#").aboutComp-social-link_in
-                                img.header__contact-img(src='../../../assets/img/about_comp/insta.png' alt='Поддержка' width='30' height='30')
+                          | - Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa odio nam sed: nibh elementum. Proin, maecenas sed magna vivamus adipiscing sem: sagittis fusce maecenas ligula, leo sit ultricies gravida proin adipiscing ultricies elementum et integer quisque, sem porta.
+                          | Lorem lectus orci gravida molestie proin metus porta mattis maecenas — proin arcu leo orci proin sit. Congue molestie et nec arcu — nibh eu mauris justo auctor molestie integer arcu congue ultricies sodales in vivamus cursus sodales sem. Mauris — diam nam nec morbi: elementum nam pharetra lorem vulputate sodales quam: amet nam bibendum ut duis proin morbi. Non arcu tellus integer, amet fusce quam mattis ultricies pharetra. Nulla sem quisque mauris fusce tempus arcu orci quisque pellentesque sem mauris diam, non cursus risus porta vulputate malesuada. Donec nec vitae: porttitor bibendum, mauris, leo sem rutrum integer, pellentesque donec cursus urna congue sed enim arcu et leo — vitae odio.
+                          | Justo gravida tempus: commodo cursus sapien eget, nulla vitae eu lectus odio porta leo massa risus duis tellus, malesuada proin. Integer morbi adipiscing, risus justo lectus mattis vitae cursus sapien sagittis sem risus eget tellus at tellus — arcu lorem rutrum proin amet mattis cursus enim. Tempus curabitur pharetra adipiscing, proin vulputate bibendum elementum duis arcu pharetra, at vitae mauris nibh ipsum eget sit eget auctor congue, in sagittis congue. Sodales adipiscing, congue: amet gravida eros ligula mauris rutrum, sit congue eget risus donec orci duis nec in: adipiscing.
+                    include ../_components/social
+
+                    //.row
+                    //  .col-xs-12
+                    //    .social__block
+                    //      ul.social__block-list
+                    //        li.social__block-item
+                    //          a(href="#").social__block-link_fb
+                    //        li.aboutComp-social-item
+                    //          a(href="#").social__block-link_vk
+                    //        li.aboutComp-social-item
+                    //          a(href="#").social__block-link_in
 
 
                 .section__service.section
-                  .section__service-bg.section__bg
-                    img.section__service-img.img-responsive(src="../../../assets/img/service/bussines_meetings.jpg" alt='')
+                  .section__service-bg.section__bg.service_bg
                   .section__service-content.section__content
                     .row#service
                       .col-xs-12
@@ -131,8 +132,8 @@ html(lang='ru')
                     .row
                       .col-xs-12
                         .section__cooperation-text.section__content-text
-                          span Mellennium travel
-                          | - Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa odio nam sed: nibh elementum. Proin, maecenas sed magna vivamus adipiscing sem: sagittis fusce maecenas ligula, leo sit ultricies gravida proin adipiscing
+                          span Mellennium travel&nbsp
+                          | предлагает несколько вариантов сотрудничества для своих клиентов
                     .row
                       .col-sm-3
                         .section__cooperation-item
@@ -166,8 +167,7 @@ html(lang='ru')
 
 
                 .section__advantages.section
-                  .section__advantages-bg.section__bg
-                    img.section__advantages-img.img-responsive(src="../../../assets/img/advantages/advantages_bg.jpg" alt='')
+                  .section__advantages-bg.section__bg.advantages-bg
                   .section__advantages-content.section__content
                     .row
                       .col-xs-12
@@ -192,7 +192,7 @@ html(lang='ru')
                           .section__advantages-text
                             .advantages-desc-title Экспертность
                             .advantages-desc-desc Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
-                    .row.section__advantages-block
+                    .row.section__advantages-block.advantages-margin-top
                       .col-sm-4
                         .section__advantages-item
                           img.section__advantages-icon(src='../../../assets/img/advantages/access.png' alt='Доступность')
@@ -222,36 +222,49 @@ html(lang='ru')
                         .section__news-title.section__title_white
                           h1 Новости
                     .row
-                      .section__news-block
-                        .col-sm-4
+                      .col-sm-12
+                        .section__news-block
+                          //.col-sm-4
                           .section__news-item
                             .section__news-date
                               span 20.06.2017
                             .section__news-text
-                              |Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
-                              |Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
                             button.section__news-btn Подробнее
-                        .col-sm-4
+                          //.col-sm-4
                           .section__news-item
                             .section__news-date
                               span 20.06.2017
                             .section__news-text
-                              |Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
-                              |Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
                             button.section__news-btn Подробнее
-                        .col-sm-4
+
+                          //.col-sm-4
                           .section__news-item
                             .section__news-date
                               span 20.06.2017
                             .section__news-text
-                              |Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
-                              |Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
                             button(type="submit").section__news-btn Подробнее
+                      //.row
+                      //  .col-sm-4.test
+                      //    button(type="submit").section__news-btn Подробнее
+                      //  .col-sm-4.test
+                      //    button(type="submit").section__news-btn Подробнее
+                      //  .col-sm-4.test
+                      //    button(type="submit").section__news-btn Подробнее
+
 
 
                 .section__clients.section
-                  .section__clients-bg.section__bg
-                    img.section__clients-img.img-responsive(src="../../../assets/img/clients/clients_bg.jpg" alt='')
+                  .section__clients-bg.section__bg.clients-bg
                   .section__clients-content.section__content
                     .row
                       .col-xs-12
@@ -259,46 +272,25 @@ html(lang='ru')
                           h1 Наши клиенты
                     .row
                       .col-sm-12
-                        //.section__clients-list
-                        //  .section__clients-item
-                        //    img.section__clients-logo.img-responsive(src="../../../assets/img/clients/renaissance_logo.png" alt='')
-                        //  .section__clients-item
-                        //    img.section__clients-logo.img-responsive(src="../../../assets/img/clients/fuji.png" alt='')
-                        //  .section__clients-item
-                        //    img.section__clients-logo.img-responsive(src="../../../assets/img/clients/hitachi.png" alt='')
-                        //  .section__clients-item
-                        //    img.section__clients-logo.img-responsive(src="../../../assets/img/clients/samsung.png" alt='')
-                        ul.section__slider
-                          li.section__slider-item
-                            ul.section__clients-list
-                              li.section__clients-item
-                                img.section__clients-logo.img-responsive(src="../../../assets/img/clients/renaissance_logo.png" alt='' height="80")
-                              li.section__clients-item
-                                img.section__clients-logo.img-responsive(src="../../../assets/img/clients/fuji.png" alt='' height="80")
-                              li.section__clients-item
-                                img.section__clients-logo.img-responsive(src="../../../assets/img/clients/hitachi.png" alt='' height="80")
-                              li.section__clients-item
-                                img.section__clients-logo.img-responsive(src="../../../assets/img/clients/samsung.png" alt='' height="80")
-                          li.section__slider-item
-                            ul.section__clients-list
-                              li.section__clients-item
-                                img.section__clients-logo.img-responsive(src="../../../assets/img/clients/renaissance_logo.png" alt='' height="80")
-                              li.section__clients-item
-                                img.section__clients-logo.img-responsive(src="../../../assets/img/clients/fuji.png" alt='' height="80")
-                              li.section__clients-item
-                                img.section__clients-logo.img-responsive(src="../../../assets/img/clients/hitachi.png" alt='' height="80")
-                              li.section__clients-item
-                                img.section__clients-logo.img-responsive(src="../../../assets/img/clients/samsung.png" alt='' height="80")
-                          li.section__slider-item
-                            ul.section__clients-list
-                              li.section__clients-item
-                                img.section__clients-logo.img-responsive(src="../../../assets/img/clients/renaissance_logo.png" alt='' height="80")
-                              li.section__clients-item
-                                img.section__clients-logo.img-responsive(src="../../../assets/img/clients/fuji.png" alt='' height="80")
-                              li.section__clients-item
-                                img.section__clients-logo.img-responsive(src="../../../assets/img/clients/hitachi.png" alt='' height="80")
-                              li.section__clients-item
-                                img.section__clients-logo.img-responsive(src="../../../assets/img/clients/samsung.png" alt='' height="80")
+                        .section__slider
+                          .section__slider-item
+                            img.section__slider-logo(src="../../../assets/img/clients/renaissance_logo.png" alt='')
+                          .section__slider-item
+                            img.section__slider-logo(src="../../../assets/img/clients/fuji.png" alt='')
+                          .section__slider-item
+                            img.section__slider-logo(src="../../../assets/img/clients/hitachi.png" alt='')
+                          .section__slider-item
+                            img.section__slider-logo(src="../../../assets/img/clients/samsung.png" alt='')
+                          .section__slider-item
+                            img.section__slider-logo(src="../../../assets/img/clients/renaissance_logo.png" alt='')
+                          .section__slider-item
+                            img.section__slider-logo(src="../../../assets/img/clients/fuji.png" alt='')
+                          .section__slider-item
+                            img.section__slider-logo(src="../../../assets/img/clients/hitachi.png" alt='')
+                          .section__slider-item
+                            img.section__slider-logo(src="../../../assets/img/clients/samsung.png" alt='')
+
+
                 .section__contacts.section
                   .section__contacts-bg.section__bg
                   .section__contacts-content.section__content
@@ -311,7 +303,8 @@ html(lang='ru')
                         .section__contacts-item
                           .section__contacts-icon
                             img.section__contacts-img.img-responsive(src="../../../assets/img/contacts/phone.png" alt='')
-                          .section__contacts-desc +7(495)783 83 11
+                          .section__contacts-desc
+                            a.section__contacts-desc-link(href="tel:84957838311") +7(495)783 83 11
                       .col-sm-4
                         .section__contacts-item
                           .section__contacts-icon
@@ -321,7 +314,8 @@ html(lang='ru')
                         .section__contacts-item
                           .section__contacts-icon
                             img.section__contacts-img.img-responsive(src="../../../assets/img/contacts/post.png" alt='')
-                          .section__contacts-desc visa@mltravel.ru
+                          .section__contacts-desc
+                            a.section__contacts-desc-link(href="mailto:visa@mltravel.ru") visa@mltravel.ru
 
                 .section__maps.section
                   .section__maps-bg.section__bg
@@ -331,7 +325,7 @@ html(lang='ru')
                 .section__form.section
                   .section__form-bg.section__bg
                   .section__form-content.section__content
-                    form(action='./mail.php', method='get')
+                    form(action='../../../assets/php/mail.php', method='get')
                       .row
                         .col-sm-6.col-xs-6.form-group
                           .input-group
@@ -347,31 +341,16 @@ html(lang='ru')
                             span.input-group-addon Message
                             input#inputGroupSuccess3.form-control(name='message', type='text', aria-describedby='inputGroupSuccess1Status')
                           button.btn.btn-white(type='submit') Send
-                      .row
-                        .col-xs-12
-                          .aboutComp-social-list.social-margin-top
-                            ul.aboutComp-social-list
-                              li.aboutComp-social-item
-                                a(href="#").section__aboutComp-social_fb
-                                  img.header__contact-img(src='../../../assets/img/about_comp/fb.png' alt='Поддержка' width='30' height='30')
-                              li.aboutComp-social-item
-                                a(href="#").aboutComp-social-link_vk
-                                  img.header__contact-img(src='../../../assets/img/about_comp/vk.png' alt='Поддержка' width='30' height='30')
-                              li.aboutComp-social-item
-                                a(href="#").aboutComp-social-link_in
-                                  img.header__contact-img(src='../../../assets/img/about_comp/insta.png' alt='Поддержка' width='30' height='30')
+                      include ../_components/social
 
 
 
-
-
-
-  script(type="text/javascript" src="../../../assets/lib/jquery/jquery-3.2.1.min.js")
-  script(async defer src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDkt2KHmSgb2aqFtHySvyCyfvD1Ew4ojNk&callback=initMap" type="text/javascript")
-  //script(type="text/javascript" src="../../../assets/lib/jquery.slick/slick/slick.js")
-  script(type="text/javascript" src="../../../assets/lib/jquery.bxslider/jquery.bxslider.js")
-  script(type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js")
-  script(src="../../../js/page_1/page_1.js")
-  script(src="../../../js/page_1/map.js")
+    script(type="text/javascript" src="../../../assets/lib/jquery/jquery-3.2.1.min.js")
+    script(async defer src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDkt2KHmSgb2aqFtHySvyCyfvD1Ew4ojNk&callback=initMap" type="text/javascript")
+    //script(type="text/javascript" src="../../../assets/lib/jquery.slick/slick/slick.js")
+    //script(type="text/javascript" src="../../../assets/lib/jquery.bxslider/jquery.bxslider.js")
+    script(type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js")
+    script(src="../../../js/page_1/page_1.js")
+    script(src="../../../js/page_1/map.js")
 
 

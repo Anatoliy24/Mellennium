@@ -3,7 +3,7 @@
   "name": "Mellennium",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Anatoliy24/Mellenium.git",
+  "repository": "https://github.com/Anatoliy24/Mellennium.git",
   "author": "Anatoliy Kapp <Anatoliy_kapp@mail.ru>",
   "license": "MIT",
   "devDependencies": {
