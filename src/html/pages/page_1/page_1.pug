@@ -22,12 +22,10 @@ html(lang='ru')
               li.header__contact-item
                 a(href="mailto:visa@mltravel.ru").header__contact-link
                   span Написать нам
-              li.header__contact-item.lang-height
-                .header__contact-lang
-                  a(href="#").header__contact-lang_eng
-                    .header__contact-lang-text En
-                  a(href="#").header__contact-lang_ru
-                    .header__contact-lang-text Ru
+              li.header__contact-item
+                .header__contact-lang-block
+                  a(href="#").header__contact-lang.rus.active Ru
+                  a(href="#").header__contact-lang En
 
             .header__menu
               ul.header__menu-list
@@ -89,21 +87,9 @@ html(lang='ru')
                       .col-xs-12
                         .section__about-text.section__content-text
                           span Mellennium travel
-                          | - Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa odio nam sed: nibh elementum. Proin, maecenas sed magna vivamus adipiscing sem: sagittis fusce maecenas ligula, leo sit ultricies gravida proin adipiscing ultricies elementum et integer quisque, sem porta.
-                          | Lorem lectus orci gravida molestie proin metus porta mattis maecenas — proin arcu leo orci proin sit. Congue molestie et nec arcu — nibh eu mauris justo auctor molestie integer arcu congue ultricies sodales in vivamus cursus sodales sem. Mauris — diam nam nec morbi: elementum nam pharetra lorem vulputate sodales quam: amet nam bibendum ut duis proin morbi. Non arcu tellus integer, amet fusce quam mattis ultricies pharetra. Nulla sem quisque mauris fusce tempus arcu orci quisque pellentesque sem mauris diam, non cursus risus porta vulputate malesuada. Donec nec vitae: porttitor bibendum, mauris, leo sem rutrum integer, pellentesque donec cursus urna congue sed enim arcu et leo — vitae odio.
-                          | Justo gravida tempus: commodo cursus sapien eget, nulla vitae eu lectus odio porta leo massa risus duis tellus, malesuada proin. Integer morbi adipiscing, risus justo lectus mattis vitae cursus sapien sagittis sem risus eget tellus at tellus — arcu lorem rutrum proin amet mattis cursus enim. Tempus curabitur pharetra adipiscing, proin vulputate bibendum elementum duis arcu pharetra, at vitae mauris nibh ipsum eget sit eget auctor congue, in sagittis congue. Sodales adipiscing, congue: amet gravida eros ligula mauris rutrum, sit congue eget risus donec orci duis nec in: adipiscing.
+                          | - это многогранное пространство в котором создаются творческие и структурные решения для свободной реализации бизнесс-процессов. Наши уникальные решения становятся must-haves в своей области. На сегодняшний день – это 15 лет успешного опыта предоставления сервиса
+                          | в визовово-миграционной сфере. Высокая квалификация сотрудников, качество предоставляемых услуг, гибкий подход - позволили завоевать доверие многих российский и иностранных компаний из различных сфер бизнеса  и сформировать репутацию надежного бизнес-партнера.
                     include ../_components/social
-
-                    //.row
-                    //  .col-xs-12
-                    //    .social__block
-                    //      ul.social__block-list
-                    //        li.social__block-item
-                    //          a(href="#").social__block-link_fb
-                    //        li.aboutComp-social-item
-                    //          a(href="#").social__block-link_vk
-                    //        li.aboutComp-social-item
-                    //          a(href="#").social__block-link_in
 
 
                 .section__service.section
@@ -116,11 +102,11 @@ html(lang='ru')
                     .row
                       .col-xs-12
                         .section__service-text.section__content-text
-                          span Mellennium travel
-                          | - Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa odio nam sed: nibh elementum. Proin, maecenas sed magna vivamus adipiscing sem: sagittis fusce maecenas ligula, leo sit ultricies gravida proin adipiscing ultricies elementum et integer quisque, sem porta.
-                          | Lorem lectus orci gravida molestie proin metus porta mattis maecenas — proin arcu leo orci proin sit. Congue molestie et nec arcu — nibh eu mauris justo auctor molestie integer arcu congue ultricies sodales in vivamus cursus sodales sem. Mauris — diam nam nec morbi: elementum nam pharetra lorem vulputate sodales quam: amet nam bibendum ut duis proin morbi. Non arcu tellus integer, amet fusce quam mattis ultricies pharetra. Nulla sem quisque mauris fusce tempus arcu orci quisque pellentesque sem mauris diam, non cursus risus porta vulputate malesuada. Donec nec vitae: porttitor bibendum, mauris, leo sem rutrum integer, pellentesque donec cursus urna congue sed enim arcu et leo — vitae odio.
-                          | Justo gravida tempus: commodo cursus sapien eget, nulla vitae eu lectus odio porta leo massa risus duis tellus, malesuada proin. Integer morbi adipiscing, risus justo lectus mattis vitae cursus sapien sagittis sem risus eget tellus at tellus — arcu lorem rutrum proin amet mattis cursus enim. Tempus curabitur pharetra adipiscing, proin vulputate bibendum elementum duis arcu pharetra, at vitae mauris nibh ipsum eget sit eget auctor congue, in sagittis congue. Sodales adipiscing, congue: amet gravida eros ligula mauris rutrum, sit congue eget risus donec orci duis nec in: adipiscing.
-
+                          .section__service-text_phrase «Клиенты – личности, а с личностями шаблоны не работают…»
+                          .section__service-text_desc
+                            | Первоклассный сервис в нашем понимании, это качественный сервис, ориентир ванный на глубинные потребности клиента. При создании клиентоориентированного сервиса очень большую =играет человеческий фактор. Наша концепция - это постоянное совершенствование, как наших профессиональных качеств, так и способов оказания услуг. Запросы клиентов, являются катализатором для нашего развития и роста.
+                            | При взаимодействии с визово-миграционной службой у клиентов возникает множество вопросов. У нас есть ответ на каждый из них.
+                          .section__service-text_slogan Качественный сервис - наше секретное оружие!
 
                 .section__cooperation.section
                   .section__cooperation-bg.section__bg
@@ -179,38 +165,38 @@ html(lang='ru')
                           img.section__advantages-icon(src='../../../assets/img/advantages/honesty.png' alt='Честность')
                           .section__advantages-text
                             .advantages-desc-title Честность
-                            .advantages-desc-desc Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                            .advantages-desc-desc процессе взаимодействия мы честно озвучиваем этапы процесса работы: результат, гарантии и риски
                       .col-sm-4
                         .section__advantages-item
                           img.section__advantages-icon(src='../../../assets/img/advantages/use.png' alt='Польза')
                           .section__advantages-text
                             .advantages-desc-title Польза
-                            .advantages-desc-desc Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                            .advantages-desc-desc  любое взаимодействие с нами, будь-то простая консультация или долгосрочное сотрудничество, приносит пользу
                       .col-sm-4
                         .section__advantages-item
                           img.section__advantages-icon(src='../../../assets/img/advantages/expert.png' alt='Экспертность')
                           .section__advantages-text
                             .advantages-desc-title Экспертность
-                            .advantages-desc-desc Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                            .advantages-desc-desc  за годы работы мы получили бесценный практический опыт в решении различных задач наших клиентов
                     .row.section__advantages-block.advantages-margin-top
                       .col-sm-4
                         .section__advantages-item
                           img.section__advantages-icon(src='../../../assets/img/advantages/access.png' alt='Доступность')
                           .section__advantages-text
                             .advantages-desc-title Доступность
-                            .advantages-desc-desc Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                            .advantages-desc-desc мы понимаем, как важно быть всегда на связи, поэтому  для наших клиентов предусмотрена поддержка 24/7
                       .col-sm-4
                         .section__advantages-item
                           img.section__advantages-icon(src='../../../assets/img/advantages/support.png' alt='Поддержка')
                           .section__advantages-text
                             .advantages-desc-title Поддержка
-                            .advantages-desc-desc Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                            .advantages-desc-desc мы несем ответственность за взятые на себя обязательства и разделяем риски с клиентом
                       .col-sm-4
                         .section__advantages-item
                           img.section__advantages-icon(src='../../../assets/img/advantages/flexible.png' alt='Гибкость')
                           .section__advantages-text
                             .advantages-desc-title Гибкость
-                            .advantages-desc-desc Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                            .advantages-desc-desc гибкая и прозрачная ценовая политика в соответствии с запросом клиента
 
 
 
@@ -225,33 +211,22 @@ html(lang='ru')
                       .col-sm-12
                         .section__news-block
                           //.col-sm-4
-                          .section__news-item
+                          .section__news-item.test_news1
                             .section__news-date
                               span 20.06.2017
-                            .section__news-text
-                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
-                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                            .section__news-text Уважаемые  партнеры ! Спешим Вас проинформировать о том, что 31 июля последний день для направления уведомления о начислении заработной платы высококвалифицированным специалистам за второй квартал 2017 года.
                             button.section__news-btn Подробнее
                           //.col-sm-4
-                          .section__news-item
+                          .section__news-item.test_news2
                             .section__news-date
                               span 20.06.2017
-                            .section__news-text
-                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
-                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
-                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
-                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
-                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
-                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                            .section__news-text Оформление ИНН для ВКС. Дорогие друзья!В связи с тем, что ГУ МВД по вопросам миграции требует предоставлять свидетельство ИНН при продлении разрешения на работу высококвалифицированным специалистам.за второй квартал 2017 года.
                             button.section__news-btn Подробнее
-
                           //.col-sm-4
-                          .section__news-item
+                          .section__news-item.test_news3
                             .section__news-date
                               span 20.06.2017
-                            .section__news-text
-                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
-                              | Lorem ipsum orci malesuada cursus quisque ligula maecenas vivamus sodales. Vitae lorem ligula sagittis, integer eget tellus bibendum porttitor massa
+                            .section__news-text В обозримом будущем на смену бумажным миграционным карточкам с печатью сотрудников пограничной службы, которые выдаются иностранным гражданам при въезде в РФ, придет их электронная версия –цифровая миграционная карта.
                             button(type="submit").section__news-btn Подробнее
                       //.row
                       //  .col-sm-4.test

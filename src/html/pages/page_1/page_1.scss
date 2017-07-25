@@ -207,32 +207,39 @@ ul, li{
   text-align: right;
 }
 
-
-
-
-.header__contact-lang_eng{
-  position: relative;
-  display: inline-block;
-  width: 27px;
+.header__contact-lang-block{
   height: 27px;
-  background: $color-grey;
-  border-radius: 50%;
-    .active{
-      background: $color-purple;
-    }
-
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
 }
 
 
 
-.header__contact-lang_ru{
-  margin-left: 5px;
-  position: relative;
-  display: inline-block;
+.header__contact-lang{
   width: 27px;
   height: 27px;
-  background: $color-purple;
+  background: $color-grey;
+  position: relative;
+  margin-bottom: 6px;
+  color: #fff;
+  float: right;
+  line-height: 27px;
+  text-align: center;
+  font-size: 13px;
   border-radius: 50%;
+  &:visited,&:hover, &:focus, &:active{
+      text-decoration: none;
+      color: $color-white;
+    }
+}
+
+.rus{
+  margin-left: 5px;
+}
+
+.active{
+  background: $color-purple;
 }
 
 .header__contact-lang-text{
@@ -253,9 +260,7 @@ ul, li{
     }
 
 }
-.lang-height{
-  height: 27px;
-}
+
 
 .header__contact-item{
   display: inline-block;
@@ -276,7 +281,7 @@ ul, li{
   height: 27px;
 }
 .header__menu{
-  margin-top: 20px;
+  margin-top: 30px;
 
 }
 
@@ -426,6 +431,12 @@ ul, li{
 
 .section__about-text{
   color: $color-dark-grey;
+  line-height: 2;
+  text-indent: 20px;
+    span{
+        color: $color-purple;
+        font-weight: bold;
+      }
 }
 
 
@@ -491,13 +502,24 @@ ul, li{
 
 .section__service-text{
   color: $color-white;
+  line-height: 2;
 }
 
-.section__service-img{
-  //min-height: 603px;
-  //background: url('../../../assets/img/service/bussines_meetings.jpg') no-repeat;
-  //
-  //background-size:cover;
+
+.section__service-text_phrase{
+  padding: 0 300px;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.section__service-text_desc{
+  margin: 65px 0 40px 0;
+}
+
+.section__service-text_slogan{
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .service_bg{
@@ -615,6 +637,19 @@ ul, li{
   width: 33%;
   position: relative;
   text-align: left;
+  //padding-right: 50px;
+
+}
+
+.test_news1{
+  padding-right: 50px;
+}
+.test_news2{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.test_news3{
+  padding-left: 50px;
 }
 
 .section__news-date{
@@ -641,8 +676,6 @@ ul, li{
 .section__news-btn{
   position: absolute;
   bottom: 0;
-  left: 0;
-  //top: 100%;
   width: 132px;
   height: 40px;
   background: $color-grey;
@@ -651,11 +684,12 @@ ul, li{
   border-radius: 7px;
   text-transform: uppercase;
   font-size: 19px;
+    &:hover{
+      color: $color-dark-grey;
+      border: 1px solid $color-dark-grey;
+    }
 }
 
-.test{
-  text-align: left;
-}
 
 
 /*-----------------section__clients--------*/

@@ -163,24 +163,33 @@ ul, li {
   margin-top: 15px;
   text-align: right; }
 
-.header__contact-lang_eng {
-  position: relative;
+.header__contact-lang-block {
+  height: 27px;
   display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; }
+
+.header__contact-lang {
   width: 27px;
   height: 27px;
   background: #9fa1a3;
-  border-radius: 50%; }
-  .header__contact-lang_eng .active {
-    background: #951b81; }
-
-.header__contact-lang_ru {
-  margin-left: 5px;
   position: relative;
-  display: inline-block;
-  width: 27px;
-  height: 27px;
-  background: #951b81;
+  margin-bottom: 6px;
+  color: #fff;
+  float: right;
+  line-height: 27px;
+  text-align: center;
+  font-size: 13px;
   border-radius: 50%; }
+  .header__contact-lang:visited, .header__contact-lang:hover, .header__contact-lang:focus, .header__contact-lang:active {
+    text-decoration: none;
+    color: #ffffff; }
+
+.rus {
+  margin-left: 5px; }
+
+.active {
+  background: #951b81; }
 
 .header__contact-lang-text {
   position: absolute;
@@ -198,9 +207,6 @@ ul, li {
     color: #ffffff;
     text-decoration: none; }
 
-.lang-height {
-  height: 27px; }
-
 .header__contact-item {
   display: inline-block;
   margin-left: 30px; }
@@ -217,7 +223,7 @@ ul, li {
   height: 27px; }
 
 .header__menu {
-  margin-top: 20px; }
+  margin-top: 30px; }
 
 .header__menu-item {
   display: inline-block;
@@ -335,7 +341,12 @@ ul, li {
   width: 1335px; }
 
 .section__about-text {
-  color: #727270; }
+  color: #727270;
+  line-height: 2;
+  text-indent: 20px; }
+  .section__about-text span {
+    color: #951b81;
+    font-weight: bold; }
 
 /*-----------------social__block--------*/
 .social__block-list {
@@ -382,7 +393,21 @@ ul, li {
 
 /*-----------------section-service--------*/
 .section__service-text {
-  color: #ffffff; }
+  color: #ffffff;
+  line-height: 2; }
+
+.section__service-text_phrase {
+  padding: 0 300px;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic; }
+
+.section__service-text_desc {
+  margin: 65px 0 40px 0; }
+
+.section__service-text_slogan {
+  font-size: 18px;
+  font-weight: bold; }
 
 .service_bg {
   background: url("../../../assets/img/service/bussines_meetings.jpg") no-repeat;
@@ -456,6 +481,16 @@ ul, li {
   position: relative;
   text-align: left; }
 
+.test_news1 {
+  padding-right: 50px; }
+
+.test_news2 {
+  padding-left: 25px;
+  padding-right: 25px; }
+
+.test_news3 {
+  padding-left: 50px; }
+
 .section__news-date {
   width: 132px;
   font-size: 18px;
@@ -476,7 +511,6 @@ ul, li {
 .section__news-btn {
   position: absolute;
   bottom: 0;
-  left: 0;
   width: 132px;
   height: 40px;
   background: #9fa1a3;
@@ -485,9 +519,9 @@ ul, li {
   border-radius: 7px;
   text-transform: uppercase;
   font-size: 19px; }
-
-.test {
-  text-align: left; }
+  .section__news-btn:hover {
+    color: #727270;
+    border: 1px solid #727270; }
 
 /*-----------------section__clients--------*/
 .section__slider-item {
