@@ -361,35 +361,50 @@ ul, li {
 .social__block-link_fb {
   display: inline-block;
   margin-left: 5px;
-  background: url("../../../assets/img/about_comp/sprites.png") 0px 0px no-repeat;
+  background: url("../../../assets/img/about_comp/sprites/fb_about.png") 0px 0px no-repeat;
   width: 34px;
   height: 34px; }
   .social__block-link_fb:hover {
-    background: url("../../../assets/img/about_comp/sprites.png") 0px -34px no-repeat;
+    background: url("../../../assets/img/about_comp/sprites/fb_about.png") 0px -34px no-repeat;
     width: 34px;
     height: 34px; }
 
 .social__block-link_vk {
   display: inline-block;
   margin-left: 5px;
-  background: url("../../../assets/img/about_comp/sprites.png") 0px 0px no-repeat;
+  background: url("../../../assets/img/about_comp/sprites/vk_about.png") 0px 0px no-repeat;
   width: 34px;
   height: 34px; }
   .social__block-link_vk:hover {
-    background: url("../../../assets/img/about_comp/sprites.png") 0px -34px no-repeat;
+    background: url("../../../assets/img/about_comp/sprites/vk_about.png") 0px -34px no-repeat;
     width: 34px;
     height: 34px; }
 
 .social__block-link_in {
   display: inline-block;
   margin-left: 5px;
-  background: url("../../../assets/img/about_comp/sprites.png") 0px 0px no-repeat;
+  background: url("../../../assets/img/about_comp/sprites/insta_about.png") 0px 0px no-repeat;
   width: 34px;
   height: 34px; }
   .social__block-link_in:hover {
-    background: url("../../../assets/img/about_comp/sprites.png") 0px -34px no-repeat;
+    background: url("../../../assets/img/about_comp/sprites/insta_about.png") 0px -34px no-repeat;
     width: 34px;
     height: 34px; }
+
+.section__form .social__block-link_fb {
+  background: url("../../../assets/img/contacts/sprites/fb_cont.png") 0px 0px no-repeat; }
+  .section__form .social__block-link_fb:hover {
+    background: url("../../../assets/img/contacts/sprites/fb_cont.png") 0px -34px no-repeat; }
+
+.section__form .social__block-link_vk {
+  background: url("../../../assets/img/contacts/sprites/sprites.png") 0px 0px no-repeat; }
+  .section__form .social__block-link_vk:hover {
+    background: url("../../../assets/img/contacts/sprites/sprites.png") 0px -34px no-repeat; }
+
+.section__form .social__block-link_in {
+  background: url("../../../assets/img/contacts/sprites/insta_cont.png") 0px 0px no-repeat; }
+  .section__form .social__block-link_in:hover {
+    background: url("../../../assets/img/contacts/sprites/insta_cont.png") 0px -34px no-repeat; }
 
 /*-----------------section-service--------*/
 .section__service-text {
@@ -481,14 +496,14 @@ ul, li {
   position: relative;
   text-align: left; }
 
-.test_news1 {
+.padding_news1 {
   padding-right: 50px; }
 
-.test_news2 {
+.padding_news2 {
   padding-left: 25px;
   padding-right: 25px; }
 
-.test_news3 {
+.padding_news3 {
   padding-left: 50px; }
 
 .section__news-date {
@@ -511,14 +526,15 @@ ul, li {
 .section__news-btn {
   position: absolute;
   bottom: 0;
-  width: 132px;
   height: 40px;
   background: #9fa1a3;
   color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 7px;
   text-transform: uppercase;
-  font-size: 19px; }
+  font-size: 19px;
+  padding: 0 10px;
+  outline: none; }
   .section__news-btn:hover {
     color: #727270;
     border: 1px solid #727270; }
@@ -672,7 +688,9 @@ ul, li {
   font-size: 24px;
   text-transform: uppercase;
   color: #91288f;
-  background: #fff; }
+  background: #fff;
+  outline: none;
+  border: none; }
 
 .with-btn {
   padding-right: 155px;
