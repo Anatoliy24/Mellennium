@@ -15,7 +15,8 @@ html{
 
 body{
   font-family: Arial, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
+  color: $color-grey;
   max-width: 1300px; /* $container-large-desktop + 160px */
   margin: 0 auto;
     @media (max-width: 992px) { /* (min-width: $screen-md-min)*/
@@ -27,7 +28,7 @@ body{
 }
 
 h1, h2, h3, h4{
-  font-family: 'open_sansregular';
+  font-family: "OpenSansRegular";
   margin: 0;
 }
 
@@ -38,6 +39,15 @@ h1{
   margin-bottom: 85px;
 }
 
+h2{
+  font-family: "OpenSansBold";
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+
+}
+
 ul, li{
   padding: 0;
   margin: 0;
@@ -45,6 +55,20 @@ ul, li{
 }
 
 
+.text_color-purple{
+  color: $color-purple;
+}
+.text_color-white{
+  color: $color-white;
+}
+
+.text_color-gray{
+  color: $color-grey;
+}
+
+.text_weight-bold{
+  font-weight: bold;
+}
 
 
 /* --------------- выравнивание столбцов по высоте ----------------*/
@@ -294,7 +318,7 @@ ul, li{
 }
 
 .header__menu-link{
-  font-family: 'open_sansregular';
+  font-family: "OpenSansRegular";
   font-size: 23px;
   text-transform: uppercase;
   color: $color-white;
@@ -406,10 +430,7 @@ ul, li{
 
 
 .section__content-text{
-
   font-size: 16px;
-
-
 }
 
 .section__title_purple{
@@ -456,11 +477,11 @@ ul, li{
 .social__block-link_fb{
   display: inline-block;
   margin-left: 5px;
-  background: url('../../../assets/img/about_comp/sprites/fb_about.png') 0px 0px no-repeat;
+  background: url('../../../assets/img/social_icon/sprites/fb_about.png') 0px 0px no-repeat;
   width: 34px;
   height: 34px;
     &:hover{
-      background: url('../../../assets/img/about_comp/sprites/fb_about.png') 0px -34px no-repeat;
+      background: url('../../../assets/img/social_icon/sprites/fb_about.png') 0px -34px no-repeat;
       width: 34px;
       height: 34px;
 
@@ -470,11 +491,11 @@ ul, li{
 .social__block-link_vk{
   display: inline-block;
   margin-left: 5px;
-  background: url('../../../assets/img/about_comp/sprites/vk_about.png') 0px 0px no-repeat;
+  background: url('../../../assets/img/social_icon/sprites/vk_about.png') 0px 0px no-repeat;
   width: 34px;
   height: 34px;
     &:hover{
-      background: url('../../../assets/img/about_comp/sprites/vk_about.png') 0px -34px no-repeat;
+      background: url('../../../assets/img/social_icon/sprites/vk_about.png') 0px -34px no-repeat;
       width: 34px;
       height: 34px;
 
@@ -484,11 +505,11 @@ ul, li{
 .social__block-link_in{
   display: inline-block;
   margin-left: 5px;
-  background: url('../../../assets/img/about_comp/sprites/insta_about.png') 0px 0px no-repeat;
+  background: url('../../../assets/img/social_icon/sprites/insta_about.png') 0px 0px no-repeat;
   width: 34px;
   height: 34px;
     &:hover{
-      background: url('../../../assets/img/about_comp/sprites/insta_about.png') 0px -34px no-repeat;
+      background: url('../../../assets/img/social_icon/sprites/insta_about.png') 0px -34px no-repeat;
       width: 34px;
       height: 34px;
 
@@ -543,7 +564,7 @@ ul, li{
 }
 
 .service_bg{
-  background: url('../../../assets/img/service/bussines_meetings.jpg') no-repeat;
+  background: url('../../../assets/img/page_1/service/bussines_meetings.jpg') no-repeat;
   background-size:cover;
 
 }
@@ -592,7 +613,7 @@ ul, li{
 /*-----------------section__advantages--------*/
 
 .advantages-bg{
-  background: url('../../../assets/img/advantages/advantages_bg.jpg') no-repeat;
+  background: url('../../../assets/img/page_1/advantages/advantages_bg.jpg') no-repeat;
   background-size:cover;
 
 }
@@ -623,7 +644,7 @@ ul, li{
 }
 
 .section__advantages-img{
-  background: url('../../../assets/img/advantages/advantages_bg.jpg') no-repeat;
+  background: url('../../../assets/img/page_1/advantages/advantages_bg.jpg') no-repeat;
   min-height: 733px;
   -webkit-background-size:;
   background-size: cover;
@@ -693,11 +714,8 @@ ul, li{
   overflow: hidden;
 }
 
-.section__news-btn{
-  position: absolute;
-  bottom: 0;
+.section__btn{
   height: 40px;
-  background: $color-grey;
   color: $color-white;
   border: 1px solid $color-white;
   border-radius: 7px;
@@ -705,10 +723,19 @@ ul, li{
   font-size: 19px;
   padding: 0 10px;
   outline: none;
-  &:hover{
+}
+
+
+
+.section__news-block .section__btn{
+  position: absolute;
+  bottom: 0;
+  background: $color-grey;
+    &:hover{
       color: $color-dark-grey;
       border: 1px solid $color-dark-grey;
     }
+
 }
 
 
@@ -733,7 +760,7 @@ ul, li{
 
 .slick-prev {
   left: -30px;
-  background-image: url('../../../assets/img/clients/stroke_left.png');
+  background-image: url('../../../assets/img/page_1/clients/stroke_left.png');
   background-position: 0;
   background-repeat: no-repeat;
   width: 22px;
@@ -742,7 +769,7 @@ ul, li{
       content: none;
     }
     &:hover, &:focus{
-      background: url('../../../assets/img/clients/stroke_left.png');
+      background: url('../../../assets/img/page_1/clients/stroke_left.png');
       background-position: 0;
       background-repeat: no-repeat;
       width: 22px;
@@ -756,7 +783,7 @@ ul, li{
 
 .slick-next {
   right: -20px;
-  background: url('../../../assets/img/clients/stroke_right.png');
+  background: url('../../../assets/img/page_1/clients/stroke_right.png');
   background-position: 0;
   background-repeat: no-repeat;
   width: 22px;
@@ -765,7 +792,7 @@ ul, li{
       content: none;
     }
     &:hover, &:focus{
-      background: url('../../../assets/img/clients/stroke_right.png');
+      background: url('../../../assets/img/page_1/clients/stroke_right.png');
       background-position: 0;
       background-repeat: no-repeat;
       width: 22px;
@@ -795,11 +822,11 @@ ul, li{
 }
 
 .bx-wrapper .bx-prev {
-  background: url('../../../assets/img/clients/stroke_left.png') no-repeat 0 0;
+  background: url('../../../assets/img/page_1/clients/stroke_left.png') no-repeat 0 0;
 }
 
 .bx-wrapper .bx-next {
-  background: url('../../../assets/img/clients/stroke_right.png') no-repeat 0 0;
+  background: url('../../../assets/img/page_1/clients/stroke_right.png') no-repeat 0 0;
     &:hover{
       background-position: 0 0;
     }
@@ -807,7 +834,7 @@ ul, li{
 
 
 .clients-bg{
-  background: url('../../../assets/img/clients/clients_bg.jpg') no-repeat;
+  background: url('../../../assets/img/page_1/clients/clients_bg.jpg') no-repeat;
   background-size:cover;
 
 }
@@ -931,3 +958,293 @@ ul, li{
   border-color: #FF0000;
 }
 
+
+/*--------------------------- page_2 -----------------*/
+
+.section__visa-content{
+
+}
+
+.section__visa-text{
+  font-family: Arial;
+  color: $color-grey;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.visa-visit_block-item{
+  position: relative;
+
+  margin-right: -5px;
+  display: inline-block;
+  //padding: 0 20px;
+}
+
+.visa-visit-img{
+  display: block;
+
+}
+
+.visa-visit-bg{
+  position: relative;
+  background-color: rgba(145, 38, 143, 0.5);
+  //opacity: 0.5;
+  //max-width:266px;
+  margin-top: -100px;
+}
+
+.visa-visit-bg_title{
+  font-size: 19px;
+  font-weight: bold;
+  color: $color-white;
+  text-transform: uppercase;
+  padding-top: 8px;
+  margin-bottom: 8px;
+}
+
+
+.visa-text_doc{
+  color: $color-purple;
+  margin-bottom: 70px;
+  font-weight: bold;
+}
+
+.visa-text_invitation{
+  margin-bottom: 40px;
+    span{
+      color: $color-dark-grey;
+      font-weight: bold;
+    }
+}
+
+.visa-text_invitation-type{
+  margin-bottom: 85px;
+  font-weight: bold;
+  color: $color-dark-grey;
+}
+
+
+.section__visa-visit_title{
+  font-family:"MyriadProRegular";
+  font-size: 30px;
+  color: $color-purple;
+  padding: 0 90px;
+  margin-bottom: 50px;
+}
+
+.section__visa-visit .section__btn{
+  background: none;
+  margin-bottom: 17px;
+    &:hover{
+      color: $color-purple;
+      border: 1px solid $color-purple;
+    }
+
+}
+
+
+.section__bus-invit-bg{
+  background: $color-grey;
+}
+
+
+.invit-registration-bg {
+  background: url('../../../assets/img/page_2/invitation/invitation_bg.jpg') no-repeat;
+  background-size: cover;
+}
+
+.section__bus-invit_part-one .section__content{
+  padding:85px 70px 55px 70px;
+}
+
+.section__bus-invit-text{
+  color: $color-white;
+  font-size: 18px;
+  font-family: "Arial Narrow";
+}
+
+.section__invit-quest-bg{
+  background: $color-purple;
+}
+
+.section__content-invit-quest{
+  padding: 15px 0 15px 70px;
+}
+
+.invit-quest-title{
+  position: relative;
+  span{
+    font-family: "MyriadProRegular";
+    font-size: 24px;
+    color: $color-white;
+    line-height: 2;
+    margin-left: 50px;
+  }
+}
+
+.invit-quest-img{
+  position: absolute;
+  top: 50%;
+  margin-top: -18px;
+  display: inline-block;
+  background: url('../../../assets/img/page_2/invitation/question.png') no-repeat;
+  width: 36px;
+  height: 36px;
+}
+
+.section__bus-invit_part-two .section__content{
+  padding:40px 70px 65px 70px;
+}
+
+
+
+.invit-text-margin{
+  margin-bottom: 100px;
+
+}
+
+.bus-invit_title{
+  font-family: "OpenSansBold";
+  font-size: 24px;
+  text-transform: uppercase;
+  color: $color-purple;
+}
+
+.bus-invit_text{
+  color: $color-white;
+  padding: 0 45px;
+}
+
+.bus-invit-registration-block{
+  position: relative;
+  text-align: left;
+  color: $color-white;
+    &:first-child{
+      margin-bottom: 50px;
+    }
+}
+
+.bus-invit-registration-img{
+  position: absolute;
+  top: 10px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.invit-reg-time{
+  background: url('../../../assets/img/page_2/invitation/calender.png') no-repeat;
+}
+
+.invit-reg-warning{
+  background: url('../../../assets/img/page_2/invitation/interjection.png') no-repeat;
+}
+
+.bus-invit-registration-text{
+  display: inline-block;
+  margin-left: 75px;
+}
+
+
+.bus-invit-registration-text_title{
+  font-family: "OpenSansBold";
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+
+
+.section__tourists-invit .section__content{
+  padding:85px 70px 55px 70px;
+}
+
+.section__tourists-invit-text_block{
+  font-family: "Arial Narrow";
+}
+
+.section__tourists-invit-text{
+  &:first-child{
+    margin-top: 15px;
+    margin-bottom: 55px;
+  }
+  span{
+    color:$color-dark-grey;
+    font-weight: bold;
+  }
+
+}
+
+.section__tourists-invit_part-two .section__content{
+  padding:45px 70px 90px 70px;
+}
+
+
+
+.section__job-invit-bg{
+  background: $color-purple;
+}
+
+.section__tourists-invit-text_block{
+  color: $color-white;
+}
+
+.section__job-invit-text{
+  &:first-child{
+    margin-bottom: 45px;
+  }
+  &:last-child{
+    margin-bottom: 65px;
+  }
+  span{
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+.section__job-invit-time_block{
+  font-family: "Arial Narrow";
+  display: table;
+}
+
+.section__job-invit-time{
+  position: relative;
+  width: 50%;
+  display: table-cell;
+  color: $color-white;
+
+}
+
+.job-invit-time_title{
+  font-family: "OpenSansBold";
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 0 90px;
+  margin-bottom: 15px;
+}
+
+
+.job-invit-time_text{
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+
+.job-invit-time_time-limit{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: "Arial";
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+
+.invit-quest-bg-gray{
+  background: $color-grey;
+}
+
+.section__info-invit-text{
+  font-family: "Arial Narrow";
+}

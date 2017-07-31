@@ -46,6 +46,7 @@ gulp.task('pug', function buildHTML() {
       pretty : '\t',
     }))
     .pipe(gulp.dest('./public/html/pages'))
+    // .pipe(gulp.dest('./public/'))
 });
 
 //Задача для компиляции SASS
@@ -95,12 +96,9 @@ gulp.task('browser-sync', function() {
     server: {
       baseDir: './public/'
     },
-    startPath: '/html/pages/page_1/page_1.html'
-    // startPath: '/html/pages/blog/blog.html'
-    // startPath: '/html/pages/fullscreen/fullscreen.html'
-    // startPath: '/html/pages/login/login.html'
-    // startPath: '/html/pages/welcome/welcome.html'
-    // startPath: '/html/pages/works/works.html'
+    // startPath: '/html/pages/page_1/page_1.html'
+    // startPath: '/page_2/page_2.html'
+    startPath: '/html/pages/page_2/page_2.html'
   });
 });
 

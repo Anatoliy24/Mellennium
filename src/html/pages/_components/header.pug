@@ -1,6 +1,37 @@
-extends header_temp
+header.header
+  .header-container
+    a.header__logo(href="#header")
+      img.header__logo-img.img-responsive(src="../../../assets/img/header/logo.png" alt='')
+    .header__contact
+      ul.header__contact-list
+        li.header__contact-item
+          a(href="tel:+74957838311").header__contact-link
+            img.header__contact-img(src='../../../assets/img/header/telefon.png' alt='Телефон' width='27' height='27')
+            span +7(495)783 83 11
+        li.header__contact-item
+          a(href="tel:+79057703090").header__contact-link
+            img.header__contact-img(src='../../../assets/img/header/24.png' alt='Поддержка' width='27' height='27')
+            span +7(905)770 30 90
+        li.header__contact-item
+          a(href="mailto:visa@mltravel.ru").header__contact-link
+            span Написать нам
+        li.header__contact-item
+          .header__contact-lang-block
+            a(href="#").header__contact-lang.rus.active Ru
+            a(href="#").header__contact-lang En
 
-block header__desc
-  .header__desc
-    .header__name Владимир Астахов
-    .header__info Личный сайт веб-разработчика
+      .header__menu
+        ul.header__menu-list
+          li.header__menu-item
+            a(href="#company").header__menu-link О компании
+          li.header__menu-item
+            a(href="#service").header__menu-link О сервисе
+          li.header__menu-item
+            a(href="#news").header__menu-link Новости
+          li.header__menu-item
+            a(href="#contacts").header__menu-link Контакты
+
+
+
+
+
