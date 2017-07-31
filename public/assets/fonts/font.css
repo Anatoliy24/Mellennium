@@ -178,3 +178,47 @@
   font-style: normal;
   font-weight: normal;
 }
+
+
+
+/* Код для подключения шрифта в /css/stylename.css */
+
+@font-face {
+  font-family: "ArialNarrowRegular";
+  src: url("../fonts/ArialNarrowRegular/ArialNarrowRegular.eot");
+  src: url("../fonts/ArialNarrowRegular/ArialNarrowRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/ArialNarrowRegular/ArialNarrowRegular.woff") format("woff"),
+  url("../fonts/ArialNarrowRegular/ArialNarrowRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ArialNarrowBold";
+  src: url("../fonts/ArialNarrowBold/ArialNarrowBold.eot");
+  src: url("../fonts/ArialNarrowBold/ArialNarrowBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/ArialNarrowBold/ArialNarrowBold.woff") format("woff"),
+  url("../fonts/ArialNarrowBold/ArialNarrowBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ArialNarrowItalic";
+  src: url("../fonts/ArialNarrowItalic/ArialNarrowItalic.eot");
+  src: url("../fonts/ArialNarrowItalic/ArialNarrowItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/ArialNarrowItalic/ArialNarrowItalic.woff") format("woff"),
+  url("../fonts/ArialNarrowItalic/ArialNarrowItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ArialNarrowBoldItalic";
+  src: url("../fonts/ArialNarrowBoldItalic/ArialNarrowBoldItalic.eot");
+  src: url("../fonts/ArialNarrowBoldItalic/ArialNarrowBoldItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/ArialNarrowBoldItalic/ArialNarrowBoldItalic.woff") format("woff"),
+  url("../fonts/ArialNarrowBoldItalic/ArialNarrowBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

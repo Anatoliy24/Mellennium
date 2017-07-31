@@ -4,7 +4,7 @@ html {
   overflow-x: hidden; }
 
 body {
-  font-family: Arial, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-family: "ArialNarrowRegular", Arial, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   font-size: 18px;
   color: #9fa1a3;
   max-width: 1300px;
@@ -724,13 +724,18 @@ ul, li {
 
 /*--------------------------- page_2 -----------------*/
 .section__visa-text {
-  font-family: Arial;
+  font-family: "ArialNarrowRegular";
   color: #9fa1a3;
   font-size: 18px;
   line-height: 2; }
 
+.section__visa-visit_block {
+  max-width: 810px;
+  margin: 0 auto; }
+
 .visa-visit_block-item {
   position: relative;
+  width: 33%;
   margin-right: -5px;
   display: inline-block; }
 
@@ -751,23 +756,23 @@ ul, li {
   margin-bottom: 8px; }
 
 .visa-text_doc {
+  font-family: "ArialNarrowBold";
   color: #951b81;
-  margin-bottom: 70px;
-  font-weight: bold; }
+  margin-bottom: 70px; }
 
 .visa-text_invitation {
   margin-bottom: 40px; }
   .visa-text_invitation span {
     color: #727270;
-    font-weight: bold; }
+    font-family: "ArialNarrowBold"; }
 
 .visa-text_invitation-type {
+  font-family: "ArialNarrowBold";
   margin-bottom: 85px;
-  font-weight: bold;
   color: #727270; }
 
 .section__visa-visit_title {
-  font-family: "MyriadProRegular";
+  font-family: "OpenSansRegular";
   font-size: 30px;
   color: #951b81;
   padding: 0 90px;
@@ -804,7 +809,7 @@ ul, li {
 .invit-quest-title {
   position: relative; }
   .invit-quest-title span {
-    font-family: "MyriadProRegular";
+    font-family: "OpenSansBold";
     font-size: 24px;
     color: #ffffff;
     line-height: 2;
