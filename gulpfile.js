@@ -95,8 +95,9 @@ gulp.task('browser-sync', function() {
     server: {
       baseDir: './public/'
     },
-    startPath: '/html/pages/page_1/page_1.html'
+    // startPath: '/html/pages/page_1/page_1.html'
     // startPath: '/html/pages/page_2/page_2.html'
+    startPath: '/html/pages/page_3/page_3.html'
   });
 });
 

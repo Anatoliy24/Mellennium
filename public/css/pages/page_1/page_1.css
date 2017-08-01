@@ -5,7 +5,7 @@ html {
 
 body {
   font-family: "ArialNarrowRegular", Arial, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #9fa1a3;
   max-width: 1300px;
   /* $container-large-desktop + 160px */
@@ -29,7 +29,7 @@ h1 {
   font-size: 60px;
   font-weight: normal;
   text-transform: uppercase;
-  margin-bottom: 85px; }
+  margin-bottom: 70px; }
 
 h2 {
   font-family: "OpenSansBold";
@@ -347,9 +347,6 @@ ul, li {
   top: 0;
   bottom: 0; }
 
-.section__content-text {
-  font-size: 16px; }
-
 .section__title_purple {
   color: #951b81; }
 
@@ -433,16 +430,15 @@ ul, li {
 
 .section__service-text_phrase {
   padding: 0 300px;
-  font-size: 16px;
-  font-weight: bold;
-  font-style: italic; }
+  font-size: 20px;
+  font-family: "ArialNarrowBoldItalic"; }
 
 .section__service-text_desc {
   margin: 65px 0 40px 0; }
 
 .section__service-text_slogan {
-  font-size: 18px;
-  font-weight: bold; }
+  font-size: 22px;
+  font-family: "ArialNarrowBold"; }
 
 .service_bg {
   background: url("../../../assets/img/page_1/service/bussines_meetings.jpg") no-repeat;
@@ -450,7 +446,6 @@ ul, li {
 
 /*-----------------section-cooperation--------*/
 .section__cooperation-text {
-  font-size: 18px;
   color: #9fa1a3;
   padding: 0 120px 85px 120px; }
   .section__cooperation-text span {
@@ -471,11 +466,10 @@ ul, li {
     display: block;
     color: #951b81;
     text-transform: uppercase;
-    font-size: 18px;
     font-weight: bold; }
 
 /*-----------------section__advantages--------*/
-.advantages-bg {
+.section__advantages-bg {
   background: url("../../../assets/img/page_1/advantages/advantages_bg.jpg") no-repeat;
   background-size: cover; }
 
@@ -528,14 +522,12 @@ ul, li {
 
 .section__news-date {
   width: 132px;
-  font-size: 18px;
   height: 30px;
   background: #ffffff;
   color: #9fa1a3;
   margin-bottom: 35px;
   text-align: center; }
   .section__news-date span {
-    line-height: 2;
     font-weight: bold; }
 
 .section__news-text {
@@ -549,7 +541,7 @@ ul, li {
   border: 1px solid #ffffff;
   border-radius: 7px;
   text-transform: uppercase;
-  font-size: 19px;
+  font-size: 22px;
   padding: 0 10px;
   outline: none; }
 
@@ -723,37 +715,45 @@ ul, li {
   border-color: #FF0000; }
 
 /*--------------------------- page_2 -----------------*/
-.section__visa-text {
-  font-family: "ArialNarrowRegular";
-  color: #9fa1a3;
-  font-size: 18px;
-  line-height: 2; }
+.section__three-blocks_title {
+  font-family: "OpenSansRegular";
+  font-size: 30px;
+  color: #951b81;
+  padding: 0 90px;
+  margin-bottom: 50px; }
 
-.section__visa-visit_block {
+.section__three-blocks_block {
   max-width: 810px;
   margin: 0 auto; }
 
-.visa-visit_block-item {
+.three-blocks_block-item {
   position: relative;
   width: 33%;
   margin-right: -5px;
   display: inline-block; }
 
-.visa-visit-img {
+.three-blocks-img {
   display: block; }
 
-.visa-visit-bg {
+.three-blocks-bg {
   position: relative;
-  background-color: rgba(145, 38, 143, 0.5);
+  background-color: rgba(145, 38, 143, 0.8);
   margin-top: -100px; }
 
-.visa-visit-bg_title {
+.three-blocks-bg_title {
   font-size: 19px;
   font-weight: bold;
   color: #ffffff;
   text-transform: uppercase;
   padding-top: 8px;
   margin-bottom: 8px; }
+
+.section__three-blocks .section__btn {
+  background: none;
+  margin-bottom: 17px; }
+  .section__three-blocks .section__btn:hover {
+    color: #951b81;
+    border: 1px solid #951b81; }
 
 .visa-text_doc {
   font-family: "ArialNarrowBold";
@@ -771,20 +771,6 @@ ul, li {
   margin-bottom: 85px;
   color: #727270; }
 
-.section__visa-visit_title {
-  font-family: "OpenSansRegular";
-  font-size: 30px;
-  color: #951b81;
-  padding: 0 90px;
-  margin-bottom: 50px; }
-
-.section__visa-visit .section__btn {
-  background: none;
-  margin-bottom: 17px; }
-  .section__visa-visit .section__btn:hover {
-    color: #951b81;
-    border: 1px solid #951b81; }
-
 .section__bus-invit-bg {
   background: #9fa1a3; }
 
@@ -797,7 +783,6 @@ ul, li {
 
 .section__bus-invit-text {
   color: #ffffff;
-  font-size: 18px;
   font-family: "Arial Narrow"; }
 
 .section__invit-quest-bg {
@@ -938,3 +923,100 @@ ul, li {
 
 .section__info-invit-text {
   font-family: "Arial Narrow"; }
+
+/*--------------------------- page_3 -----------------*/
+.section__citiz-text {
+  line-height: 1.5;
+  text-align: left; }
+
+.citiz-text_get {
+  font-family: "ArialNarrowBold";
+  color: #951b81;
+  margin-bottom: 70px;
+  text-align: center; }
+
+.citiz-text_invitation {
+  font-family: "ArialNarrowBold";
+  color: #951b81;
+  margin-top: 90px; }
+
+.citiz-text_manager {
+  color: #9fa1a3;
+  margin-top: 30px; }
+
+.citiz-text_law {
+  font-family: "OpenSansRegular";
+  font-size: 30px;
+  color: #951b81;
+  margin-top: 90px;
+  line-height: 1.5; }
+
+.section__citiz_enumeration-bg {
+  background: #951b81; }
+
+.section__citiz_enumeration-list {
+  color: #ffffff;
+  text-align: left; }
+
+.section__citiz_enumeration-item span {
+  font-family: "ArialNarrowBold"; }
+
+.section__citiz_enumeration .section__content {
+  padding: 60px 70px 60px 70px; }
+
+.citiz_order-text {
+  color: #9fa1a3; }
+
+.section__citiz_requirement-bg {
+  background: #9fa1a3; }
+
+.section__citiz_requirement-text {
+  font-family: "ArialNarrowBold";
+  color: #951b81; }
+
+.section__rvp-text {
+  text-align: justify; }
+
+.rvp-text_resolution {
+  font-family: "ArialNarrowBold";
+  color: #951b81;
+  margin-bottom: 35px; }
+
+.rvp-text_time {
+  margin-bottom: 35px; }
+
+.section__rvp_enumeration-bg {
+  background: #9fa1a3; }
+
+.section__rvp_enumeration-title {
+  font-family: "OpenSansRegular";
+  font-size: 28px;
+  margin-bottom: 55px; }
+
+.rvp_enumeration-list {
+  text-align: left;
+  line-height: 1.5; }
+
+.rvp_enumeration-item {
+  color: #ffffff; }
+  .rvp_enumeration-item span {
+    font-family: "ArialNarrowBold";
+    color: #951b81; }
+
+.section__residence-bg {
+  background: url("../../../assets/img/page_3/vng/vng-bg.jpg") no-repeat;
+  background-size: cover; }
+
+.section__residence-text {
+  text-align: justify;
+  color: #ffffff; }
+
+.residence-text_info {
+  font-family: "ArialNarrowBold";
+  margin-bottom: 30px; }
+
+.residence-text_time {
+  margin-bottom: 30px; }
+
+.residence-text_life {
+  font-family: "ArialNarrowBold"; }

@@ -15,7 +15,7 @@ html{
 
 body{
   font-family: "ArialNarrowRegular", Arial, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: $color-grey;
   max-width: 1300px; /* $container-large-desktop + 160px */
   margin: 0 auto;
@@ -36,7 +36,7 @@ h1{
   font-size: 60px;
   font-weight: normal;
   text-transform: uppercase;
-  margin-bottom: 85px;
+  margin-bottom: 70px;
 }
 
 h2{
@@ -430,7 +430,7 @@ ul, li{
 
 
 .section__content-text{
-  font-size: 16px;
+
 }
 
 .section__title_purple{
@@ -549,9 +549,9 @@ ul, li{
 
 .section__service-text_phrase{
   padding: 0 300px;
-  font-size: 16px;
-  font-weight: bold;
-  font-style: italic;
+  font-size: 20px;
+  font-family: "ArialNarrowBoldItalic";
+
 }
 
 .section__service-text_desc{
@@ -559,8 +559,8 @@ ul, li{
 }
 
 .section__service-text_slogan{
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 22px;
+  font-family: "ArialNarrowBold";
 }
 
 .service_bg{
@@ -574,7 +574,6 @@ ul, li{
 /*-----------------section-cooperation--------*/
 
 .section__cooperation-text{
-  font-size: 18px;
   color: $color-grey;
   padding: 0 120px 85px 120px;
     span{
@@ -604,7 +603,6 @@ ul, li{
       display: block;
       color: $color-purple;
       text-transform: uppercase;
-      font-size: 18px;
       font-weight: bold;
     }
 }
@@ -612,7 +610,7 @@ ul, li{
 
 /*-----------------section__advantages--------*/
 
-.advantages-bg{
+.section__advantages-bg{
   background: url('../../../assets/img/page_1/advantages/advantages_bg.jpg') no-repeat;
   background-size:cover;
 
@@ -695,14 +693,12 @@ ul, li{
 
 .section__news-date{
   width: 132px;
-  font-size: 18px;
   height: 30px;
   background: $color-white;
   color: $color-grey;
   margin-bottom: 35px;
   text-align: center;
     span{
-      line-height: 2;
       font-weight: bold;
     }
 }
@@ -720,7 +716,7 @@ ul, li{
   border: 1px solid $color-white;
   border-radius: 7px;
   text-transform: uppercase;
-  font-size: 19px;
+  font-size: 22px;
   padding: 0 10px;
   outline: none;
 }
@@ -965,38 +961,41 @@ ul, li{
 
 }
 
-.section__visa-text{
-  font-family: "ArialNarrowRegular";
-  color: $color-grey;
-  font-size: 18px;
-  line-height: 2;
+
+/////////// three-blocks
+
+.section__three-blocks_title{
+  font-family:"OpenSansRegular";
+  font-size: 30px;
+  color: $color-purple;
+  padding: 0 90px;
+  margin-bottom: 50px;
 }
 
-.section__visa-visit_block{
+.section__three-blocks_block{
   max-width: 810px;
   margin: 0 auto;
 }
 
-.visa-visit_block-item{
+.three-blocks_block-item{
   position: relative;
   width: 33%;
   margin-right: -5px;
   display: inline-block;
-  //padding: 0 20px;
 }
 
-.visa-visit-img{
+.three-blocks-img{
   display: block;
 
 }
 
-.visa-visit-bg{
+.three-blocks-bg{
   position: relative;
-  background-color: rgba(145, 38, 143, 0.5);
+  background-color: rgba(145, 38, 143, 0.8);
   margin-top: -100px;
 }
 
-.visa-visit-bg_title{
+.three-blocks-bg_title{
   font-size: 19px;
   font-weight: bold;
   color: $color-white;
@@ -1005,12 +1004,22 @@ ul, li{
   margin-bottom: 8px;
 }
 
+.section__three-blocks .section__btn{
+  background: none;
+  margin-bottom: 17px;
+  &:hover{
+    color: $color-purple;
+    border: 1px solid $color-purple;
+  }
+
+}
+
+/////////////
 
 .visa-text_doc{
   font-family: "ArialNarrowBold";
   color: $color-purple;
   margin-bottom: 70px;
-  //font-weight: bold;
 }
 
 .visa-text_invitation{
@@ -1028,23 +1037,7 @@ ul, li{
 }
 
 
-.section__visa-visit_title{
-  font-family:"OpenSansRegular";
-  font-size: 30px;
-  color: $color-purple;
-  padding: 0 90px;
-  margin-bottom: 50px;
-}
 
-.section__visa-visit .section__btn{
-  background: none;
-  margin-bottom: 17px;
-    &:hover{
-      color: $color-purple;
-      border: 1px solid $color-purple;
-    }
-
-}
 
 
 .section__bus-invit-bg{
@@ -1063,7 +1056,6 @@ ul, li{
 
 .section__bus-invit-text{
   color: $color-white;
-  font-size: 18px;
   font-family: "Arial Narrow";
 }
 
@@ -1251,4 +1243,146 @@ ul, li{
 
 .section__info-invit-text{
   font-family: "Arial Narrow";
+}
+
+
+
+
+
+
+/*--------------------------- page_3 -----------------*/
+
+.section__citiz-text{
+  line-height: 1.5;
+  text-align: left;
+}
+
+
+.citiz-text_get{
+  font-family: "ArialNarrowBold";
+  color: $color-purple;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.citiz-text_invitation{
+  font-family: "ArialNarrowBold";
+  color: $color-purple;
+  margin-top: 90px;
+}
+
+.citiz-text_manager{
+  color: $color-grey;
+  margin-top: 30px;
+}
+
+.citiz-text_law{
+  font-family:"OpenSansRegular";
+  font-size: 30px;
+  color: $color-purple;
+  margin-top: 90px;
+  line-height: 1.5;
+}
+
+
+////
+.section__citiz_enumeration-bg{
+  background: $color-purple;
+}
+
+.section__citiz_enumeration-list{
+  color: $color-white;
+  text-align: left;
+}
+
+.section__citiz_enumeration-item{
+    span{
+      font-family: "ArialNarrowBold";
+    }
+}
+
+.section__citiz_enumeration .section__content{
+  padding:60px 70px 60px 70px;
+}
+
+.citiz_order-text{
+  color: $color-grey;
+}
+
+
+.section__citiz_requirement-bg{
+  background: $color-grey;
+}
+
+.section__citiz_requirement-text{
+  font-family: "ArialNarrowBold";
+  color: $color-purple;
+}
+
+
+///
+
+.section__rvp-text{
+  text-align: justify;
+}
+
+.rvp-text_resolution{
+  font-family: "ArialNarrowBold";
+  color: $color-purple;
+  margin-bottom: 35px;
+}
+
+.rvp-text_time{
+  margin-bottom: 35px;
+}
+
+
+////
+.section__rvp_enumeration-bg{
+  background: $color-grey;
+}
+
+.section__rvp_enumeration-title{
+  font-family: "OpenSansRegular";
+  font-size: 28px;
+  margin-bottom: 55px;
+}
+
+.rvp_enumeration-list{
+  text-align: left;
+  line-height: 1.5;
+}
+
+.rvp_enumeration-item{
+  color: $color-white;
+    span{
+      font-family: "ArialNarrowBold";
+      color: $color-purple;
+    }
+}
+
+////
+
+.section__residence-bg{
+  background: url('../../../assets/img/page_3/vng/vng-bg.jpg') no-repeat;
+  background-size:cover;
+
+}
+
+.section__residence-text{
+  text-align: justify;
+  color: $color-white;
+}
+
+.residence-text_info{
+  font-family: "ArialNarrowBold";
+  margin-bottom: 30px;
+}
+
+.residence-text_time{
+  margin-bottom: 30px;
+}
+
+.residence-text_life{
+  font-family: "ArialNarrowBold";
 }
