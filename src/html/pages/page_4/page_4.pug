@@ -1,0 +1,72 @@
+include ../_components/head
+  title Page_4
+body#header
+  wrapper
+    include ../_components/header
+    main
+      .page-wrapper
+        include ../_components/sidebar
+        .content-wrapper
+          .container-block
+            .row
+              .section__header.section
+                .section__header-bg.section__bg
+                  img.section__header-img.img-responsive(src="../../../assets/img/header/bg-header_page3.jpg" alt='')
+                .section__header-title ahead of time
+
+              .section__other-services.section
+                .section__other-services-bg.section__bg
+                .section__other-services-content.section__content
+                  .row
+                    .col-xs-12
+                      .section__other-services-title.section__title_purple
+                        h1 Другие услуги
+                  .row
+                    .col-xs-12
+                      .section__other-services-text
+                        .other-services-text_add
+                          |Кроме основных услуг компания Mellennium Travel оказывает дополнительно
+                        ul.other-services-text-list
+                          li.other-services-text-item
+                            .other-services-text-item_title
+                              |Юридические услуги
+                            .other-services-text-item_desc
+                              |Имея большой практический опыт в миграционной сфере, наша компания готова оказать квалифицированную юридическую поддержку, связанную с применением Федеральных Законов о миграции и представлением интересов Заказчика в государственных органах
+                          li.other-services-text-item
+                            .other-services-text-item_title
+                              |Перевод документов
+                            .other-services-text-item_desc
+                              |Переводчики нашей компании работают со всеми языками мира и готовы осуществить письменный перевод всех типов документов (от паспорта до сложной технической документации) в ускоренные или стандартные сроки
+                          li.other-services-text-item
+                            .other-services-text-item_title
+                              |Нотариальное заверение документов
+                            .other-services-text-item_desc
+                              |Среди преимуществ работы с нами по данному направлению является возможность круглосуточного заверения документов с последующей доставкой к Заказчику
+                          li.other-services-text-item
+                            .other-services-text-item_title
+                              |Миграционный аудит
+                            .other-services-text-item_desc
+                              |Ваша миграционная безопасность зависит от правильности ведения личных дел иностранных работников. Проверка может быть проведена как в офисе у Заказчика, так и дистанционным путем. По результатам проверки выдается заключение юриста, содержащее описание нарушений, возможных штрафных санкций, а также рекомендации по их исправлению.
+                          li.other-services-text-item
+                            .other-services-text-item_title
+                              |Курьерские услуги
+                            .other-services-text-item_desc
+                              |Штатный состав собственных визовых агентов, специалистов по работе с государственными органами и курьеров позволяют оперативно решать все вопросы с оказанием курьерских услуг как в рамках миграционных и визовых услуг, так и как отдельную услугу.
+                          li.other-services-text-item
+                            .other-services-text-item_title
+                              |Консультационные услуги
+                            .other-services-text-item_desc
+                              | Широкий выбор консультационных услуг.
+
+
+              include ../_components/contacts
+              include ../_components/map
+              include ../_components/form
+
+  script(type="text/javascript" src="../../../assets/lib/jquery/jquery-3.2.1.min.js")
+  script(src="../../../js/page_1/map.js")
+  script(async defer src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDkt2KHmSgb2aqFtHySvyCyfvD1Ew4ojNk&callback=initMap" type="text/javascript")
+  script(type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js")
+  script(src="../../../js/page_1/page_1.js")
+
+
