@@ -30,13 +30,12 @@ gulp.task('watch', function() {
   gulp.watch('./src/html/pages/**/*.js', ['scripts']); //скрипты
   gulp.watch(['./src/html/pages/**/*.pug'], ['pug']); // pug
   gulp.watch('./src/assets/**/*.*', ['assets']); //наши локальные файлы(картинки, шрифты)
-  // gulp.watch('./src/_components/**/*.*'); //наши локальные файлы(картинки, шрифты)
   gulp.watch('./src/**/*.*').on('change', browserSync.reload); //Перезапуск browserSynс
 });
 
 //Задача для компиляции PUG
 gulp.task('pug', function buildHTML() {
-  return gulp.src('./src/html/pages/**/*.pug')
+  return gulp.src('./src/**/*.pug')
     .pipe(plumber({
       errorHandler: function (error) {
         console.log('Error: ' + error.message);
@@ -45,12 +44,12 @@ gulp.task('pug', function buildHTML() {
     .pipe(pug({
       pretty : '\t',
     }))
-    .pipe(gulp.dest('./public/html/pages'))
+    .pipe(gulp.dest('./public'))
 });
 
 //Задача для компиляции SASS
 gulp.task('sass', function () {
-  return gulp.src('./src/html/pages/**/*.scss')
+  return gulp.src('./src/css/**/*.scss')
     .pipe(plumber({
       errorHandler: function (error) {
         console.log('Error: ' + error.message);
@@ -63,7 +62,7 @@ gulp.task('sass', function () {
     .pipe(sass({
       includePaths: require('node-normalize-scss').includePaths
     }).on('error', sass.logError))
-    .pipe(gulp.dest('./public/css/pages'));
+    .pipe(gulp.dest('./public/css'));
 });
 
 //Перемешение  локальных файлов в папку public
@@ -79,7 +78,7 @@ gulp.task('clean', function() {
 });
 
 gulp.task('scripts', function() {
-  gulp.src('./src/html/pages/**/*.js')
+  gulp.src('./src/js/**/*.js')
     .pipe(plumber({
       errorHandler: function (error) {
         console.log('Error: ' + error.message);
@@ -95,11 +94,11 @@ gulp.task('browser-sync', function() {
     server: {
       baseDir: './public/'
     },
-    // startPath: '/html/pages/page_1/page_1.html'
-    // startPath: '/html/pages/page_2/page_2.html'
-    // startPath: '/html/pages/page_3/page_3.html'
-    // startPath: '/html/pages/page_4/page_4.html'
-    startPath: '/html/pages/page_5/page_5.html'
+    // startPath: '/index.html'
+    // startPath: '/visa.html'
+    startPath: '/citizenship.html'
+    // startPath: '/other-services.html'
+    // startPath: '/webinar.html'
   });
 });
 

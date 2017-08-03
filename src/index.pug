@@ -1,0 +1,199 @@
+include _components/head
+  title Главная
+body#header
+  wrapper
+    include _components/header
+    main
+      .page-wrapper
+        include _components/sidebar
+        .content-wrapper
+          .container-block
+            .row
+              .section__header.section
+                .section__header-bg.section__bg
+                  img.section__header-img.img-responsive(src="../../../assets/img/header/fon_up_paris.jpg" alt='')
+                .section__header-title the art of services
+
+              .section__about.section
+                .section__about-bg.section__bg
+                .section__about-content.section__content
+                  .row#company
+                    .col-xs-12
+                      .section__about-title.section__title_purple
+                        h1 О компании
+                  .row
+                    .col-xs-12
+                      .section__about-text.section__content-text
+                        span Mellennium travel
+                        | - это многогранное пространство в котором создаются творческие и структурные решения для свободной реализации бизнесс-процессов. Наши уникальные решения становятся must-haves в своей области. На сегодняшний день – это 15 лет успешного опыта предоставления сервиса
+                        | в визовово-миграционной сфере. Высокая квалификация сотрудников, качество предоставляемых услуг, гибкий подход - позволили завоевать доверие многих российский и иностранных компаний из различных сфер бизнеса  и сформировать репутацию надежного бизнес-партнера.
+                  include _components/social
+
+
+              .section__service.section
+                .section__service-bg.section__bg.service_bg
+                .section__service-content.section__content
+                  .row#service
+                    .col-xs-12
+                      .section__service-title.section__title_white
+                        h1 О сервисе
+                  .row
+                    .col-xs-12
+                      .section__service-text.section__content-text
+                        .section__service-text_phrase «Клиенты – личности, а с личностями шаблоны не работают…»
+                        .section__service-text_desc
+                          | Первоклассный сервис в нашем понимании, это качественный сервис, ориентир ванный на глубинные потребности клиента. При создании клиентоориентированного сервиса очень большую =играет человеческий фактор. Наша концепция - это постоянное совершенствование, как наших профессиональных качеств, так и способов оказания услуг. Запросы клиентов, являются катализатором для нашего развития и роста.
+                          | При взаимодействии с визово-миграционной службой у клиентов возникает множество вопросов. У нас есть ответ на каждый из них.
+                        .section__service-text_slogan Качественный сервис - наше секретное оружие!
+
+              .section__cooperation.section
+                .section__cooperation-bg.section__bg
+                .section__cooperation-content.section__content
+                  .row
+                    .col-xs-12
+                      .section__cooperation-title.section__title_purple
+                        h1 Сотрудничество
+                  .row
+                    .col-xs-12
+                      .section__cooperation-text.section__content-text
+                        span Mellennium travel&nbsp
+                        | предлагает несколько вариантов сотрудничества для своих клиентов
+                  .row
+                    .col-sm-3
+                      .section__cooperation-item
+                        .section__cooperation-photo
+                          img.section__cooperation-img(src='../../../assets/img/page_1/cooperation/project_manager.png' alt='Менеджер проектов')
+                        .section__cooperation-post
+                          span Project&nbsp;
+                          | manager
+                    .col-sm-3
+                      .section__cooperation-item
+                        .section__cooperation-photo
+                          img.section__cooperation-img(src='../../../assets/img/page_1/cooperation/implant_manager.png' alt='Менеджер проектов')
+                        .section__cooperation-post
+                          span Implant&nbsp;
+                          | manager
+                    .col-sm-3
+                      .section__cooperation-item
+                        .section__cooperation-photo
+                          img.section__cooperation-img(src='../../../assets/img/page_1/cooperation/account_manager.png' alt='Менеджер проектов')
+                        .section__cooperation-post
+                          span Key account&nbsp;
+                          | manager
+                    .col-sm-3
+                      .section__cooperation-item
+                        .section__cooperation-photo
+                          img.section__cooperation-img(src='../../../assets/img/page_1/cooperation/option_manager.png' alt='Менеджер проектов')
+                        .section__cooperation-post
+                          span Your option&nbsp;
+                          | manager
+
+
+
+              .section__advantages.section
+                .section__advantages-bg.section__bg
+                .section__advantages-content.section__content
+                  .row
+                    .col-xs-12
+                      .section__advantages-title.section__title_white
+                        h1 Преимущества
+                  .row.section__advantages-block
+                    .col-sm-4
+                      .section__advantages-item
+                        img.section__advantages-icon(src='../../../assets/img/page_1/advantages/honesty.png' alt='Честность')
+                        .section__advantages-text
+                          .advantages-desc-title Честность
+                          .advantages-desc-desc процессе взаимодействия мы честно озвучиваем этапы процесса работы: результат, гарантии и риски
+                    .col-sm-4
+                      .section__advantages-item
+                        img.section__advantages-icon(src='../../../assets/img/page_1/advantages/use.png' alt='Польза')
+                        .section__advantages-text
+                          .advantages-desc-title Польза
+                          .advantages-desc-desc  любое взаимодействие с нами, будь-то простая консультация или долгосрочное сотрудничество, приносит пользу
+                    .col-sm-4
+                      .section__advantages-item
+                        img.section__advantages-icon(src='../../../assets/img/page_1/advantages/expert.png' alt='Экспертность')
+                        .section__advantages-text
+                          .advantages-desc-title Экспертность
+                          .advantages-desc-desc  за годы работы мы получили бесценный практический опыт в решении различных задач наших клиентов
+                  .row.section__advantages-block.advantages-margin-top
+                    .col-sm-4
+                      .section__advantages-item
+                        img.section__advantages-icon(src='../../../assets/img/page_1/advantages/access.png' alt='Доступность')
+                        .section__advantages-text
+                          .advantages-desc-title Доступность
+                          .advantages-desc-desc мы понимаем, как важно быть всегда на связи, поэтому  для наших клиентов предусмотрена поддержка 24/7
+                    .col-sm-4
+                      .section__advantages-item
+                        img.section__advantages-icon(src='../../../assets/img/page_1/advantages/support.png' alt='Поддержка')
+                        .section__advantages-text
+                          .advantages-desc-title Поддержка
+                          .advantages-desc-desc мы несем ответственность за взятые на себя обязательства и разделяем риски с клиентом
+                    .col-sm-4
+                      .section__advantages-item
+                        img.section__advantages-icon(src='../../../assets/img/page_1/advantages/flexible.png' alt='Гибкость')
+                        .section__advantages-text
+                          .advantages-desc-title Гибкость
+                          .advantages-desc-desc гибкая и прозрачная ценовая политика в соответствии с запросом клиента
+
+
+
+              .section__news.section
+                .section__news-bg.section__bg
+                .section__news-content.section__content
+                  .row#news
+                    .col-xs-12
+                      .section__news-title.section__title_white
+                        h1 Новости
+                  .row
+                    .col-sm-12
+                      .section__news-block
+                        .section__news-item.padding_news1
+                          .section__news-date
+                            span 20.06.2017
+                          .section__news-text Уважаемые  партнеры ! Спешим Вас проинформировать о том, что 31 июля последний день для направления уведомления о начислении заработной платы высококвалифицированным специалистам за второй квартал 2017 года.
+                          button.section__btn Подробнее
+                        .section__news-item.padding_news2
+                          .section__news-date
+                            span 01.07.2017
+                          .section__news-text Конституционный суд (КС) РФ в открытом заседании признал не соответствующими Конституции нормы российского миграционного закона, обязывающие иностранцев вставать на учет по месту пребывания.
+                          button.section__btn Подробнее
+                        .section__news-item.padding_news3
+                          .section__news-date
+                            span 15.07.2017
+                          .section__news-text В обозримом будущем на смену бумажным миграционным карточкам с печатью сотрудников пограничной службы, которые выдаются иностранным гражданам при въезде в РФ, придет их электронная версия –цифровая миграционная карта.
+                          button.section__btn Подробнее
+
+              .section__clients.section
+                .section__clients-bg.section__bg.clients-bg
+                .section__clients-content.section__content
+                  .row
+                    .col-xs-12
+                      .section__clients-title.section__title_purple
+                        h1 Наши клиенты
+                  .row
+                    .col-sm-12
+                      .section__slider
+                        .section__slider-item
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/renaissance_logo.png" alt='')
+                        .section__slider-item
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/fuji.png" alt='')
+                        .section__slider-item
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/hitachi.png" alt='')
+                        .section__slider-item
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/samsung.png" alt='')
+                        .section__slider-item
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/renaissance_logo.png" alt='')
+                        .section__slider-item
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/fuji.png" alt='')
+                        .section__slider-item
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/hitachi.png" alt='')
+                        .section__slider-item
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/samsung.png" alt='')
+
+              include _components/contacts
+              include _components/map
+              include _components/form
+  include _components/scripts
+
+
