@@ -33,15 +33,36 @@ jQuery(document).ready(function(){
     ]
   });
 
-  // $('.section__slider').bxSlider();
 
 
-  // Scroll navigation
-  $("body").on('click', '[href*="#"]', function(e){
+  // //Scroll navigation
+
+  function scroll(id) {
     var fixed_offset = 185;
-    $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
-    e.preventDefault();
+    $('html,body').stop().animate({ scrollTop: $(id).offset().top - fixed_offset }, 1000);
+  }
+  var hash = location.hash+'';
+  location.hash='';
+
+  if(hash!==''){
+    scroll(hash);
+  }
+  $("body").on('click', '[href*="#"]', function(e){
+    scroll(this.hash);
+    // e.preventDefault();
   });
+
+
+
+
+
+  // $("body").on('click', '[href*="#"]', function(e){
+  //   var fixed_offset = 185;
+  //   $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
+  //   e.preventDefault();
+  // });
+
+
 
 
 // Validation
@@ -81,3 +102,14 @@ $('form').on('submit','',function(event) {
 
 
 });
+
+
+// (function($){
+//   $(window).on("load",function(){
+//     $("a[rel='m_PageScroll2id']").mPageScroll2id({
+//       offset: 185
+//     });
+//   });
+// })(jQuery);
+
+

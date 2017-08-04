@@ -26,9 +26,9 @@ gulp.task('dev', ['build', 'watch', 'browser-sync']);
 gulp.task('build', ['pug', 'sass', 'scripts', 'assets']);
 // Задача 'watch' следит за всеми нашими файлами в проекте и при изменении тех или иных перезапустает соответсвующую задачу.
 gulp.task('watch', function() {
-  gulp.watch('./src/html/pages/**/*.scss', ['sass']); //стили
-  gulp.watch('./src/html/pages/**/*.js', ['scripts']); //скрипты
-  gulp.watch(['./src/html/pages/**/*.pug'], ['pug']); // pug
+  gulp.watch('./src/css/**/*.scss', ['sass']); //стили
+  gulp.watch('./src/js/**/*.js', ['scripts']); //скрипты
+  gulp.watch(['./src/**/*.pug'], ['pug']); // pug
   gulp.watch('./src/assets/**/*.*', ['assets']); //наши локальные файлы(картинки, шрифты)
   gulp.watch('./src/**/*.*').on('change', browserSync.reload); //Перезапуск browserSynс
 });
@@ -94,9 +94,9 @@ gulp.task('browser-sync', function() {
     server: {
       baseDir: './public/'
     },
-    // startPath: '/index.html'
+    startPath: '/index.html'
     // startPath: '/visa.html'
-    startPath: '/citizenship.html'
+    // startPath: '/citizenship.html'
     // startPath: '/other-services.html'
     // startPath: '/webinar.html'
   });

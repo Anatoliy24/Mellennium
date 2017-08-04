@@ -3457,6 +3457,10 @@ p-pipe@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/p-pipe/-/p-pipe-1.1.0.tgz#2e9dc7cc57ce67d2ce2db348ca03f28731854075"
 
+page-scroll-to-id@^1.5.8:
+  version "1.5.8"
+  resolved "https://registry.yarnpkg.com/page-scroll-to-id/-/page-scroll-to-id-1.5.8.tgz#f6c39ad4bef065d3794ea4f1af16acd9c379a47d"
+
 parse-filepath@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/parse-filepath/-/parse-filepath-1.0.1.tgz#159d6155d43904d16c10ef698911da1e91969b73"

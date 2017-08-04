@@ -1,5 +1,7 @@
 {
-  "dependencies": {},
+  "dependencies": {
+    "page-scroll-to-id": "^1.5.8"
+  },
   "name": "Mellennium",
   "version": "1.0.0",
   "main": "index.js",

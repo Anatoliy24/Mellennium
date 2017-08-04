@@ -152,7 +152,7 @@ ul, li{
   right: 0;
   display: block;
   color: $color-grey;
-  font-size: 16px;
+  font-size:18px;
   text-decoration: none;
     &:hover{
       text-decoration: none;
@@ -182,7 +182,8 @@ ul, li{
   position: fixed;
   top: 0;
   z-index: 10;
-  background-color: rgba(0, 0, 0, .1);
+  background-color: rgba(0, 0, 0, .4);
+  //background-color: rgba(149, 27, 129, .4);
   max-width: 1300px;
     @media (max-width: 992px) {
       /* (min-width: $screen-md-min)*/
@@ -314,7 +315,7 @@ ul, li{
   height: 27px;
 }
 .header__menu{
-  margin-top: 30px;
+  margin-top: 20px;
 
 }
 
@@ -370,13 +371,14 @@ ul, li{
   margin-left: auto;
   margin-right: auto;
   padding-top: 150px;
+  line-height: 1.2;
 }
 
 .header-container{
   position: relative;
     &:after{
       width: 100%;
-      background-color: rgba(0, 0, 0, .1);
+      background-color: rgba(0, 0, 0, .4);
       height: 100px; /* $header-height*/
       position: absolute;
       max-width: $background-width + $menu-width - 1300px; /* 1545px - 1300px*/
@@ -898,11 +900,18 @@ ul, li{
 
 /*-----------------section__form--------*/
 .section__form-content{
-  padding-top: 70px;
+  padding-top: 40px;
     form{
       margin-bottom: 0;
     }
 }
+
+
+.section__form .section__content{
+  padding-bottom: 55px;
+}
+
+
 
 .section__form-bg{
   background: $color-purple;

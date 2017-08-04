@@ -125,7 +125,7 @@ ul, li {
   right: 0;
   display: block;
   color: #9fa1a3;
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none; }
   .sidebar-link:hover {
     text-decoration: none;
@@ -146,7 +146,7 @@ ul, li {
   position: fixed;
   top: 0;
   z-index: 10;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.4);
   max-width: 1300px; }
   @media (max-width: 992px) {
     .header {
@@ -250,7 +250,7 @@ ul, li {
   height: 27px; }
 
 .header__menu {
-  margin-top: 30px; }
+  margin-top: 20px; }
 
 .header__menu-item {
   display: inline-block;
@@ -300,13 +300,14 @@ ul, li {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 150px; }
+  padding-top: 150px;
+  line-height: 1.2; }
 
 .header-container {
   position: relative; }
   .header-container:after {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.4);
     height: 100px;
     /* $header-height*/
     position: absolute;
@@ -660,9 +661,12 @@ ul, li {
 
 /*-----------------section__form--------*/
 .section__form-content {
-  padding-top: 70px; }
+  padding-top: 40px; }
   .section__form-content form {
     margin-bottom: 0; }
+
+.section__form .section__content {
+  padding-bottom: 55px; }
 
 .section__form-bg {
   background: #951b81; }

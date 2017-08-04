@@ -11,7 +11,7 @@ body#header
             .row
               .section__header.section
                 .section__header-bg.section__bg
-                  img.section__header-img.img-responsive(src="../../../assets/img/header/bg-header_page6.jpg" alt='')
+                  img.section__header-img.img-responsive(src="./assets/img/header/bg-header_page6.jpg" alt='')
                 .section__header-title world without boarders
               .section__exit-visa.section
                 .section__exit-visa-bg.section__bg
@@ -75,10 +75,7 @@ body#header
               include _components/map
               include _components/form
 
-  script(type="text/javascript" src="../../../assets/lib/jquery/jquery-3.2.1.min.js")
-  script(src="../../../js/page_1/map.js")
-  script(async defer src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDkt2KHmSgb2aqFtHySvyCyfvD1Ew4ojNk&callback=initMap" type="text/javascript")
-  script(type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js")
-  script(src="../../../js/page_1/index.js")
+  include _components/scripts
+
 
 
