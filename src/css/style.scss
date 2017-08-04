@@ -57,6 +57,11 @@ h3{
 
 }
 
+h4{
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
 ul, li{
   padding: 0;
   margin: 0;
@@ -424,7 +429,7 @@ ul, li{
 }
 
 .section__content{
-  padding:85px 70px 85px 70px;
+  padding:85px 100px 85px 100px;
   text-align: center;
 }
 
@@ -982,6 +987,7 @@ ul, li{
 
 /////////// three-blocks
 
+
 .section__three-blocks_title{
   font-family:"OpenSansRegular";
   font-size: 30px;
@@ -990,9 +996,18 @@ ul, li{
   margin-bottom: 50px;
 }
 
+.section__two-blocks_title{
+  text-align: left;
+  padding: 0;
+}
+
 .section__three-blocks_block{
   max-width: 810px;
   margin: 0 auto;
+}
+
+.section__two-blocks_block{
+  margin: 0 auto 0 0;
 }
 
 .three-blocks_block-item{
@@ -1000,6 +1015,11 @@ ul, li{
   width: 33%;
   margin-right: -5px;
   display: inline-block;
+}
+
+.section__two-blocks_item{
+  width: 50%;
+
 }
 
 .three-blocks-img{
@@ -1020,6 +1040,10 @@ ul, li{
   text-transform: uppercase;
   padding-top: 8px;
   margin-bottom: 8px;
+}
+
+.section__two-bg_title{
+  text-transform: none;
 }
 
 .section__three-blocks .section__btn{
@@ -1069,7 +1093,9 @@ ul, li{
 }
 
 .section__bus-invit_part-one .section__content{
-  padding:85px 70px 55px 70px;
+  //padding:85px 70px 55px 100px;
+  padding-top: 85px;
+  padding-bottom: 55px;
 }
 
 .section__bus-invit-text{
@@ -1082,7 +1108,7 @@ ul, li{
 }
 
 .section__content-invit-quest{
-  padding: 15px 0 15px 70px;
+  padding: 15px 0 15px 100px;
 }
 
 .invit-quest-title{
@@ -1107,7 +1133,9 @@ ul, li{
 }
 
 .section__bus-invit_part-two .section__content{
-  padding:40px 70px 65px 70px;
+  padding-top: 40px;
+  padding-bottom: 65px;
+
 }
 
 
@@ -1169,7 +1197,8 @@ ul, li{
 
 
 .section__tourists-invit .section__content{
-  padding:85px 70px 55px 70px;
+  //padding:85px 70px 55px 70px;
+  padding-bottom: 55px;
 }
 
 .section__tourists-invit-text_block{
@@ -1189,7 +1218,9 @@ ul, li{
 }
 
 .section__tourists-invit_part-two .section__content{
-  padding:45px 70px 90px 70px;
+  //padding:45px 70px 90px 70px;
+  padding-top: 45px;
+  padding-bottom: 90px;
 }
 
 
@@ -1320,7 +1351,9 @@ ul, li{
 }
 
 .section__citiz_enumeration .section__content{
-  padding:60px 70px 60px 70px;
+  //padding:60px 70px 60px 70px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .citiz_order-text{
@@ -1592,4 +1625,128 @@ ul, li{
 .section__exit-visa-advantages-list{
   text-align: left;
   color: $color-white;
+}
+
+/*-----------------section__work-permit---------*/
+
+.section__work-permit .section__content{
+  padding-bottom: 0;
+}
+
+
+.section__work-permit-text{
+  text-align: left;
+  color: $color-purple;
+  font-family: "ArialNarrowBold";
+  margin-bottom: 60px;
+}
+
+
+.work-permit_vks-item{
+  text-align: left;
+  margin-bottom: 35px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+}
+
+.work-permit_vks-item_title{
+  font-family: "ArialNarrowBold";
+  color: $color-purple;
+    span{
+      text-transform: uppercase;
+    }
+}
+
+.work-permit_vks-item_title-text{
+  display: inline;
+  font-family: "ArialNarrowRegular";
+  color: $color-grey;
+}
+
+.work-permit_vks-item_text{
+    span{
+      color: $color-purple;
+    }
+}
+
+
+
+.section__work-permit-warning-bg{
+  background: $color-purple;
+}
+
+.work-permit-warning-title{
+  position: relative;
+
+}
+
+.work-permit-warning-img{
+  position: absolute;
+  top: 50%;
+  margin-top: -18px;
+  display: inline-block;
+  background: url('../assets/img/page_7/interjection.png') no-repeat;
+  width: 37px;
+  height: 37px;
+}
+
+.work-permit-warning-text{
+  display: inline-block;
+  text-align: left;
+  color: $color-white;
+  margin-left: 80px;
+
+}
+
+.section__work-permit-interjec .section__content{
+  padding-top: 15px;
+  padding-right: 0;
+  padding-bottom: 15px;
+}
+
+
+.section__advantages-expat-bg{
+  background:$color-grey;
+}
+
+.section__advantages-expat-item{
+  padding: 0 25px;
+}
+
+.section__advantages-expat-icon{
+  display: inline-block;
+  background: url("../assets/img/page_7/check.png") no-repeat;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 15px;
+}
+
+.section__advantages-expat-text{
+  color: $color-purple;
+}
+
+.section__advantages-expat-block{
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+
+
+.section__work-permit-notice-content{
+  text-align: left;
+}
+
+.section__work-permit-notice-title{
+  text-align: center;
+}
+.section__work-permit-notice-text{
+  margin-bottom: 40px;
+}
+
+.section__work-permit-notice-text-order{
+    span{
+      font-family: "ArialNarrowBold";
+      color: $color-purple;
+    }
 }
