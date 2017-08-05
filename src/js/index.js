@@ -101,6 +101,21 @@ $('form').on('submit','',function(event) {
 })
 
 
+
+
+ //Автовоспроизведение youtube
+
+    var youtube_src = $("#myModalBox iframe").attr("src");
+    $('#myModalBox').on('show.bs.modal', function () {
+
+      $("#myModalBox iframe").attr("src", youtube_src + "&autoplay=1");
+    });
+    $("#myModalBox").on('hidden.bs.modal', function (e) {
+      $("#myModalBox iframe").attr("src", null);
+    });
+
+
+
 });
 
 

@@ -98,8 +98,8 @@ gulp.task('browser-sync', function() {
     // startPath: '/visa.html'
     // startPath: '/citizenship.html'
     // startPath: '/other-services.html'
-    // startPath: '/webinar.html'
-    startPath: '/work-permit.html'
+    startPath: '/webinar.html'
+    // startPath: '/work-permit.html'
   });
 });
 

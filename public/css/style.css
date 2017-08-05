@@ -27,14 +27,12 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 60px;
-  font-weight: normal;
   text-transform: uppercase;
   margin-bottom: 70px; }
 
 h2 {
   font-family: "OpenSansBold";
   font-size: 36px;
-  font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 45px; }
 
@@ -441,7 +439,7 @@ ul, li {
   line-height: 2; }
 
 .section__service-text_phrase {
-  padding: 0 300px;
+  padding: 0 250px;
   font-size: 20px;
   font-family: "ArialNarrowBoldItalic"; }
 
@@ -1092,7 +1090,15 @@ ul, li {
   font-family: "ArialNarrowBold"; }
 
 .web__video-block-video {
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
   margin-bottom: 20px; }
+  .web__video-block-video iframe {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 .web__info-block {
   position: relative;
@@ -1114,27 +1120,49 @@ ul, li {
   font-family: "ArialNarrowBold";
   color: #951b81; }
 
-.section__web-link {
+.section__web-btn {
   display: block;
-  text-decoration: none; }
-  .section__web-link:hover {
+  text-decoration: none;
+  background: none;
+  border: none; }
+  .section__web-btn:hover {
     text-decoration: none;
     color: #951b81; }
-  .section__web-link span {
+  .section__web-btn:focus {
+    outline: none; }
+  .section__web-btn span {
     font-family: "ArialNarrowBoldItalic";
     color: #9fa1a3;
     line-height: 2;
     vertical-align: middle; }
 
-.web__info-block_desc .section__web-link span {
+.web__info-block_desc .section__web-btn span {
   color: #ffffff; }
 
-.web__info-block_desc .section__web-link {
+.web__info-block_desc .section__web-btn {
   position: absolute;
   bottom: 25px; }
 
-.section__web-link_img {
+.section__web-btn_img {
   margin-right: 10px; }
+
+.modal-body {
+  padding: 0; }
+
+#myModalBox .web__video-block-video {
+  margin-bottom: 0; }
+
+#myModalBox .modal-dialog {
+  width: auto;
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 5%;
+  right: 5%; }
+
+#myModalBox .modal-content {
+  width: 100%;
+  height: 100%; }
 
 /*-----------------section__exit-visa---------*/
 .exit-visa-text_desc {

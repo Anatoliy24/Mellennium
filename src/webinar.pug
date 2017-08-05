@@ -35,48 +35,56 @@ body#header
                           .web__video-block-title
                             h3 Обучающие
                           .web__video-block-text
-                            |Во многих компаниях  поддержка экспатов требует дополнительных компетенций. Целью наших обучающих вебинаров является ознакомление с базовыми моментами и правилами, на которые стоит обратить внимание при работе с иностранными гражданами.
+                            | Во многих компаниях  поддержка экспатов требует дополнительных компетенций. Целью наших обучающих вебинаров является ознакомление с базовыми моментами и правилами, на которые стоит обратить внимание при работе с иностранными гражданами.
                           .web__video-block-text_time
-                            |Вебинары рассчитаны на группы от 10 до 100 человек
+                            | Вебинары рассчитаны на группы от 10 до 100 человек
                       .col-xs-6
                         .web__video-block_webinar
                           .web__video-block-video
-                            video(controls width="400" height="300")
-                              source(src="https://youtu.be/JISFx18J7nc" type="video/mp4")
-                          a(href="#").section__web-link
-                            img.section__web-link_img(src='./assets/img/page_5/arrow.png' alt='Смотреть видео' width='27' height='27')
+                            iframe(src="https://www.youtube.com/embed/KmTK8kub_gw?rel=0&amp;showinfo=0?ecver=2" width="640" height="360" frameborder="0" allowfullscreen)
+                          button(data-target="#myModalBox" data-toggle="modal").section__web-btn
+                            img.section__web-btn_img(src='./assets/img/page_5/arrow.png' alt='Смотреть видео' width='27' height='27')
                             span Смотреть видео
                   .row
                     .web__info-block
-                      //.col-xs-6
                       .web__info-block_desc
                         .web__info-block-title
                           h3 Информационные
                         .web__info-block-text
-                          |Во многих компаниях  поддержка экспатов требует дополнительных компетенций. Целью наших обучающих вебинаров является ознакомление с базовыми моментами и правилами, на которые стоит обратить внимание при работе с иностранными гражданами.
+                          | Во многих компаниях  поддержка экспатов требует дополнительных компетенций. Целью наших обучающих вебинаров является ознакомление с базовыми моментами и правилами, на которые стоит обратить внимание при работе с иностранными гражданами.
                         .web__info-block-text_people
-                          |Вебинары рассчитаны на группы от 50 до 500 человек
-                        a(href="#").section__web-link
-                          img.section__web-link_img(src='./assets/img/page_5/arrow.png' alt='Смотреть видео' width='27' height='27')
+                          | Вебинары рассчитаны на группы от 50 до 500 человек
+                        button(data-target="#myModalBox" data-toggle="modal").section__web-btn
+                          img.section__web-btn_img(src='./assets/img/page_5/arrow.png' alt='Смотреть видео' width='27' height='27')
                           span Смотреть видео
-                      //.col-xs-6
                       .web__info-block_desc
                         .web__info-block-title
                           h3 Индивидуальные
                         .web__info-block-text
-                          |Индивидуальные вебинары сочетают в себе преимущества обучающих и информационных вебинаров. Программа составляется в соответствии с пожеланиями наших заказчиков учитывая их актуальные запросы. В ходе проведения вебинара все вопросы от участников разбираются детально, предоставляются практические примеры.
+                          | Индивидуальные вебинары сочетают в себе преимущества обучающих и информационных вебинаров. Программа составляется в соответствии с пожеланиями наших заказчиков учитывая их актуальные запросы. В ходе проведения вебинара все вопросы от участников разбираются детально, предоставляются практические примеры.
                         .web__info-block-text_people
-                          |Вебинары рассчитаны на группы от 50 до 500 человек
-                          a(href="#").section__web-link
-                            img.section__web-link_img(src='./assets/img/page_5/arrow.png' alt='Смотреть видео' width='27' height='27')
-                            span Смотреть видео
+                          | Вебинары рассчитаны на группы от 50 до 500 человек
+                        button(data-target="#myModalBox" data-toggle="modal").section__web-btn
+                          img.section__web-btn_img(src='./assets/img/page_5/arrow.png' alt='Смотреть видео' width='27' height='27')
+                          span Смотреть видео
+
 
 
               include _components/contacts
               include _components/map
               include _components/form
 
+
   include _components/scripts
+
+
+  #myModalBox.modal.fade
+    .modal-dialog.modal-lg
+      .modal-content
+        iframe(src='https://www.youtube.com/embed/KmTK8kub_gw?rel=0&amp;showinfo=0?ecver=2', width='100%', height='100%', frameborder='0',allowfullscreen='')
+
+
+
 
 
 
