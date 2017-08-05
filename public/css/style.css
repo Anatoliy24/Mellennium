@@ -663,18 +663,18 @@ ul, li {
 
 /*-----------------section__form--------*/
 .section__form-content {
-  padding-top: 40px; }
+  padding-top: 125px; }
   .section__form-content form {
     margin-bottom: 0; }
 
 .section__form .section__content {
-  padding-bottom: 55px; }
+  padding-bottom: 100px; }
 
 .section__form-bg {
   background: #951b81; }
 
 .form-group {
-  margin-top: 70px; }
+  margin-top: 12px; }
 
 .form-control {
   display: block;
@@ -686,7 +686,7 @@ ul, li {
   color: #626262;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #ccc;
+  border: 2px solid #ffffff;
   border-radius: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -697,13 +697,15 @@ ul, li {
   transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s,-webkit-box-shadow ease-in-out 0.15s; }
 
 .input-group * {
+  font-family: "OpenSansBold";
   background: transparent;
   border-color: #fff;
   font-size: 24px;
   color: #fff;
-  border-radius: 5px; }
+  border-radius: 8px; }
 
 .input-group-addon {
+  border: 2px solid #ffffff;
   text-transform: uppercase; }
 
 .with-btn .btn {
@@ -712,12 +714,16 @@ ul, li {
   position: absolute;
   right: 15px;
   top: 0;
+  font-family: "OpenSansBold";
   font-size: 24px;
   text-transform: uppercase;
   color: #91288f;
   background: #fff;
   outline: none;
   border: none; }
+
+.btn {
+  border-radius: 8px; }
 
 .with-btn {
   padding-right: 155px;
