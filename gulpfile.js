@@ -9,6 +9,7 @@ const connect = require('gulp-connect');
 const browserSync = require('browser-sync');
 const autoprefixer = require('gulp-autoprefixer');
 const plumber = require('gulp-plumber');
+const fs = require('fs');
 
 
 
@@ -29,12 +30,14 @@ gulp.task('watch', function() {
   gulp.watch('./src/css/**/*.scss', ['sass']); //стили
   gulp.watch('./src/js/**/*.js', ['scripts']); //скрипты
   gulp.watch(['./src/**/*.pug'], ['pug']); // pug
+  gulp.watch(['./*.json'], ['pug']); // pug
   gulp.watch('./src/assets/**/*.*', ['assets']); //наши локальные файлы(картинки, шрифты)
   gulp.watch('./src/**/*.*').on('change', browserSync.reload); //Перезапуск browserSynс
 });
 
 //Задача для компиляции PUG
 gulp.task('pug', function buildHTML() {
+  var YOUR_LOCALS = './content.json';
   return gulp.src('./src/**/*.pug')
     .pipe(plumber({
       errorHandler: function (error) {
@@ -42,6 +45,7 @@ gulp.task('pug', function buildHTML() {
         this.emit('end');
       }}))
     .pipe(pug({
+      locals:JSON.parse(fs.readFileSync(YOUR_LOCALS, 'utf-8')),
       pretty : '\t',
     }))
     .pipe(gulp.dest('./public'))
@@ -94,11 +98,11 @@ gulp.task('browser-sync', function() {
     server: {
       baseDir: './public/'
     },
-    // startPath: '/index.html'
+    startPath: '/index.html'
     // startPath: '/visa.html'
     // startPath: '/citizenship.html'
     // startPath: '/other-services.html'
-    startPath: '/webinar.html'
+    // startPath: '/webinar.html'
     // startPath: '/work-permit.html'
   });
 });
