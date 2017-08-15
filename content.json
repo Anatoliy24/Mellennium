@@ -1,10 +1,20 @@
 {
   "contentRu":{
-    "title":"Выездные визы",
+    "headerContactTel1":"",
+    "headerContactTel2":"",
+
+
+    "titleAbout":"О компании",
+    "sectionAboutText":"- это многогранное пространство в котором создаются творческие и структурные решения для свободной реализации бизнесс-процессов. Наши уникальные решения становятся must-haves в своей области. На сегодняшний день – это 15 лет успешного опыта предоставления сервиса в визовово-миграционной сфере. Высокая квалификация сотрудников, качество предоставляемых услуг, гибкий подход - позволили завоевать доверие многих российский и иностранных компаний из различных сфер бизнеса  и сформировать репутацию надежного бизнес-партнера.",
+    "sectionAboutTextSpan":"Mellennium travel ",
     "lang":"ru"
+
   },
   "contentEn":{
-    "title":"cxvdfklerkdfdfwdew",
+    "titleAbout":"ABOUT COMPANY",
+    "sectionAboutTextBegin":"The ",
+    "sectionAboutText":"is a multifaceted area within which the creative and architectural solutions are generated for the free implementation of business processes. Our unique solutions become the ‘must have’ in their field. As of today, we have already had 15 years of a proven experience in the provision of the visa-related and other migration-related services",
+    "sectionAboutTextSpan":"MELLENNUIUM TRAVEL ",
     "lang":"en"
   }
 }

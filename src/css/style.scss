@@ -468,6 +468,8 @@ ul, li{
   color: $color-dark-grey;
   line-height: 2;
   text-indent: 20px;
+  text-align: justify;
+  text-align-last: center;
     span{
         color: $color-purple;
         font-weight: bold;
@@ -570,6 +572,11 @@ ul, li{
 
 .section__service-text_desc{
   margin: 65px 0 40px 0;
+  text-align: justify;
+  text-align-last: center;
+  -ms-text-align-last: center;
+  -moz-text-align-last: center;
+
 }
 
 .section__service-text_slogan{
@@ -590,7 +597,8 @@ ul, li{
 .section__cooperation-text{
   color: $color-grey;
   padding: 0 120px 85px 120px;
-    span{
+  font-family: "ArialNarrowBold";
+  span{
       color: $color-purple;
     }
 }
@@ -599,7 +607,7 @@ ul, li{
 .section__cooperation-item{
   text-align: center;
   color: $color-grey;
-  font-size: 15px;
+  //font-size: 15px;
 }
 
 .section__cooperation-photo{
@@ -617,7 +625,7 @@ ul, li{
       display: block;
       color: $color-purple;
       text-transform: uppercase;
-      font-weight: bold;
+      font-family: "OpenSansRegular";
     }
 }
 
@@ -649,6 +657,7 @@ ul, li{
 }
 
 .advantages-desc-title{
+  font-family: "OpenSansRegular";
   font-size: 22px;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -713,13 +722,13 @@ ul, li{
   margin-bottom: 35px;
   text-align: center;
     span{
-      font-weight: bold;
+      font-family:"OpenSansBold";
     }
 }
 
 .section__news-text{
   color: $color-white;
-  //height: 230px;
+  ////height: 230px;
   margin-bottom: 80px;
   overflow: hidden;
 }
@@ -729,10 +738,11 @@ ul, li{
   color: $color-white;
   border: 1px solid $color-white;
   border-radius: 7px;
-  text-transform: uppercase;
-  font-size: 22px;
+  ////text-transform: uppercase;
+  ////font-size: 22px;
   padding: 0 10px;
   outline: none;
+  font-family: "OpenSansBold";
 }
 
 

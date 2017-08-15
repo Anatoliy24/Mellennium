@@ -12,7 +12,7 @@ body#header
               .section__header.section
                 .section__header-bg.section__bg
                   img.section__header-img.img-responsive(src="./assets/img/header/fon_up_paris.jpg" alt='')
-                .section__header-title
+                .section__header-title The art of services
 
               .section__about.section
                 .section__about-bg.section__bg
@@ -20,14 +20,17 @@ body#header
                   .row#company
                     .col-xs-12
                       .section__about-title.section__title_purple
-                        //h1= content.title
-                        h1 О компании
+                        h1= content.titleAbout
+                        //h1 О компании
                   .row
                     .col-xs-12
                       .section__about-text.section__content-text
-                        span Mellennium travel
-                        | - это многогранное пространство в котором создаются творческие и структурные решения для свободной реализации бизнесс-процессов. Наши уникальные решения становятся must-haves в своей области. На сегодняшний день – это 15 лет успешного опыта предоставления сервиса
-                        | в визовово-миграционной сфере. Высокая квалификация сотрудников, качество предоставляемых услуг, гибкий подход - позволили завоевать доверие многих российский и иностранных компаний из различных сфер бизнеса  и сформировать репутацию надежного бизнес-партнера.
+                        //span Mellennium travel&nbsp
+                        =content.sectionAboutTextBegin
+                        span= content.sectionAboutTextSpan
+                        =content.sectionAboutText
+                        //| - это многогранное пространство в котором создаются творческие и структурные решения для свободной реализации бизнесс-процессов. Наши уникальные решения становятся must-haves в своей области. На сегодняшний день – это 15 лет успешного опыта предоставления сервиса
+                        //| в визовово-миграционной сфере. Высокая квалификация сотрудников, качество предоставляемых услуг, гибкий подход - позволили завоевать доверие многих российский и иностранных компаний из различных сфер бизнеса  и сформировать репутацию надежного бизнес-партнера.
                   include _components/social
 
 
@@ -43,7 +46,10 @@ body#header
                       .section__service-text.section__content-text
                         .section__service-text_phrase «Клиенты – личности, а с личностями шаблоны не работают…»
                         .section__service-text_desc
-                          | Первоклассный сервис в нашем понимании, это качественный сервис, ориентир ванный на глубинные потребности клиента. При создании клиентоориентированного сервиса очень большую =играет человеческий фактор. Наша концепция - это постоянное совершенствование, как наших профессиональных качеств, так и способов оказания услуг. Запросы клиентов, являются катализатором для нашего развития и роста.
+                          | Первоклассный сервис в нашем понимании - это качественный сервис, ориентированный на глубинные потребности клиента.
+                          | При создании клиентоориентированного сервиса очень большую роль играет человеческий фактор.
+                          | Наша концепция - это постоянное совершенствование, как наших профессиональных качеств, так и способов оказания услуг.
+                          | Запросы клиентов являются катализатором для нашего развития и роста.
                           | При взаимодействии с визово-миграционной службой у клиентов возникает множество вопросов. У нас есть ответ на каждый из них.
                         .section__service-text_slogan Качественный сервис - наше секретное оружие!
 
@@ -110,7 +116,8 @@ body#header
                         img.section__advantages-icon(src='../../../assets/img/page_1/advantages/use.png' alt='Польза')
                         .section__advantages-text
                           .advantages-desc-title Польза
-                          .advantages-desc-desc  любое взаимодействие с нами, будь-то простая консультация или долгосрочное сотрудничество, приносит пользу
+                          .advantages-desc-desc
+                            | любое взаимодействие с нашими менеджерами нашей компании приносит пользу клиенту
                     .col-sm-4
                       .section__advantages-item
                         img.section__advantages-icon(src='../../../assets/img/page_1/advantages/expert.png' alt='Экспертность')
@@ -123,7 +130,7 @@ body#header
                         img.section__advantages-icon(src='../../../assets/img/page_1/advantages/access.png' alt='Доступность')
                         .section__advantages-text
                           .advantages-desc-title Доступность
-                          .advantages-desc-desc мы понимаем, как важно быть всегда на связи, поэтому  для наших клиентов предусмотрена поддержка 24/7
+                          .advantages-desc-desc мы понимаем, как важно быть всегда на связи, поэтому  для наших клиентов доступна поддержка 24/7
                     .col-sm-4
                       .section__advantages-item
                         img.section__advantages-icon(src='../../../assets/img/page_1/advantages/support.png' alt='Поддержка')
@@ -135,7 +142,8 @@ body#header
                         img.section__advantages-icon(src='../../../assets/img/page_1/advantages/flexible.png' alt='Гибкость')
                         .section__advantages-text
                           .advantages-desc-title Гибкость
-                          .advantages-desc-desc гибкая и прозрачная ценовая политика в соответствии с запросом клиента
+                          .advantages-desc-desc
+                            | гибкая и прозрачная ценовая политика в соответствии с запросом и возможностями клиента
 
 
 
@@ -152,7 +160,7 @@ body#header
                         .section__news-item.padding_news1
                           .section__news-date
                             span 20.06.2017
-                          .section__news-text Уважаемые  партнеры ! Спешим Вас проинформировать о том, что 31 июля последний день для направления уведомления о начислении заработной платы высококвалифицированным специалистам за второй квартал 2017 года.
+                          .section__news-text Уважаемые  партнеры ! Спешим Вас проинформировать о том, что 31 июля последний день для направления уведомления о начислении заработной платы ВКС за второй квартал 2017 года.
                           button.section__btn Подробнее
                         .section__news-item.padding_news2
                           .section__news-date
@@ -184,13 +192,21 @@ body#header
                         .section__slider-item
                           img.section__slider-logo(src="../../../assets/img/page_1/clients/samsung.png" alt='')
                         .section__slider-item
-                          img.section__slider-logo(src="../../../assets/img/page_1/clients/renaissance_logo.png" alt='')
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/mvideo.png" alt='')
                         .section__slider-item
-                          img.section__slider-logo(src="../../../assets/img/page_1/clients/fuji.png" alt='')
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/softline_1.png" alt='')
                         .section__slider-item
-                          img.section__slider-logo(src="../../../assets/img/page_1/clients/hitachi.png" alt='')
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/mts.png" alt='')
                         .section__slider-item
-                          img.section__slider-logo(src="../../../assets/img/page_1/clients/samsung.png" alt='')
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/adidas_1.png" alt='')
+                        .section__slider-item
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/oliwer_1.png" alt='')
+                        .section__slider-item
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/lilly_1.png" alt='')
+                        .section__slider-item
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/total_1.png" alt='')
+                        .section__slider-item
+                          img.section__slider-logo(src="../../../assets/img/page_1/clients/icopal_1.png" alt='')
 
               include _components/contacts
               include _components/map

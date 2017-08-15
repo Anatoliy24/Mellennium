@@ -370,7 +370,9 @@ ul, li {
 .section__about-text {
   color: #727270;
   line-height: 2;
-  text-indent: 20px; }
+  text-indent: 20px;
+  text-align: justify;
+  text-align-last: center; }
   .section__about-text span {
     color: #951b81;
     font-weight: bold; }
@@ -444,7 +446,11 @@ ul, li {
   font-family: "ArialNarrowBoldItalic"; }
 
 .section__service-text_desc {
-  margin: 65px 0 40px 0; }
+  margin: 65px 0 40px 0;
+  text-align: justify;
+  text-align-last: center;
+  -ms-text-align-last: center;
+  -moz-text-align-last: center; }
 
 .section__service-text_slogan {
   font-size: 22px;
@@ -457,14 +463,14 @@ ul, li {
 /*-----------------section-cooperation--------*/
 .section__cooperation-text {
   color: #9fa1a3;
-  padding: 0 120px 85px 120px; }
+  padding: 0 120px 85px 120px;
+  font-family: "ArialNarrowBold"; }
   .section__cooperation-text span {
     color: #951b81; }
 
 .section__cooperation-item {
   text-align: center;
-  color: #9fa1a3;
-  font-size: 15px; }
+  color: #9fa1a3; }
 
 .section__cooperation-img {
   width: 43px;
@@ -476,7 +482,7 @@ ul, li {
     display: block;
     color: #951b81;
     text-transform: uppercase;
-    font-weight: bold; }
+    font-family: "OpenSansRegular"; }
 
 /*-----------------section__advantages--------*/
 .section__advantages-bg {
@@ -495,6 +501,7 @@ ul, li {
   padding: 0 25px; }
 
 .advantages-desc-title {
+  font-family: "OpenSansRegular";
   font-size: 22px;
   text-transform: uppercase;
   margin-bottom: 10px; }
@@ -538,7 +545,7 @@ ul, li {
   margin-bottom: 35px;
   text-align: center; }
   .section__news-date span {
-    font-weight: bold; }
+    font-family: "OpenSansBold"; }
 
 .section__news-text {
   color: #ffffff;
@@ -550,10 +557,9 @@ ul, li {
   color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 7px;
-  text-transform: uppercase;
-  font-size: 22px;
   padding: 0 10px;
-  outline: none; }
+  outline: none;
+  font-family: "OpenSansBold"; }
 
 .section__news-block .section__btn {
   position: absolute;
