@@ -98,9 +98,9 @@ gulp.task('browser-sync', function() {
     server: {
       baseDir: './public/'
     },
-    startPath: '/index.html'
+    // startPath: '/index.html'
     // startPath: '/visa.html'
-    // startPath: '/citizenship.html'
+    startPath: '/citizenship.html'
     // startPath: '/other-services.html'
     // startPath: '/webinar.html'
     // startPath: '/work-permit.html'

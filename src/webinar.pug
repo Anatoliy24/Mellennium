@@ -20,53 +20,51 @@ body#header
                   .row
                     .col-xs-12
                       .section__web-title.section__title_purple
-                        h1 Вебинар-академия
+                        h1=content.webinar.webinarTitle1
                   .row
                     .col-xs-12
                       .section__web-desc
-                        | Вебинар-академия Mellennium Travel - это обучающая on-line платформа, созданная для удобства обучения и информирования наших клиентов, а также построение
-                        | нового типа коммуникации, основанного на удобстве предоставления информации.
-                        | Мы создаем новые стандарты онлайн-обучения, которые помогают нам делиться с клиентами уникальным опытом, легко передавать знания и тем самым выводить
-                        | бизнес-процессы на новый уровень.
+                        =content.webinar.webinarDesc
+                        | Вебинар-академия Mellennium Travel - это обучающая on-line платформа, созданная для удобства обучения и информирования наших клиентов, а также построение нового типа коммуникации, основанного на удобстве предоставления информации. Мы создаем новые стандарты онлайн-обучения, которые помогают нам делиться с клиентами уникальным опытом, легко передавать знания и тем самым выводить бизнес-процессы на новый уровень.
                   .row
                     .web__video-block
                       .col-xs-6
                         .web__video-block_desc
                           .web__video-block-title
-                            h3 Обучающие
+                            h3=content.webinar.webinarTitle2
                           .web__video-block-text
-                            | Во многих компаниях  поддержка экспатов требует дополнительных компетенций. Целью наших обучающих вебинаров является ознакомление с базовыми моментами и правилами, на которые стоит обратить внимание при работе с иностранными гражданами.
+                            =content.webinar.webinarText1
                           .web__video-block-text_time
-                            | Вебинары рассчитаны на группы от 10 до 100 человек
+                            =content.webinar.webinarText1Span1
                       .col-xs-6
                         .web__video-block_webinar
                           .web__video-block-video
                             iframe(src="https://www.youtube.com/embed/KmTK8kub_gw?rel=0&amp;showinfo=0?ecver=2" width="640" height="360" frameborder="0" allowfullscreen)
                           button(data-target="#myModalBox" data-toggle="modal").section__web-btn
                             img.section__web-btn_img(src='./assets/img/page_5/arrow.png' alt='Смотреть видео' width='27' height='27')
-                            span Смотреть видео
+                            span=content.components.buttonWatch
                   .row
                     .web__info-block
                       .web__info-block_desc
                         .web__info-block-title
-                          h3 Информационные
+                          h3=content.webinar.webinarBlockTitle1
                         .web__info-block-text
-                          | Во многих компаниях  поддержка экспатов требует дополнительных компетенций. Целью наших обучающих вебинаров является ознакомление с базовыми моментами и правилами, на которые стоит обратить внимание при работе с иностранными гражданами.
+                          =content.webinar.webinarBlockText1
                         .web__info-block-text_people
-                          | Вебинары рассчитаны на группы от 50 до 500 человек
+                          =content.webinar.webinarBlockText1Span1
                         button(data-target="#myModalBox" data-toggle="modal").section__web-btn
                           img.section__web-btn_img(src='./assets/img/page_5/arrow.png' alt='Смотреть видео' width='27' height='27')
-                          span Смотреть видео
+                          span=content.components.buttonWatch
                       .web__info-block_desc
                         .web__info-block-title
-                          h3 Индивидуальные
+                          h3=content.webinar.webinarBlockTitle2
                         .web__info-block-text
-                          | Индивидуальные вебинары сочетают в себе преимущества обучающих и информационных вебинаров. Программа составляется в соответствии с пожеланиями наших заказчиков учитывая их актуальные запросы. В ходе проведения вебинара все вопросы от участников разбираются детально, предоставляются практические примеры.
+                          =content.webinar.webinarBlockText2
                         .web__info-block-text_people
-                          | Вебинары рассчитаны на группы от 50 до 500 человек
+                          =content.webinar.webinarBlockText2Span2
                         button(data-target="#myModalBox" data-toggle="modal").section__web-btn
                           img.section__web-btn_img(src='./assets/img/page_5/arrow.png' alt='Смотреть видео' width='27' height='27')
-                          span Смотреть видео
+                          span=content.components.buttonWatch
 
 
 

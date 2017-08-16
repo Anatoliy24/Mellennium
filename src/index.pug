@@ -20,17 +20,13 @@ body#header
                   .row#company
                     .col-xs-12
                       .section__about-title.section__title_purple
-                        h1= content.titleAbout
-                        //h1 О компании
+                        h1=content.aboutCompany.about.titleAbout
                   .row
                     .col-xs-12
                       .section__about-text.section__content-text
-                        //span Mellennium travel&nbsp
-                        =content.sectionAboutTextBegin
-                        span= content.sectionAboutTextSpan
-                        =content.sectionAboutText
-                        //| - это многогранное пространство в котором создаются творческие и структурные решения для свободной реализации бизнесс-процессов. Наши уникальные решения становятся must-haves в своей области. На сегодняшний день – это 15 лет успешного опыта предоставления сервиса
-                        //| в визовово-миграционной сфере. Высокая квалификация сотрудников, качество предоставляемых услуг, гибкий подход - позволили завоевать доверие многих российский и иностранных компаний из различных сфер бизнеса  и сформировать репутацию надежного бизнес-партнера.
+                        =content.aboutCompany.aboutTextBegin
+                        span=content.aboutCompany.about.aboutTextSpan
+                        =content.aboutCompany.about.aboutText
                   include _components/social
 
 
@@ -40,18 +36,13 @@ body#header
                   .row#service
                     .col-xs-12
                       .section__service-title.section__title_white
-                        h1 О сервисе
+                        h1=content.aboutCompany.service.serviceTitle
                   .row
                     .col-xs-12
                       .section__service-text.section__content-text
-                        .section__service-text_phrase «Клиенты – личности, а с личностями шаблоны не работают…»
-                        .section__service-text_desc
-                          | Первоклассный сервис в нашем понимании - это качественный сервис, ориентированный на глубинные потребности клиента.
-                          | При создании клиентоориентированного сервиса очень большую роль играет человеческий фактор.
-                          | Наша концепция - это постоянное совершенствование, как наших профессиональных качеств, так и способов оказания услуг.
-                          | Запросы клиентов являются катализатором для нашего развития и роста.
-                          | При взаимодействии с визово-миграционной службой у клиентов возникает множество вопросов. У нас есть ответ на каждый из них.
-                        .section__service-text_slogan Качественный сервис - наше секретное оружие!
+                        .section__service-text_phrase=content.aboutCompany.service.serviceTextPhrase
+                        .section__service-text_desc=content.aboutCompany.service.serviceTextDesc
+                        .section__service-text_slogan=content.aboutCompany.service.serviceTextSlogan
 
               .section__cooperation.section
                 .section__cooperation-bg.section__bg
@@ -59,12 +50,13 @@ body#header
                   .row
                     .col-xs-12
                       .section__cooperation-title.section__title_purple
-                        h1 Сотрудничество
+                        h1=content.aboutCompany.cooperation.cooperationTitle
                   .row
                     .col-xs-12
                       .section__cooperation-text.section__content-text
-                        span Mellennium travel&nbsp
-                        | предлагает несколько вариантов сотрудничества для своих клиентов
+                        =content.aboutCompany.cooperation.cooperationTextBegin
+                        span=content.aboutCompany.cooperation.cooperationTextSpan
+                        =content.aboutCompany.cooperation.cooperationText
                   .row
                     .col-sm-3
                       .section__cooperation-item
@@ -103,47 +95,45 @@ body#header
                   .row
                     .col-xs-12
                       .section__advantages-title.section__title_white
-                        h1 Преимущества
+                        h1=content.aboutCompany.advantages.advantagesTitle
                   .row.section__advantages-block
                     .col-sm-4
                       .section__advantages-item
                         img.section__advantages-icon(src='../../../assets/img/page_1/advantages/honesty.png' alt='Честность')
                         .section__advantages-text
-                          .advantages-desc-title Честность
-                          .advantages-desc-desc процессе взаимодействия мы честно озвучиваем этапы процесса работы: результат, гарантии и риски
+                          .advantages-desc-title=content.aboutCompany.advantages.advantagesDescTitleHon
+                          .advantages-desc-desc=content.aboutCompany.advantages.advantagesDescHon
                     .col-sm-4
                       .section__advantages-item
                         img.section__advantages-icon(src='../../../assets/img/page_1/advantages/use.png' alt='Польза')
                         .section__advantages-text
-                          .advantages-desc-title Польза
-                          .advantages-desc-desc
-                            | любое взаимодействие с нашими менеджерами нашей компании приносит пользу клиенту
+                          .advantages-desc-title=content.aboutCompany.advantages.advantagesDescTitleBen
+                          .advantages-desc-desc=content.aboutCompany.advantages.advantagesDescBen
                     .col-sm-4
                       .section__advantages-item
                         img.section__advantages-icon(src='../../../assets/img/page_1/advantages/expert.png' alt='Экспертность')
                         .section__advantages-text
-                          .advantages-desc-title Экспертность
-                          .advantages-desc-desc  за годы работы мы получили бесценный практический опыт в решении различных задач наших клиентов
+                          .advantages-desc-title=content.aboutCompany.advantages.advantagesDescTitleExp
+                          .advantages-desc-desc=content.aboutCompany.advantages.advantagesDescExp
                   .row.section__advantages-block.advantages-margin-top
                     .col-sm-4
                       .section__advantages-item
                         img.section__advantages-icon(src='../../../assets/img/page_1/advantages/access.png' alt='Доступность')
                         .section__advantages-text
-                          .advantages-desc-title Доступность
-                          .advantages-desc-desc мы понимаем, как важно быть всегда на связи, поэтому  для наших клиентов доступна поддержка 24/7
+                          .advantages-desc-title=content.aboutCompany.advantages.advantagesDescTitleAv
+                          .advantages-desc-desc=content.aboutCompany.advantages.advantagesDescAv
                     .col-sm-4
                       .section__advantages-item
                         img.section__advantages-icon(src='../../../assets/img/page_1/advantages/support.png' alt='Поддержка')
                         .section__advantages-text
-                          .advantages-desc-title Поддержка
-                          .advantages-desc-desc мы несем ответственность за взятые на себя обязательства и разделяем риски с клиентом
+                          .advantages-desc-title=content.aboutCompany.advantages.advantagesDescTitleSup
+                          .advantages-desc-desc=content.aboutCompany.advantages.advantagesDescSup
                     .col-sm-4
                       .section__advantages-item
                         img.section__advantages-icon(src='../../../assets/img/page_1/advantages/flexible.png' alt='Гибкость')
                         .section__advantages-text
-                          .advantages-desc-title Гибкость
-                          .advantages-desc-desc
-                            | гибкая и прозрачная ценовая политика в соответствии с запросом и возможностями клиента
+                          .advantages-desc-title=content.aboutCompany.advantages.advantagesDescTitleFlex
+                          .advantages-desc-desc=content.aboutCompany.advantages.advantagesDescFlex
 
 
 
@@ -153,25 +143,25 @@ body#header
                   .row#news
                     .col-xs-12
                       .section__news-title.section__title_white
-                        h1 Новости
+                        h1=content.aboutCompany.news.newsTitle
                   .row
                     .col-sm-12
                       .section__news-block
                         .section__news-item.padding_news1
                           .section__news-date
                             span 20.06.2017
-                          .section__news-text Уважаемые  партнеры ! Спешим Вас проинформировать о том, что 31 июля последний день для направления уведомления о начислении заработной платы ВКС за второй квартал 2017 года.
-                          button.section__btn Подробнее
+                          .section__news-text=content.aboutCompany.news.newsText1
+                          button.section__btn=content.components.buttonMore
                         .section__news-item.padding_news2
                           .section__news-date
                             span 01.07.2017
-                          .section__news-text Конституционный суд (КС) РФ в открытом заседании признал не соответствующими Конституции нормы российского миграционного закона, обязывающие иностранцев вставать на учет по месту пребывания.
-                          button.section__btn Подробнее
+                          .section__news-text=content.aboutCompany.news.newsText2
+                          button.section__btn=content.components.buttonMore
                         .section__news-item.padding_news3
                           .section__news-date
                             span 15.07.2017
-                          .section__news-text В обозримом будущем на смену бумажным миграционным карточкам с печатью сотрудников пограничной службы, которые выдаются иностранным гражданам при въезде в РФ, придет их электронная версия –цифровая миграционная карта.
-                          button.section__btn Подробнее
+                          .section__news-text=content.aboutCompany.news.newsText3
+                          button.section__btn=content.components.buttonMore
 
               .section__clients.section
                 .section__clients-bg.section__bg.clients-bg
@@ -179,7 +169,7 @@ body#header
                   .row
                     .col-xs-12
                       .section__clients-title.section__title_purple
-                        h1 Наши клиенты
+                        h1=content.aboutCompany.clients.clientsTitle
                   .row
                     .col-sm-12
                       .section__slider

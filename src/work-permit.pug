@@ -1,5 +1,5 @@
 include _components/head
-  title Разрешение на работу
+  title=content.workPermit.workPermitDesc.workPermitDescTitle
 body#header
   wrapper
     include _components/header
@@ -20,37 +20,37 @@ body#header
                   .row
                     .col-xs-12
                       .section__work-permit-title.section__title_purple
-                        h1 Разрешение на работу
+                        h1=content.workPermit.workPermitDesc.workPermitDescTitle
                   .row
                     .col-xs-12
                       .section__work-permit-text
-                        | Разрешение на работу – это обязательный документ для трудоустройства иностранных граждан на территории РФ в качестве наемных работников. Порядок осуществления трудовой деятельности иностранными гражданами регулируется Федеральным законом от 25 июля 2002 г. № 115-ФЗ «О правовом положении иностранных граждан в РФ»
+                        =content.workPermit.workPermitDesc.workPermitDescText
                   .row
                     .col-xs-12
                       .section__three-blocks
                         .section__three-blocks_title.section__two-blocks_title
-                          | В зависимости от выбранной процедуры и категории иностранного гражданина разрешения на работу можно подразделить на следующие виды:
+                          =content.workPermit.workPermitDesc.workPermitDescDep
                         .section__three-blocks_block.section__two-blocks_block
                           .three-blocks_block-item.section__two-blocks_item
                             img.three-blocks-img.img-responsive(src='./assets/img/page_7/men.jpg' alt='Разрешение на работу ВКС')
                             .three-blocks-bg
-                              .three-blocks-bg_title.section__two-bg_title Разрешение на работу ВКС
-                              button.section__btn Подробнее
+                              .three-blocks-bg_title.section__two-bg_title=content.workPermit.workPermitDesc.workPermitDescBlock1
+                              button.section__btn=content.components.buttonMore
                           .three-blocks_block-item.section__two-blocks_item
                             img.three-blocks-img.img-responsive(src='./assets/img/page_7/worker.jpg' alt='Разрешение на работу на 1 год')
                             .three-blocks-bg
-                              .three-blocks-bg_title.section__two-bg_title Разрешение на работу на 1 год
-                              button.section__btn Подробнее
+                              .three-blocks-bg_title.section__two-bg_title=content.workPermit.workPermitDesc.workPermitDescBlock2
+                              button.section__btn=content.components.buttonMore
                           .three-blocks_block-item.section__two-blocks_item
                             img.three-blocks-img.img-responsive(src='./assets/img/page_7/eais.jpg' alt='Граждане ЕАЭС')
                             .three-blocks-bg
-                              .three-blocks-bg_title.section__two-bg_title Граждане ЕАЭС
-                              button.section__btn Подробнее
+                              .three-blocks-bg_title.section__two-bg_title=content.workPermit.workPermitDesc.workPermitDescBlock3
+                              button.section__btn=content.components.buttonMore
                           .three-blocks_block-item.section__two-blocks_item
                             img.three-blocks-img.img-responsive(src='./assets/img/page_7/patent.jpg' alt='Патент')
                             .three-blocks-bg
-                              .three-blocks-bg_title.section__two-bg_title Патент
-                              button.section__btn Подробнее
+                              .three-blocks-bg_title.section__two-bg_title=content.workPermit.workPermitDesc.workPermitDescBlock4
+                              button.section__btn=content.components.buttonMore
 
 
               .section__work-permit_vks.section
@@ -59,46 +59,41 @@ body#header
                   .row
                     .col-xs-12
                       .section__work-permit_vks-title.section__title_purple
-                        h2 Разрешение на работу ВКС
+                        h2=content.workPermit.workPermitVks.workPermitVksTitle
                   .row
                     .col-xs-12
                       .work-permit_vks-list
                         .work-permit_vks-item
                           .work-permit_vks-item_title
-                            span
-                              | ВЫСОКОКВАЛИФИЦИРОВАННЫМ СПЕЦИАЛИСТОМ
+                            =content.workPermit.workPermitVks.workPermitVksText1Begin
+                            span=content.workPermit.workPermitVks.workPermitVksSpan1
                             .work-permit_vks-item_title-text
-                              | признается иностранный гражданин, имеющий опыт работы, навыки или достижения в конкретной области деятельности, если условия привлечения его к трудовой деятельности в РФ предполагают получение им заработной платы (вознаграждения):
+                              =content.workPermit.workPermitVks.workPermitVksText1
                         .work-permit_vks-item
                           .work-permit_vks-item_title
-                            span
-                              | ОТ 167000 РУБЛЕЙ&nbsp;
-                            | из расчета за один календарный месяц
+                            span=content.workPermit.workPermitVks.workPermitVksSpan2
+                            =content.workPermit.workPermitVks.workPermitVksSpan2Litle
                           .work-permit_vks-item_text
-                            | для большинства иностранных граждан. Членами семьи ВКС признаются его супруг (супруга), дети (в том числе усыновленные), супруги детей, родители (в том числе приемные), супруги родителей, бабушки, дедушки, внуки.
+                            =content.workPermit.workPermitVks.workPermitVksText2
                         .work-permit_vks-item
                           .work-permit_vks-item_title
-                            span
-                              | ОТ 83500 РУБЛЕЙ&nbsp;
-                            | из расчета за один календарный месяц
+                            span=content.workPermit.workPermitVks.workPermitVksSpan3
+                            =content.workPermit.workPermitVks.workPermitVksSpan3Litle
                           .work-permit_vks-item_text
-                            | для ВКС, являющихся научными работниками или преподавателями, в случае их приглашения для занятия научно-исследовательской или педагогической деятельностью по имеющим государственную аккредитацию образовательным программам, а также для ВКС, осуществляющими деятельность в области информационных технологий в организациях, осуществляющей деятельность в области информационных технологий и имеющих государственную аккредитацию;
+                            =content.workPermit.workPermitVks.workPermitVksText3
                         .work-permit_vks-item
                           .work-permit_vks-item_title
-                            span
-                              | ОТ 58500 РУБЛЕЙ&nbsp;
-                            | из расчета за один календарный месяц
+                            span=content.workPermit.workPermitVks.workPermitVksSpan4
+                            =content.workPermit.workPermitVks.workPermitVksSpan4Litle
                           .work-permit_vks-item_text
-                            | для иностранных граждан, привлеченных к трудовой деятельности резидентами технико-внедренческой особой экономической зоны
+                            =content.workPermit.workPermitVks.workPermitVksText4
                         .work-permit_vks-item
                           .work-permit_vks-item_title
-                            span
-                              | ОТ 1000000 РУБЛЕЙ&nbsp;
-                            | из расчета за один год - для ВКС
+                            span=content.workPermit.workPermitVks.workPermitVksSpan5
+                            =content.workPermit.workPermitVks.workPermitVksSpan5Litle
                           .work-permit_vks-item_text
-                            | являющихся медицинскими, педагогическими или научными работниками, в случае их приглашения для занятия соответствующей деятельностью на территории международного медицинского кластера; &nbsp;
-                            span
-                              | без учета требования к размеру заработной платы - для иностранных граждан, участвующих в реализации проекта «Сколково» в соответствии с Федеральным законом «Об инновацион-ном центре «Сколково».выполнением каких-либо технических работ. Чтобы оформить деловую визу, нужно получить деловое приглашение от компании в РФ.
+                            =content.workPermit.workPermitVks.workPermitVksText5
+                            span=content.workPermit.workPermitVks.workPermitVksSpan6
               .section__work-permit-warning.section
                 .section__work-permit-warning-bg.section__bg
                 .section__work-permit-warning.section__content
@@ -107,7 +102,7 @@ body#header
                       .work-permit-warning-title
                         .work-permit-warning-img
                         .work-permit-warning-text
-                          | Иностранные граждане не могут привлекаться к трудовой деятельности в РФ в качестве ВКС для занятия проповеднической либо иной религиозной деятельностью, включая совершение богослужений, других религиозных обрядов и церемоний, обучение и религиозное воспитание последователей какой-либо религии.
+                          =content.workPermit.workPermitVks.workPermitVksWarning
 
               .section__advantages-expat.section
                 .section__advantages-expat-bg.section__bg
@@ -115,39 +110,39 @@ body#header
                   .row
                     .col-xs-12
                       .section__advantages-expat-title.section__title_purple
-                        h2 Преимущества привлечения иностранных специалистов (ВКС):
+                        h2=content.workPermit.workPermitAdvant.workPermitAdvantTitle
                   .row.section__advantages-expat-block
                     .col-sm-4
                       .section__advantages-expat-item
                         .section__advantages-expat-icon
                         .section__advantages-expat-text
-                          | Высококвалифицированные специалисты оформляются без учета квоты, и работодателю не нужно получать разрешение
+                          =content.workPermit.workPermitAdvant.workPermitAdvantItem1
                     .col-sm-4
                       .section__advantages-expat-item
                         .section__advantages-expat-icon
                         .section__advantages-expat-text
-                          | Не требуется размещать вакансию в территориальном центре занятости населения и не нужно подавать сведения о вакансии
+                          =content.workPermit.workPermitAdvant.workPermitAdvantItem2
                     .col-sm-4
                       .section__advantages-expat-item
                         .section__advantages-expat-icon
                         .section__advantages-expat-text
-                          | Разрешение на работу для высококвалифицированных специалистов можно оформить на 3 года, если такой срок указан в трудовом контракте
+                          =content.workPermit.workPermitAdvant.workPermitAdvantItem3
                   .row.section__advantages-expat-block
                     .col-sm-4
                       .section__advantages-expat-item
                         .section__advantages-expat-icon
                         .section__advantages-expat-text
-                          | При подаче документов на разрешение на работу ВКС не нужно предоставлять медицинские сертификаты и документ о владении русским языком
+                          =content.workPermit.workPermitAdvant.workPermitAdvantItem4
                     .col-sm-4
                       .section__advantages-expat-item
                         .section__advantages-expat-icon
                         .section__advantages-expat-text
-                          | Разрешается при въезде в РФ на срок менее 90 дней не вставать на миграционный учет (при пребывании более 90 дней необходимо встать на учет)
+                          =content.workPermit.workPermitAdvant.workPermitAdvantItem5
                     .col-sm-4
                       .section__advantages-expat-item
                         .section__advantages-expat-icon
                         .section__advantages-expat-text
-                          | Высококвалифицированный специалист может оформить визы сопровождающим членам своей семьи на срок действия своей визыконтракте
+                          =content.workPermit.workPermitAdvant.workPermitAdvantItem6
 
               .section__work-permit-notice.section
                 .section__work-permit-notice-bg.section__bg
@@ -155,19 +150,18 @@ body#header
                   .row
                     .col-xs-12
                       .section__work-permit-notice-title.section__title_purple
-                        h4 Уведомление о заключении/расторжении трудового договора (ТД)
+                        h4=content.workPermit.workPermitNotice.workPermitNoticeTitle1
                       .section__work-permit-notice-text
-                        | В течение 3 рабочих дней с даты заключения ТД необходимо уведомить ГУВМ МВД о заключении ТД с иностранным гражданином (не путать с датой фактического приема иностранного гражданина – дата заключения ТД находится в верхнем правом углу ТД) – данное уведомление может быть подано непосредственно в ГУВМ МВД, либо отправлено по почте с уведомлением о вручении. Все оригиналы полученных документов (разрешение на привлечение, пластики, уведомления о заключении тд) передаются клиенту и компания обязана хранить их у себя.
+                        =content.workPermit.workPermitNotice.workPermitNoticeTitle1
                   .row
                     .col-xs-12
                       .section__work-permit-notice-title.section__title_purple
-                        h4 Ежеквартальное уведомление о заработной плате
+                        h4=content.workPermit.workPermitNotice.workPermitNoticeTitle2
                       .section__work-permit-notice-text
-                        | После уведомления органов миграционной службы о заключении ТД с ВКС, работник приступает к выполнению трудовых обязанностей, а работодатель ставит четыре отметки в календаре: ежеквартально уведомлять органы ГУВМ МВД об исполнении обязательств по выплате заработной платы (вознаграждения) ВКС.
+                        =content.workPermit.workPermitNotice.workPermitNoticeText2
                       .section__work-permit-notice-text-order
-                        span
-                          |Согласно пункту 13 статьи 13.2 Федерального закона от 25.07.2002 N 115-ФЗ «О правовом положении иностранных граждан в Российской Федерации»&nbsp;
-                        |(далее - ФЗ о правовом положении) работодатель обязан направлять их ежеквартально не позднее последнего рабочего дня месяца, следующего за отчетным кварталом. Уведомление должно содержать данные по состоянию на последний день квартала календарного года.
+                        span=content.workPermit.workPermitNotice.workPermitNoticeSpan1
+                        =content.workPermit.workPermitNotice.workPermitNoticeText3
 
               include _components/contacts
               include _components/map

@@ -20,43 +20,43 @@ body#header
                   .row
                     .col-xs-12
                       .section__other-services-title.section__title_purple
-                        h1 Другие услуги
+                        h1=content.otherServices.otherServicesTitle
                   .row
                     .col-xs-12
                       .section__other-services-text
                         .other-services-text_add
-                          |Кроме основных услуг компания Mellennium Travel оказывает дополнительно
+                          =content.otherServices.otherServicesDesc
                         ul.other-services-text-list
                           li.other-services-text-item
                             .other-services-text-item_title
-                              |Юридические услуги
+                              =content.otherServices.otherServicesSpan1
                             .other-services-text-item_desc
-                              |Имея большой практический опыт в миграционной сфере, наша компания готова оказать квалифицированную юридическую поддержку, связанную с применением Федеральных Законов о миграции и представлением интересов Заказчика в государственных органах
+                              =content.otherServices.otherServicesText1
                           li.other-services-text-item
                             .other-services-text-item_title
-                              |Перевод документов
+                              =content.otherServices.otherServicesSpan2
                             .other-services-text-item_desc
-                              |Переводчики нашей компании работают со всеми языками мира и готовы осуществить письменный перевод всех типов документов (от паспорта до сложной технической документации) в ускоренные или стандартные сроки
+                              =content.otherServices.otherServicesText2
                           li.other-services-text-item
                             .other-services-text-item_title
-                              |Нотариальное заверение документов
+                              =content.otherServices.otherServicesSpan3
                             .other-services-text-item_desc
-                              |Среди преимуществ работы с нами по данному направлению является возможность круглосуточного заверения документов с последующей доставкой к Заказчику
+                              =content.otherServices.otherServicesText3
                           li.other-services-text-item
                             .other-services-text-item_title
-                              |Миграционный аудит
+                              =content.otherServices.otherServicesSpan4
                             .other-services-text-item_desc
-                              |Ваша миграционная безопасность зависит от правильности ведения личных дел иностранных работников. Проверка может быть проведена как в офисе у Заказчика, так и дистанционным путем. По результатам проверки выдается заключение юриста, содержащее описание нарушений, возможных штрафных санкций, а также рекомендации по их исправлению.
+                              =content.otherServices.otherServicesText4
                           li.other-services-text-item
                             .other-services-text-item_title
-                              |Курьерские услуги
+                              =content.otherServices.otherServicesSpan5
                             .other-services-text-item_desc
-                              |Штатный состав собственных визовых агентов, специалистов по работе с государственными органами и курьеров позволяют оперативно решать все вопросы с оказанием курьерских услуг как в рамках миграционных и визовых услуг, так и как отдельную услугу.
+                              =content.otherServices.otherServicesText5
                           li.other-services-text-item
                             .other-services-text-item_title
-                              |Консультационные услуги
+                              =content.otherServices.otherServicesSpan6
                             .other-services-text-item_desc
-                              | Широкий выбор консультационных услуг.
+                              =content.otherServices.otherServicesText6
 
 
               include _components/contacts

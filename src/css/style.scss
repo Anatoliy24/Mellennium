@@ -1010,6 +1010,12 @@ ul, li{
   margin-bottom: 50px;
 }
 
+.section__visa .section__three-blocks_title{
+  text-align: left;
+  padding-left: 0;
+}
+
+
 .section__two-blocks_title{
   text-align: left;
   padding: 0;
@@ -1047,6 +1053,11 @@ ul, li{
   margin-top: -100px;
 }
 
+.section__citiz .three-blocks-bg{
+  margin-top: -126px;
+}
+
+
 .three-blocks-bg_title{
   font-size: 19px;
   font-weight: bold;
@@ -1054,6 +1065,10 @@ ul, li{
   text-transform: uppercase;
   padding-top: 8px;
   margin-bottom: 8px;
+}
+
+.section__visa .three-blocks-bg_title{
+  font-family: "OpenSansRegular";
 }
 
 .section__two-bg_title{
@@ -1076,10 +1091,12 @@ ul, li{
   font-family: "ArialNarrowBold";
   color: $color-purple;
   margin-bottom: 70px;
+  text-align: left;
 }
 
 .visa-text_invitation{
   margin-bottom: 40px;
+  text-align: left;
     span{
       color: $color-dark-grey;
       font-family: "ArialNarrowBold";
@@ -1090,6 +1107,7 @@ ul, li{
   font-family: "ArialNarrowBold";
   margin-bottom: 85px;
   color: $color-dark-grey;
+  text-align: left;
 }
 
 
@@ -1128,6 +1146,7 @@ ul, li{
 .invit-quest-title{
   position: relative;
   span{
+    display: inline-block;
     font-family: "OpenSansBold";
     font-size: 24px;
     color: $color-white;

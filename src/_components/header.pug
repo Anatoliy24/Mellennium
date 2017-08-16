@@ -15,7 +15,7 @@ header.header
             span +7(905)770 30 90
         li.header__contact-item
           a(href="mailto:visa@mltravel.ru").header__contact-link
-            span Написать нам
+            span=content.header.headerContactEmail
         li.header__contact-item
           .header__contact-lang-block
             - var activeRu = content.lang == "ru" ? " active" : "";
@@ -26,14 +26,13 @@ header.header
       .header__menu
         ul.header__menu-list
           li.header__menu-item
-            a(href=baseUrl + "#company").header__menu-link О компании
-            //a(href="./#company").header__menu-link О компании
+            a(href=baseUrl + "#company").header__menu-link=content.header.headerMenuAbout
           li.header__menu-item
-            a(href=baseUrl +"#service").header__menu-link О сервисе
+            a(href=baseUrl +"#service").header__menu-link=content.header.headerMenuService
           li.header__menu-item
-            a(href=baseUrl + "#news").header__menu-link Новости
+            a(href=baseUrl + "#news").header__menu-link=content.header.headerMenuNews
           li.header__menu-item
-            a(href=baseUrlContact + "#contacts").header__menu-link Контакты
+            a(href=baseUrlContact + "#contacts").header__menu-link=content.header.headerMenuContacts
 
 
 

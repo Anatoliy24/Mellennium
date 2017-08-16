@@ -1,0 +1,57 @@
+"citizen":{
+  "citizenOrder":{
+    "citizenOrderTitle":"CITIZENSHIP",
+    "citizenOrderDesc":"The citizenship of the Russian Federation may be acquired either under the standard procedure or under the simplified procedure."
+    "citizenOrderStage":"When acquiring the citizenship under the standard procedure, it is necessary to undergo the following stages:",
+    "citizenOrderBlockTitle1":"OBTAINING OF A	TEMPORARY RESIDENCE PERMIT",
+    "citizenOrderBlockTitle2":"OBTAINING OF A PERMANENT RESIDENT CARD",
+    "citizenOrderBlockTitle3":"ACQUIRING OF THE CITIZENSHIP OF THE RUSSIAN FEDERATION",
+    "citizenOrderText1":"The relevant legal grounds specified by the Russian legislation, must be present with regard to the concerned foreign citizen or apatride for the acquisition of the citizenship of the Russian Federation under the simplified procedure; that is, the grounds related to the existence of the life circumstances which entitle the concerned person for such a kind of the ‘privileged’ acquisition of the citizenship of the Russian Federation.",
+    "citizenOrderText2":"Our managers will assist you to undergo such procedure comfortably, and to estimate the possible options for the acquisition of the citizenship of the Russian Federation.",
+    "citizenOrderText3":"The citizenship of the Russian Federation may be acquired pursuant to the Article 11 of the Federal Law “On the Citizenship of the Russian Federation”, as follows:",
+    "citizenOrderSpan1":"by birth;",
+    "citizenOrderSpan2":"as a consequence of the conferment of citizenship ",
+    "citizenOrderDesc2":"of the Russian Federation under the standard procedure;",
+    "citizenOrderSpan3":"as a consequence of the conferment of citizenship",
+    "citizenOrderDesc3":"of the Russian Federation under the simplified procedure;",
+    "citizenOrderSpan4":"on other grounds provided  ",
+    "citizenOrderDesc4":"for by the aforementioned Federal Law or by the relevant international treaties acceded to by the Russian Federation.",
+    "citizenOrderText4":"The standard and simplified procedures are distinguished by the legal grounds, by the applicable conditions, by the time allowed for consideration of the submitted materials (i.e., if under the standard procedure, then, within 1 year, and if under the simplified procedure, then, within the period up to 6 months, that is in both cases, from the date of submission of all the required and properly-executed documents), and by the jurisdiction as for the taking of the related decisions. When under the standard procedure, the related decisions are taken by the President of the Russian Federation; and when under the simplified procedure, the related decisions are taken by the chiefs of the relevant territorial bodies of the Ministry of Internal Affairs for the relevant constituent entities of the Russian Federation. There are no any quota limits for the acquisition of the citizenship of the Russian Federation. There have not been established any preferential rights for the acquisition of the citizenship of the Russian Federation on grounds of the social set-up, race, national or ethnical identity, language, or religious identity.",
+    "citizenOrderText5":"The provisions for conferment of the Russian citizenship under the standard procedure are set by the Article 13 of the Federal Law “On the Citizenship of the Russian Federation”. One of such principal provisions is the requirement for permanent residence within the territory of Russia (that is, under the Permanent Resident Card) for a period of 5 years continuously. Such period of permanent residence is reduced to 1 year, or such requirement may be eliminated at all for the certain categories of the foreigners, which are specified by the same Article."
+  },
+  "citizenRvp":{
+    "citizenRvpTitle":"TEMPORARY RESIDENCE PERMIT",
+    "citizenRvpDesc":"The Temporary Residence Permit is a certification of the foreigner’s right for the temporary residence in the Russian Federation before the obtainment of a Permanent Resident Card; and it is executed either in the form of the related endorsement in the concerned foreign citizen’s document of identification, or in the form of the special standard document being issued in the Russian Federation to the concerned apatride which does not have any document of identification.",
+    "citizenRvpText1":"The period of validity of a Temporary Residence Permit accounts for three years, and any extension of the Temporary Residence Permit’s validity is not provided for by the legislation of the Russian Federation. According to the migration-related legislation, a Temporary Residence Permit may be issued to a foreigner within the set quota limits. Such quota limits are annually approved by the Government of the Russian Federation for each constituent entity of the Russian Federation.",
+    "citizenRvpText2":"If such a quota is filled, the application for the issuance of a Temporary Residence Permit shall not be admitted to examination. Alongside this, the related Federal Law specifies the relevant categories of the foreigners to whom a Temporary Residence Permit may be issued regardless of the said quota limits."
+  },
+  "citizenQuota":{
+    "citizenQuotaTitle":"Regardless of the quota limits, a Temporary Residence Permit may be issued to such a foreigner, as follows:",
+    "citizenQuotaSpan1":"1. who was born in the territory of the Russian Soviet Federal Socialist Republic ",
+    "citizenQuotaDesc1":"and formerly had the citizenship of the USSR, or who was born in the territory of the Russian Federation;",
+    "citizenQuotaSpan2":"2. who has been recognized as a disabled person ",
+    "citizenQuotaDesc2":"and has a capable son or daughter being a citizen of the Russian Federation;",
+    "citizenQuotaSpan3":"3. who has at least one disabled parent ",
+    "citizenQuotaDesc3":"being a citizen of the Russian Federation;",
+    "citizenQuotaSpan4":"4. who is married to such a citizen of the Russian Federation, ",
+    "citizenQuotaDesc4":" that is a resident of the Russian Federation;",
+    "citizenQuotaSpan5":"5. who has carried out investments within the Russian Federation in the amount ",
+    "citizenQuotaDesc5":"set by the Government of the Russian Federation;",
+    "citizenQuotaSpan6":"who has joined the military service, ",
+    "citizenQuotaDesc6":"to be issued for the period of his/her military service;",
+    "citizenQuotaSpan7":"6.1 who is a member of the State Program ",
+    "citizenQuotaDesc7":"to Assist  Voluntary Resettlement of the Compatriots Living Abroad to the Russian Federation, and to his/her family members resettling together with him/her to the Russian Federation;",
+    "citizenQuotaSpan8":"6.2 who has a child ",
+    "citizenQuotaDesc8":"being a citizen of the Russian Federation;",
+    "citizenQuotaSpan9":"6.3 who has a son or daughter ",
+    "citizenQuotaDesc9":"which is aged eighteen and above, which is a citizen of the Russian Federation, and which has been recognized, pursuant to a court decision which has entered into legal force, as a disabled person or as an incapacitated person;",
+    "citizenQuotaSpan10":"6.4 who is aged under eighteen ",
+    "citizenQuotaDesc10":"and obtains a Temporary Residence Permit pursuant to a related application from a parent (adoptive parent, legal guardian, legal care-giver) being a citizen of the Russian Federation."
+  },
+  "citizenVng":{
+    "citizenVngTitle":"PERMANENT RESIDENT CARD",
+    "citizenVngText1":"The Permanent Resident Card is a document being issued to a foreigner as a certification of his/her right for the permanent residence in the Russian Federation, as well as of his/her right for the free exit from, and free entry into the Russian Federation. A Permanent Resident Card issued to an apatride, is also a document of his/her identification simultaneously.",
+    "citizenVngText2":"The Permanent Resident Card is issued to a foreigner for a period of five years. Upon expiry of the Permanent Resident Card validity period, there is carried out an extension of its validity on the related application of the concerned foreigner. Thereat, an application shall be submitted to the relevant territorial body of the Ministry of Internal Affairs of Russia no later than two months before the expiry of validity period of the current Permanent Resident Card of the concerned foreigner. The number of such extensions of the Permanent Resident Card validity is not limited.",
+    "citizenVngText3":"Before the receiving of a Permanent Resident Card, the concerned foreigner shall have resided in the Russian Federation within a period of no less than one year pursuant to the related Temporary Residence Permit."
+  }
+},

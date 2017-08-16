@@ -1,5 +1,5 @@
 include _components/head
-  title Виза в РФ
+  title=content.visa.visaRf.visaRfTitle
 body#header
   wrapper
     include _components/header
@@ -20,39 +20,37 @@ body#header
                   .row
                     .col-xs-12
                       .section__visa-title.section__title_purple
-                        h1 Виза в РФ
+                        h1=content.visa.visaRf.visaRfTitle
                   .row
                     .col-xs-12
                       .section__visa-text
-                        .visa-text_doc
-                          | Для въезда в Российскую Федерацию иностранный гражданин либо лицо без гражданства должен предъявить действительный документ, удостоверяющий личность и признаваемый Российской Федерацией в этом качестве, и визу, если иной порядок въезда в Российскую Федерацию не установлен международным договором.
+                        .visa-text_doc=content.visa.visaRf.visaRfDoc
                         .visa-text_invitation
-                          span Приглашение&nbsp;
-                          | является основанием для выдачи иностранному гражданину визы, согласно положениям, предусмотренных Федеральным законом от 25 июля 2002 г. № 115-ФЗ «О правовом положении иностранных граждан в Российской Федерации» или международными договорами Российской Федерации.
-                          | При подаче ходатайства о выдаче приглашения на въезд в Российскую Федерацию приглашающей стороне предоставляется право выбора оформления приглашения либо на бланке установленной формы либо в форме электронного документа.
-                        .visa-text_invitation-type
-                          | При планировании поездки важно выбрать правильный тип оформляемого приглашения, так как цель заявляемого визита должна соответствовать реальной цели въезда.
+                          =content.visa.visaRf.visaRfInvitBegin
+                          span=content.visa.visaRf.visaRfSpan
+                          =content.visa.visaRf.visaRfDesc
+                        .visa-text_invitation-type=content.visa.visaRf.visaRfType
                   .row
                     .col-xs-12
                       .section__three-blocks
                         .section__three-blocks_title
-                          | В зависимости от цели визита приглашения подразделяются на:
+                          =content.visa.visaRf.visaRfDep
                         .section__three-blocks_block
                           .three-blocks_block-item
                             img.three-blocks-img.img-responsive(src='../../../assets/img/page_2/visa/bussiness-cuple.jpg' alt='Деловые')
                             .three-blocks-bg
-                              .three-blocks-bg_title Деловые
-                              button.section__btn Подробнее
+                              .three-blocks-bg_title=content.visa.visaRf.visaRfTitleBus
+                              button.section__btn=content.components.buttonMore
                           .three-blocks_block-item
                             img.three-blocks-img.img-responsive(src='../../../assets/img/page_2/visa/family.jpg' alt='Туристические')
                             .three-blocks-bg
-                              .three-blocks-bg_title Туристические
-                              button.section__btn Подробнее
+                              .three-blocks-bg_title=content.visa.visaRf.visaRfTitleTour
+                              button.section__btn=content.components.buttonMore
                           .three-blocks_block-item
                             img.three-blocks-img.img-responsive(src='../../../assets/img/page_2/visa/job.jpg' alt='Рабочие')
                             .three-blocks-bg
-                              .three-blocks-bg_title Рабочие
-                              button.section__btn Подробнее
+                              .three-blocks-bg_title=content.visa.visaRf.visaRfTitleEmpl
+                              button.section__btn=content.components.buttonMore
 
 
               .section__bus-invit_part-one.section
@@ -61,11 +59,11 @@ body#header
                   .row
                     .col-xs-12
                       .section__bus-invit-title.section__title_purple
-                        h2 Деловое приглашение
+                        h2=content.visa.busInvit.busInvitTitle
                   .row
                     .col-xs-12
                       .section__bus-invit-text
-                        | Обыкновенное деловое приглашение является наиболее часто оформляемым типом приглашения. Данное приглашение понадобится всем, кто связывает поездку в Россию с решением коммерческих или деловых вопросов, для расширения своих бизнес-связей, подписания договоров, а также с выполнением каких-либо технических работ. Чтобы оформить деловую визу, нужно получить деловое приглашение от компании в РФ
+                        =content.visa.busInvit.busInvitDesc1
               .section__invit-quest.section
                 .section__invit-quest-bg.section__bg
                 .section__invit-quest.section__content-invit-quest
@@ -73,28 +71,27 @@ body#header
                     .col-xs-12
                       .invit-quest-title
                         .invit-quest-img
-                        span Кто оформляет деловое приглашение?
-
+                        span=content.visa.busInvit.busInvitQuest
               .section__bus-invit_part-two.section
                 .section__bus-invit-bg.section__bg
                 .section__bus-invit-content.section__content
                   .row
                     .col-xs-12
                       .section__bus-invit-text.invit-text-margin
-                        | Приглашения оформляются через ГУВМ МВД (только по запросу аккредитованного в ГУВМ МВД юридического лица). Имеется возможность оформления через ТПП РФ (для представительств) или МИД (приглашение от лица государственной организации). Приглашение содержит следующие сведения: фамилию, имя (написанные буквами русского и латинского алфавитов), дату и место рождения, пол, гражданство приглашаемого лица, государство его проживания, номер и дату выдачи документа, удостоверяющего его личность, цель поездки, предполагаемый срок пребывания в Российской Федерации, предполагаемые пункты посещения в Российской Федерации, наименование приглашающей организации и ее место нахождения или фамилию, имя приглашающего физического лица и адрес его места жительства, номер и дату принятия решения о
+                        =content.visa.busInvit.busInvitDesc1
                   .row
                     .col-xs-6
                       .section__bus-invit-multiple
                         .bus-invit_title
-                          | По кратности
+                          =content.visa.busInvit.busInvitTitleItems1
                         .bus-invit_text
-                          | (количество возможных въездов в РФ)однократное, двукратное, многократное
+                          =content.visa.busInvit.busInvitText1
                     .col-xs-6
                       .section__bus-invit-time
                         .bus-invit_title
-                          | По сроку действия
+                          =content.visa.busInvit.busInvitTitleItems2
                         .bus-invit_text
-                          | (количество возможных въездов в РФ)однократное, двукратное, многократное
+                          =content.visa.busInvit.busInvitText2
 
               .section__bus-invit-registration.section
                 .section__bus-invit-registration-bg.section__bg.invit-registration-bg
@@ -103,18 +100,16 @@ body#header
                     .bus-invit-registration-img.invit-reg-time
                     .bus-invit-registration-text
                       .bus-invit-registration-text_title
-                        | Срок оформления:
+                        =content.visa.busInvitReg.busInvitRegTitle1
                       .bus-invit-registration-text_desc
-                        | делового приглашения составляет от 5 до 20 рабочих дней, в зависимости от типа и кратности.
+                        =content.visa.busInvitReg.busInvitRegDesc1
                   .bus-invit-registration-block
                     .bus-invit-registration-img.invit-reg-warning
                     .bus-invit-registration-text
                       .bus-invit-registration-text_title
-                        | Важно:
+                        =content.visa.busInvitReg.busInvitRegTitle2
                       .bus-invit-registration-text_desc
-                        | деловое приглашение не дает право на осуществление трудовой деятельности на
-                        | территории РФ и количество дней пребывания в полугодии ограничено 90 днями.
-                        | После получения приглашения необходимо обратиться в консульство РФ для получения визы.
+                        =content.visa.busInvitReg.busInvitRegDesc2
 
 
               .section__tourists-invit_part-one.section
@@ -123,16 +118,16 @@ body#header
                   .row
                     .col-xs-12
                       .section__tourists-invit-title.section__title_purple
-                        h2 Туристическое приглашение
+                        h2=content.visa.touristsInvit.touristsInvitTitle
                   .row
                     .col-xs-12
                       .section__tourists-invit-text_block
                         .section__tourists-invit-text.text_color-gray
-                          | Иностранные граждане, прибывающие с туристическими целями  (имеющие надлежащим образом оформленный договор на оказание услуг по туристическому обслуживанию и подтверждение о приеме иностранного туриста организацией, осуществляющей туроператорскую деятельность) должны обратиться в Консульство РФ за оформлением туристической визы.
+                          =content.visa.touristsInvit.touristsInvitDesc1
                         .section__tourists-invit-text.text_color-gray
-                          | Приглашения бывают двух видов:
-                          span туризм (индивидуальный и групповой) и целевой туризм.
-                          | Целевой туризм подразумевает посещение конкретного делового мероприятия, конференции и т.п
+                          =content.visa.touristsInvit.touristsInvitDesc2
+                          span=content.visa.touristsInvit.touristsInvitDesc2Span
+                          =content.visa.touristsInvit.touristsInvitDesc3
 
               .section__invit-quest.section
                 .section__invit-quest-bg.section__bg
@@ -141,7 +136,8 @@ body#header
                     .col-xs-12
                       .invit-quest-title
                         .invit-quest-img
-                        span Кто оформляет туристическое приглашение?
+
+                        span=content.visa.touristsInvit.touristsInvitQust
 
               .section__tourists-invit_part-two.section
                 .section__tourists-invit-bg.section__bg
@@ -150,9 +146,9 @@ body#header
                     .col-xs-12
                       .section__tourists-invit-text_block
                         .section__tourists-invit-text.text_color-gray
-                          | Деятельность туроператора ведут лишь зарегистрированные юридические лица, которые занесены в Единый Федеральный Реестр Туроператоров, а также имеют необходимое финансовое обеспечение гарантированное страховыми компаниями. Наша компания зарегистрирована в Едином Федеральном Реестре и имеет право оформлять туристические приглашения от своего лица.
+                          =content.visa.touristsInvit.touristsInvitDesc4
                         .section__tourists-invit-text.text_color-purple.text_weight-bold
-                          | Срок оформления туристического приглашения составляет от 15 минут до 1 рабочего дня.
+                          =content.visa.touristsInvit.touristsInvitDesc5
 
 
               .section__job-invit.section
@@ -161,32 +157,31 @@ body#header
                   .row
                     .col-xs-12
                       .section__job-invit-title.section__title_white
-                        h2 Рабочее приглашение
+                        h2=content.visa.jobInvit.jobInvitTitle
                   .row
                     .col-xs-12
                       .section__tourists-invit-text_block
                         .section__job-invit-text
-                          | Иностранцам, прибывающим в Российскую Федерацию с  целью «работа по найму» необходимо оформление рабочего приглашения и получение рабочей визы.
+                          =content.visa.jobInvit.jobInvitDesc1
                         .section__job-invit-text
-                          span Рабочая виза&nbsp;
-                          |— это документ, позволяющий пребывать на территории РФ в течении длительного в
-                          |ремени (от 1 года до 3 лет) беспрерывно.  Данная виза выдается гражданину, который устроился на работу на территории РФ.
+                          span=content.visa.jobInvit.touristsInvitDesc2Span
+                          =content.visa.jobInvit.touristsInvitDesc2
 
                     .section__job-invit-time_block
                       .section__job-invit-time
                         .job-invit-time_title
-                          | Обыкновенное рабочее приглашение
+                          =content.visa.jobInvit.touristsInvitTitleItem1
                         .job-invit-time_text
-                          | Данное приглашение оформляется для специалистов по процедуре на 1 год, с дальнейшим продлением однократной рабочей визы в многократную на территории РФ уполномоченным миграционным органом
+                          =content.visa.jobInvit.touristsInvitText1
                         .job-invit-time_time-limit
-                          | Срок: на 3 месяца
+                          =content.visa.jobInvit.touristsInvitTime1
                       .section__job-invit-time
                         .job-invit-time_title
-                          | рабочее приглашение для ВКС
+                          =content.visa.jobInvit.touristsInvitTitleItem2
                         .job-invit-time_text
-                          | Данное приглашение оформляется для специалистов по процедуре ВКС. Рабочая виза первоначально оформляется в российском консульстве за рубежом, а продление осуществляется на территории РФ уполномоченным миграционным органом.
+                          =content.visa.jobInvit.touristsInvitText2
                         .job-invit-time_time-limit
-                          | Срок: от года
+                          =content.visa.jobInvit.touristsInvitTime2
 
               .section__invit-quest.section
                 .section__invit-quest-bg.invit-quest-bg-gray.section__bg
@@ -195,7 +190,7 @@ body#header
                     .col-xs-12
                       .invit-quest-title
                         .invit-quest-img
-                        span Куда обращаться за получением рабочего приглашения?
+                        span=content.visa.jobInvit.touristsInvitQust
 
 
               .section__info-invit.section
@@ -204,7 +199,7 @@ body#header
                   .row
                     .col-xs-12
                       .section__info-invit-text
-                        | Уполномоченные представители юридических лиц обращаются с ходатайством о выдаче приглашения по месту их нахождения. Местом нахождения юридического лица является место его государственной регистрации. Уполномоченные представители иностранных юридических лиц и филиалов обращаются с ходатайством о выдаче приглашения по месту их постановки на учет в налоговом органе.
+                        =content.visa.jobInvit.touristsInvitDesc3
 
               include _components/contacts
               include _components/map
