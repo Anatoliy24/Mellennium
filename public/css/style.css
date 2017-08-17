@@ -401,11 +401,11 @@ ul, li {
 .social__block-link_vk {
   display: inline-block;
   margin-left: 5px;
-  background: url("../../../assets/img/social_icon/sprites/vk_about.png") 0px 0px no-repeat;
+  background: url("../../../assets/img/social_icon/sprites/youtube_about.png") 0px 0px no-repeat;
   width: 34px;
   height: 34px; }
   .social__block-link_vk:hover {
-    background: url("../../../assets/img/social_icon/sprites/vk_about.png") 0px -34px no-repeat;
+    background: url("../../../assets/img/social_icon/sprites/youtube_about.png") 0px -34px no-repeat;
     width: 34px;
     height: 34px; }
 
@@ -426,9 +426,9 @@ ul, li {
     background: url("../../../assets/img/contacts/sprites/fb_cont.png") 0px -34px no-repeat; }
 
 .section__form .social__block-link_vk {
-  background: url("../../../assets/img/contacts/sprites/vk_cont.png") 0px 0px no-repeat; }
+  background: url("../../../assets/img/contacts/sprites/youtube_cont.png") 0px 0px no-repeat; }
   .section__form .social__block-link_vk:hover {
-    background: url("../../../assets/img/contacts/sprites/vk_cont.png") 0px -34px no-repeat; }
+    background: url("../../../assets/img/contacts/sprites/youtube_cont.png") 0px -34px no-repeat; }
 
 .section__form .social__block-link_in {
   background: url("../../../assets/img/contacts/sprites/insta_cont.png") 0px 0px no-repeat; }
@@ -559,7 +559,7 @@ ul, li {
   border-radius: 7px;
   padding: 0 10px;
   outline: none;
-  font-family: "OpenSansBold"; }
+  font-family: "OpenSansRegular"; }
 
 .section__news-block .section__btn {
   position: absolute;
@@ -766,6 +766,7 @@ ul, li {
   position: relative;
   width: 33%;
   margin-right: -5px;
+  margin-bottom: -7px;
   display: inline-block; }
 
 .section__two-blocks_item {
@@ -775,16 +776,15 @@ ul, li {
   display: block; }
 
 .three-blocks-bg {
-  position: relative;
-  background-color: rgba(145, 38, 143, 0.8);
-  margin-top: -100px; }
-
-.section__citiz .three-blocks-bg {
-  margin-top: -126px; }
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(145, 38, 143, 0.8); }
 
 .three-blocks-bg_title {
   font-size: 19px;
-  font-weight: bold;
+  font-family: "OpenSansBold";
   color: #ffffff;
   text-transform: uppercase;
   padding-top: 8px;

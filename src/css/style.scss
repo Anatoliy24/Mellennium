@@ -507,11 +507,11 @@ ul, li{
 .social__block-link_vk{
   display: inline-block;
   margin-left: 5px;
-  background: url('../../../assets/img/social_icon/sprites/vk_about.png') 0px 0px no-repeat;
+  background: url('../../../assets/img/social_icon/sprites/youtube_about.png') 0px 0px no-repeat;
   width: 34px;
   height: 34px;
     &:hover{
-      background: url('../../../assets/img/social_icon/sprites/vk_about.png') 0px -34px no-repeat;
+      background: url('../../../assets/img/social_icon/sprites/youtube_about.png') 0px -34px no-repeat;
       width: 34px;
       height: 34px;
 
@@ -540,9 +540,9 @@ ul, li{
   }
 }
 .section__form .social__block-link_vk{
-  background: url('../../../assets/img/contacts/sprites/vk_cont.png') 0px 0px no-repeat;
+  background: url('../../../assets/img/contacts/sprites/youtube_cont.png') 0px 0px no-repeat;
   &:hover{
-    background: url('../../../assets/img/contacts/sprites/vk_cont.png') 0px -34px no-repeat;
+    background: url('../../../assets/img/contacts/sprites/youtube_cont.png') 0px -34px no-repeat;
   }
 }
 .section__form .social__block-link_in{
@@ -738,11 +738,9 @@ ul, li{
   color: $color-white;
   border: 1px solid $color-white;
   border-radius: 7px;
-  ////text-transform: uppercase;
-  ////font-size: 22px;
   padding: 0 10px;
   outline: none;
-  font-family: "OpenSansBold";
+  font-family: "OpenSansRegular";
 }
 
 
@@ -1034,6 +1032,7 @@ ul, li{
   position: relative;
   width: 33%;
   margin-right: -5px;
+  margin-bottom: -7px;
   display: inline-block;
 }
 
@@ -1048,19 +1047,19 @@ ul, li{
 }
 
 .three-blocks-bg{
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  //position: relative;
   background-color: rgba(145, 38, 143, 0.8);
-  margin-top: -100px;
-}
-
-.section__citiz .three-blocks-bg{
-  margin-top: -126px;
+  //margin-top: -100px;
 }
 
 
 .three-blocks-bg_title{
   font-size: 19px;
-  font-weight: bold;
+  font-family: "OpenSansBold";
   color: $color-white;
   text-transform: uppercase;
   padding-top: 8px;
