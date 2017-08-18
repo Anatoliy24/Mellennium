@@ -751,6 +751,9 @@ ul, li {
   text-align: left;
   padding-left: 0; }
 
+.section__visa .section__three-blocks_block {
+  margin: 0; }
+
 .section__two-blocks_title {
   text-align: left;
   padding: 0; }
@@ -835,7 +838,7 @@ ul, li {
 
 .section__bus-invit-text {
   color: #ffffff;
-  font-family: "Arial Narrow"; }
+  text-align: left; }
 
 .section__invit-quest-bg {
   background: #951b81; }
@@ -912,7 +915,7 @@ ul, li {
   padding-bottom: 55px; }
 
 .section__tourists-invit-text_block {
-  font-family: "Arial Narrow"; }
+  text-align: left; }
 
 .section__tourists-invit-text:first-child {
   margin-top: 15px;
@@ -956,7 +959,7 @@ ul, li {
   font-family: "OpenSansBold";
   font-size: 24px;
   text-transform: uppercase;
-  padding: 0 90px;
+  padding: 0 50px;
   margin-bottom: 15px; }
 
 .job-invit-time_text {
@@ -977,7 +980,7 @@ ul, li {
   background: #9fa1a3; }
 
 .section__info-invit-text {
-  font-family: "Arial Narrow"; }
+  text-align: left; }
 
 /*--------------------------- page_3 -----------------*/
 .section__citiz-text {
@@ -1004,7 +1007,8 @@ ul, li {
   font-size: 30px;
   color: #951b81;
   margin-top: 90px;
-  line-height: 1.5; }
+  line-height: 1.5;
+  padding-right: 40px; }
 
 .section__citiz_enumeration-bg {
   background: #951b81; }
@@ -1064,7 +1068,7 @@ ul, li {
   background-size: cover; }
 
 .section__residence-text {
-  text-align: justify;
+  text-align: left;
   color: #ffffff; }
 
 .residence-text_info {

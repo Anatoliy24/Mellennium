@@ -40,23 +40,26 @@ body#header
                             img.three-blocks-img.img-responsive(src='../../../assets/img/page_2/visa/bussiness-cuple.jpg' alt='Деловые')
                             .three-blocks-bg
                               .three-blocks-bg_title=content.visa.visaRf.visaRfTitleBus
-                              button.section__btn=content.components.buttonMore
+                              a(href=baseUrl + "#bus")
+                                button.section__btn=content.components.buttonMore
                           .three-blocks_block-item
                             img.three-blocks-img.img-responsive(src='../../../assets/img/page_2/visa/family.jpg' alt='Туристические')
                             .three-blocks-bg
                               .three-blocks-bg_title=content.visa.visaRf.visaRfTitleTour
-                              button.section__btn=content.components.buttonMore
+                              a(href=baseUrl + "#tour")
+                                button.section__btn=content.components.buttonMore
                           .three-blocks_block-item
                             img.three-blocks-img.img-responsive(src='../../../assets/img/page_2/visa/job.jpg' alt='Рабочие')
                             .three-blocks-bg
                               .three-blocks-bg_title=content.visa.visaRf.visaRfTitleEmpl
-                              button.section__btn=content.components.buttonMore
+                              a(href=baseUrl + "#empl")
+                                button.section__btn=content.components.buttonMore
 
 
               .section__bus-invit_part-one.section
                 .section__bus-invit-bg.section__bg
                 .section__bus-invit-content.section__content
-                  .row
+                  .row#bus
                     .col-xs-12
                       .section__bus-invit-title.section__title_purple
                         h2=content.visa.busInvit.busInvitTitle
@@ -115,7 +118,7 @@ body#header
               .section__tourists-invit_part-one.section
                 .section__tourists-invit-bg.section__bg
                 .section__tourists-invit-content.section__content
-                  .row
+                  .row#tour
                     .col-xs-12
                       .section__tourists-invit-title.section__title_purple
                         h2=content.visa.touristsInvit.touristsInvitTitle
@@ -154,7 +157,7 @@ body#header
               .section__job-invit.section
                 .section__job-invit-bg.section__bg
                 .section__job-invit-content.section__content
-                  .row
+                  .row#empl
                     .col-xs-12
                       .section__job-invit-title.section__title_white
                         h2=content.visa.jobInvit.jobInvitTitle

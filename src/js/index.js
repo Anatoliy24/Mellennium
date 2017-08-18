@@ -49,7 +49,7 @@ jQuery(document).ready(function(){
   }
   $("body").on('click', '[href*="#"]', function(e){
     scroll(this.hash);
-    // e.preventDefault();
+    e.preventDefault();
   });
 
 

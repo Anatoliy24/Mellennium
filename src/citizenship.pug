@@ -12,12 +12,12 @@ body#header
               .section__header.section
                 .section__header-bg.section__bg
                   img.section__header-img.img-responsive(src="./assets/img/header/bg-header_page3.jpg" alt='')
-                .section__header-title justifying confidence
+                .section__header-title HIT THE TARGET
 
               .section__citiz.section
                 .section__citiz-bg.section__bg
                 .section__citiz-content.section__content
-                  .row
+                  .row#citiz
                     .col-xs-12
                       .section__citiz-title.section__title_purple
                         h1=content.citizen.citizenOrder.citizenOrderTitle
@@ -36,17 +36,20 @@ body#header
                             img.three-blocks-img.img-responsive(src='../../../assets/img/page_3/citizen/Moskow.jpg' alt='РВП')
                             .three-blocks-bg
                               .three-blocks-bg_title=content.citizen.citizenOrder.citizenOrderBlockTitle1
-                              button.section__btn=content.components.buttonMore
+                              a(href=baseUrl + "#rvp")
+                                button.section__btn=content.components.buttonMore
                           .three-blocks_block-item
                             img.three-blocks-img.img-responsive(src='../../../assets/img/page_3/citizen/vng.jpg' alt='ВНЖ')
                             .three-blocks-bg
                               .three-blocks-bg_title=content.citizen.citizenOrder.citizenOrderBlockTitle2
-                              button.section__btn=content.components.buttonMore
+                              a(href=baseUrl + "#vng")
+                                button.section__btn=content.components.buttonMore
                           .three-blocks_block-item
                             img.three-blocks-img.img-responsive(src='../../../assets/img/page_3/citizen/citizen.jpg' alt='Гражданство РФ')
                             .three-blocks-bg
                               .three-blocks-bg_title=content.citizen.citizenOrder.citizenOrderBlockTitle3
-                              button.section__btn=content.components.buttonMore
+                              a(href=baseUrl + "#citiz")
+                                button.section__btn=content.components.buttonMore
                   .row
                     .col-xs-12
                       .section__citiz-text
@@ -98,7 +101,7 @@ body#header
               .section__rvp.section
                 .section__rvp-bg.section__bg
                 .section__rvp-content.section__content
-                  .row
+                  .row#rvp
                     .col-xs-12
                       .section__rvp-title.section__title_purple
                         h1=content.citizen.citizenRvp.citizenRvpTitle
@@ -157,7 +160,7 @@ body#header
               .section__residence.section
                 .section__residence-bg.section__bg
                 .section__residence-content.section__content
-                  .row
+                  .row#vng
                     .col-xs-12
                       .section__residence-title.section__title_white
                         h1=content.citizen.citizenVng.citizenVngTitle

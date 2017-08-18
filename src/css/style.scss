@@ -1013,6 +1013,10 @@ ul, li{
   padding-left: 0;
 }
 
+.section__visa .section__three-blocks_block{
+  margin:0;
+}
+
 
 .section__two-blocks_title{
   text-align: left;
@@ -1131,7 +1135,8 @@ ul, li{
 
 .section__bus-invit-text{
   color: $color-white;
-  font-family: "Arial Narrow";
+ text-align: left;
+
 }
 
 .section__invit-quest-bg{
@@ -1234,7 +1239,7 @@ ul, li{
 }
 
 .section__tourists-invit-text_block{
-  font-family: "Arial Narrow";
+  text-align: left;
 }
 
 .section__tourists-invit-text{
@@ -1295,7 +1300,7 @@ ul, li{
   font-family: "OpenSansBold";
   font-size: 24px;
   text-transform: uppercase;
-  padding: 0 90px;
+  padding: 0 50px;
   margin-bottom: 15px;
 }
 
@@ -1323,7 +1328,7 @@ ul, li{
 }
 
 .section__info-invit-text{
-  font-family: "Arial Narrow";
+  text-align: left;
 }
 
 
@@ -1363,6 +1368,7 @@ ul, li{
   color: $color-purple;
   margin-top: 90px;
   line-height: 1.5;
+  padding-right: 40px;
 }
 
 
@@ -1453,7 +1459,7 @@ ul, li{
 }
 
 .section__residence-text{
-  text-align: justify;
+  text-align: left;
   color: $color-white;
 }
 
