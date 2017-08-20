@@ -313,7 +313,7 @@ ul, li {
     height: 100px;
     /* $header-height*/
     position: absolute;
-    max-width: 245px;
+    max-width: 680px;
     /* 1545px - 1300px*/
     content: '';
     left: 100%;
@@ -353,7 +353,7 @@ ul, li {
 .section__bg {
   position: absolute;
   left: 0;
-  width: 1335px;
+  width: 1770px;
   top: 0;
   bottom: 0; }
 
@@ -365,7 +365,7 @@ ul, li {
 
 /*-----------------section__about--------*/
 .section__about-bg {
-  width: 1335px; }
+  width: 1770px; }
 
 .section__about-text {
   color: #727270;
