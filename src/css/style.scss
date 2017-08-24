@@ -58,6 +58,7 @@ h3{
 h4{
   font-size: 28px;
   margin-bottom: 50px;
+  line-height: 1.5;
 }
 
 ul, li{
@@ -1009,7 +1010,6 @@ ul, li{
 }
 
 .section__visa .section__three-blocks_title{
-  text-align: left;
   padding-left: 0;
 }
 
@@ -1019,7 +1019,6 @@ ul, li{
 
 
 .section__two-blocks_title{
-  text-align: left;
   padding: 0;
 }
 
@@ -1187,11 +1186,12 @@ ul, li{
   font-size: 24px;
   text-transform: uppercase;
   color: $color-purple;
+  margin: 0 35px;
 }
 
 .bus-invit_text{
   color: $color-white;
-  padding: 0 45px;
+  padding: 0 50px;
 }
 
 .bus-invit-registration-block{
@@ -1355,6 +1355,9 @@ ul, li{
   font-family: "ArialNarrowBold";
   color: $color-purple;
   margin-top: 90px;
+    span{
+      color: $color-grey;
+    }
 }
 
 .citiz-text_manager{
@@ -1364,9 +1367,10 @@ ul, li{
 
 .citiz-text_law{
   font-family:"OpenSansRegular";
+  text-align: left;
   font-size: 30px;
-  color: $color-purple;
-  margin-top: 90px;
+  color: $color-white;
+  margin-bottom: 35px;
   line-height: 1.5;
   padding-right: 40px;
 }
@@ -1432,6 +1436,7 @@ ul, li{
 }
 
 .section__rvp_enumeration-title{
+  text-align: left;
   font-family: "OpenSansRegular";
   font-size: 28px;
   margin-bottom: 55px;
@@ -1749,7 +1754,6 @@ ul, li{
 
 .work-permit_vks-item_text{
     span{
-      color: $color-purple;
     }
 }
 
@@ -1822,6 +1826,9 @@ ul, li{
 
 .section__work-permit-notice-title{
   text-align: left;
+    h4{
+      margin-bottom: 25px;
+    }
 }
 .section__work-permit-notice-text{
   margin-bottom: 40px;
@@ -1829,8 +1836,7 @@ ul, li{
 
 .section__work-permit-notice-text-order{
     span{
-      font-family: "ArialNarrowBold";
-      color: $color-purple;
+      color:$color-purple;
     }
 }
 

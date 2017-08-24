@@ -24,7 +24,7 @@ body#header
                   .row
                     .col-xs-12
                       .section__work-permit-text
-                        =content.workPermit.workPermitDesc.workPermitDescText
+                        !=content.workPermit.workPermitDesc.workPermitDescText
                   .row
                     .col-xs-12
                       .section__three-blocks
@@ -35,12 +35,14 @@ body#header
                             img.three-blocks-img.img-responsive(src='./assets/img/page_7/men.jpg' alt='Разрешение на работу ВКС')
                             .three-blocks-bg
                               .three-blocks-bg_title.section__two-bg_title=content.workPermit.workPermitDesc.workPermitDescBlock1
-                              button.section__btn=content.components.buttonMore
+                              a(href="./assets/files/Схематическая модель оформления РНР ВКС.pdf" download)
+                                button.section__btn=content.components.buttonMore
                           .three-blocks_block-item.section__two-blocks_item
                             img.three-blocks-img.img-responsive(src='./assets/img/page_7/worker.jpg' alt='Разрешение на работу на 1 год')
                             .three-blocks-bg
                               .three-blocks-bg_title.section__two-bg_title=content.workPermit.workPermitDesc.workPermitDescBlock2
-                              button.section__btn=content.components.buttonMore
+                              a(href="./assets/files/Схематическая модель оформления РНР на 1 год (станд.процедура).pdf" download)
+                                button.section__btn=content.components.buttonMore
                           .three-blocks_block-item.section__two-blocks_item
                             img.three-blocks-img.img-responsive(src='./assets/img/page_7/eais.jpg' alt='Граждане ЕАЭС')
                             .three-blocks-bg
@@ -154,7 +156,7 @@ body#header
                       .section__work-permit-notice-title.section__title_purple
                         h4=content.workPermit.workPermitNotice.workPermitNoticeTitle1
                       .section__work-permit-notice-text
-                        =content.workPermit.workPermitNotice.workPermitNoticeTitle1
+                        =content.workPermit.workPermitNotice.workPermitNoticeText1
                   .row
                     .col-xs-12
                       .section__work-permit-notice-title.section__title_purple

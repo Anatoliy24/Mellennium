@@ -17,7 +17,7 @@
     },
     "contacts":{
       "contactsTitle":"Контакты",
-      "contactsDesc":"г. Москва, пр. Вернадского, д.29, 119331"
+      "contactsDesc":"г. Москва, пр-т. Вернадского, д.29, 119331"
     },
     "components":{
       "buttonMore":"Подробнее",
@@ -26,8 +26,8 @@
     "aboutCompany": {
       "about": {
         "titleAbout": "О компании",
-        "aboutText": "- это многогранное пространство в котором создаются творческие и структурные решения для свободной реализации бизнесс-процессов. Наши уникальные решения становятся must-haves в своей области. На сегодняшний день – это 15 лет успешного опыта предоставления сервиса в визовово-миграционной сфере. Высокая квалификация сотрудников, качество предоставляемых услуг, гибкий подход - позволили завоевать доверие многих российский и иностранных компаний из различных сфер бизнеса  и сформировать репутацию надежного бизнес-партнера.",
-        "aboutTextSpan": "Mellennium travel "
+        "aboutText": "- это многогранное пространство в котором создаются творческие и структурные решения для свободной реализации бизнесс-процессов. Наши уникальные решения становятся must-haves в своей области. На сегодняшний день – это 15 лет успешного опыта предоставления сервиса в визовово-миграционной сфере. Высокая квалификация сотрудников, качество предоставляемых услуг, гибкий подход - позволили завоевать доверие многих российских и иностранных компаний из различных сфер бизнеса  и сформировать репутацию надежного бизнес-партнера.",
+        "aboutTextSpan": "Mellennium Travel "
       },
       "service": {
         "serviceTitle": "О сервисе",
@@ -37,7 +37,7 @@
       },
       "cooperation": {
         "cooperationTitle":"Сотрудничество",
-        "cooperationTextSpan":"Mellennium travel ",
+        "cooperationTextSpan":"Mellennium Travel ",
         "cooperationText":"предлагает несколько вариантов сотрудничества для своих клиентов"
       },
       "advantages": {
@@ -49,7 +49,7 @@
         "advantagesDescTitleSup":"Поддержка",
         "advantagesDescTitleFlex":"Гибкость",
         "advantagesDescHon":"в процессе взаимодействия мы честно озвучиваем этапы процесса работы: результат, гарантии и риски",
-        "advantagesDescBen":"любое взаимодействие с нашими менеджерами нашей компании приносит пользу клиенту",
+        "advantagesDescBen":"любое взаимодействие с менеджерами нашей компании всегда приносит пользу клиенту",
         "advantagesDescExp":"за годы работы мы получили бесценный практический опыт в решении различных задач наших клиентов",
         "advantagesDescAv":"мы понимаем, как важно быть всегда на связи, поэтому  для наших клиентов доступна поддержка 24/7",
         "advantagesDescSup":"мы несем ответственность за взятые на себя обязательства и разделяем риски с клиентом",
@@ -125,7 +125,7 @@
     "workPermit":{
       "workPermitDesc":{
         "workPermitDescTitle":"Разрешение на работу",
-        "workPermitDescText":"Разрешение на работу – это обязательный документ для трудоустройства иностранных граждан на территории РФ в качестве наемных работников. Порядок осуществления трудовой деятельности иностранными гражданами регулируется Федеральным законом от 25 июля 2002 г. № 115-ФЗ «О правовом положении иностранных граждан в РФ»",
+        "workPermitDescText":"Разрешение на работу – это обязательный документ для трудоустройства иностранных граждан на территории РФ в качестве наемных работников. Порядок осуществления трудовой деятельности иностранными гражданами регулируется Федеральным законом от 25 июля 2002 г. № 115-ФЗ <br> «О правовом положении иностранных граждан в РФ»",
         "workPermitDescDep":"В зависимости от выбранной процедуры и категории иностранного гражданина разрешения на работу можно подразделить на следующие виды:",
         "workPermitDescBlock1":"Разрешение на работу ВКС",
         "workPermitDescBlock2":"Разрешение на работу на 1 год",
@@ -153,11 +153,11 @@
       },
       "workPermitAdvant":{
         "workPermitAdvantTitle":"Преимущества привлечения иностранных специалистов (ВКС):",
-        "workPermitAdvantItem1":"Высококвалифицированные специалисты оформляются без учета квоты и работодателю не нужно получать разрешение",
+        "workPermitAdvantItem1":"Высококвалифицированные специалисты оформляются без учета квоты и работодателю не нужно получать ПИРС",
         "workPermitAdvantItem2":"Не требуется размещать вакансию в территориальном центре занятости населения и не нужно подавать сведения о вакансии",
-        "workPermitAdvantItem3":"Разрешение на работу для высококвалифицированных специалистов можно оформить на 3 года, если такой срок указан в трудовом контракте",
+        "workPermitAdvantItem3":"Разрешение на работу для высококвалифицированных специалистов можно оформить на 3 года, если такой срок указан в ТК",
         "workPermitAdvantItem4":"При подаче документов на разрешение на работу ВКС не нужно предоставлять медицинские сертификаты и документ о владении русским языком",
-        "workPermitAdvantItem5":"Разрешается при въезде в РФ на срок менее 90 дней не вставать на миграционный учет (при пребывании более 90 дней необходимо встать на учет там же)",
+        "workPermitAdvantItem5":"Разрешается при въезде в РФ на срок менее 90 дней не вставать на миграционный учет (при пребывании более 90 дней необходимо встать на учет)",
         "workPermitAdvantItem6":"Высококвалифицированный специалист может оформить визы сопровождающим членам своей семьи на срок действия своей визы"
       },
       "workPermitNotice":{
@@ -177,9 +177,9 @@
         "citizenOrderBlockTitle1":"РВП",
         "citizenOrderBlockTitle2":"ВНЖ",
         "citizenOrderBlockTitle3":"Гражданство РФ",
-        "citizenOrderText1":"Для получения гражданства в упрощенном порядке необходимо наличие у иностранного гражданина или лица без гражданства установленных российским законодательством оснований для этого, т. е., наличие жизненных обстоятельств, которые дают ему право на, своего рода, «льготное» получение гражданства РФ.",
+        "citizenOrderText1":"Для получения гражданства в упрощенном порядке необходимо наличие у иностранного гражданина или лица без гражданства установленных российским законодательством оснований для этого, т. е., наличие жизненных обстоятельств, которые дают ему право на, своего рода, «льготное» получение гражданства РФ. ",
         "citizenOrderText2":"Наши менеджеры помогут Вам пройти данную процедуру комфортно и  определить возможные варианты",
-        "citizenOrderText3":"Гражданство Российской Федерации может быть приобретено согласно статье 11 Федерального закона «О гражданстве Российской Федерации»",
+        "citizenOrderText3":"Гражданство Российской Федерации может быть приобретено согласно статье 11 Федерального закона «О гражданстве Российской Федерации»:",
         "citizenOrderSpan1":"по рождению;",
         "citizenOrderSpan2":"в результате приема в гражданство ",
         "citizenOrderDesc2":"Российской Федерации в общем порядке;",
@@ -189,7 +189,7 @@
         "citizenOrderDesc4":"Российской Федерации;",
         "citizenOrderSpan5":"по иным основаниям, ",
         "citizenOrderDesc5":"предусмотренным данным Федеральным законом или  международными договорами Российской Федерации.",
-        "citizenOrderText4":"Общий и упрощенный порядки отличаются основаниями, условиями, сроками рассмотрения материалов (в общем порядке — в течение 1 года, а в упрощенном — до 6 месяцев, со дня подачи всех необходимых и надлежащим образом оформленных документов) и компетенцией принятия решения. В общем порядке решение принимает Президент Российской Федерации, в упрощенном — руководители территориальных органов МВД России по субъектам Российской Федерации. Никаких квот на приобретение российского гражданства нет. Преимущественного права приобретения гражданства Российской Федерации по признакам социальной, расовой, национальной, языковой или религиозной принадлежности не установлено.",
+        "citizenOrderText4":"Общий и упрощенный порядки отличаются основаниями, условиями, сроками рассмотрения материалов (в общем порядке — в течение 1 года, а в упрощенном — до 6 месяцев, со дня подачи всех необходимых и надлежащим образом оформленных документов). В общем порядке решение принимает Президент Российской Федерации, в упрощенном — руководители территориальных органов МВД России по субъектам Российской Федерации. Никаких квот на приобретение российского гражданства нет. Преимущественного права приобретения гражданства Российской Федерации по признакам социальной, расовой, национальной, языковой или религиозной принадлежности не установлено.",
         "citizenOrderText5":"Условия приема в российское гражданство в общем порядке установлены статьей 13 Федерального закона «О гражданстве Российской Федерации». Одним из основных условий является постоянное проживание на территории России (т.е. по виду на жительство) в течение 5 лет непрерывно. Срок проживания сокращается до 1 года или это условие снимается вообще для отдельных категорий иностранцев, установленных той же статьей."
       },
       "citizenRvp":{
@@ -230,7 +230,7 @@
     },
     "otherServices":{
       "otherServicesTitle":"Другие услуги",
-      "otherServicesDesc":"Кроме основных услуг компания Mellennium Travel оказывает дополнительно",
+      "otherServicesDesc":"Компания Mellennium Travel кроме основных оказывает также дополнительные услуги",
       "otherServicesSpan1":"Юридические услуги",
       "otherServicesText1":"Имея большой практический опыт в миграционной сфере, наша компания готова оказать квалифицированную юридическую поддержку, связанную с применением Федеральных Законов о миграции и представлением интересов Заказчика в государственных органах",
       "otherServicesSpan2":"Перевод документов",
@@ -251,7 +251,7 @@
       "webinarText1":"Во многих компаниях  поддержка экспатов требует дополнительных компетенций. Целью наших обучающих вебинаров является ознакомление с базовыми моментами и правилами, на которые стоит обратить внимание при работе с иностранными гражданами.",
       "webinarText1Span1":"Вебинары рассчитаны на группы от 10 до 100 человек",
       "webinarBlockTitle1":"Информационные",
-      "webinarBlockText1":"Во многих компаниях поддержка экспатов требует дополнительных компетенций. Целью наших обучающих вебинаров является ознакомление с базовыми моментами и правилами, на которые стоит обратить внимание при работе с иностранными гражданами",
+      "webinarBlockText1":"Миграционное законодательство быстро меняется и порой трудно отследить все нововведения. Информационные вебинары призваны устранить данные пробелы и донести да наших клиентов актуальную информацию, связанную с миграционными и визовыми вопросами. С нами Вы будете в курсе событий!",
       "webinarBlockText1Span1":"Вебинары рассчитаны на группы от 50 до 500 человек",
       "webinarBlockTitle2":"Индивидуальные",
       "webinarBlockText2":"Индивидуальные вебинары сочетают в себе преимущества обучающих и информационных вебинаров. Программа составляется в соответствии с пожеланиями наших заказчиков учитывая их актуальные запросы. В ходе проведения вебинара все вопросы от участников разбираются детально, предоставляются практические примеры.",
@@ -270,7 +270,7 @@
       "exitVisaText5Span5":"- в страховании ",
       "exitVisaText5":"выезжающих за рубеж",
       "exitVisaTitle3":"Выгоды для Вас: ",
-      "exitVisaText6":"- Гибкую и прозрачную ценовую политику",
+      "exitVisaText6":"- Гибкая и прозрачная ценовая политика",
       "exitVisaText7":"- Оперативный ответ профессионального менеджера",
       "exitVisaText8":"- Возможность разделения прайса на базовые и дополнительные услуги",
       "exitVisaText9":"- Предоставление вариантов для решения ваших запросов",
@@ -294,13 +294,13 @@
       "sidebarDescVisa": "Russian Visa",
       "sidebarDescWork": "Work Permit",
       "sidebarDescExitVisa": "Exit Visas",
-      "sidebarDescCitizen": "Citizenship of the Russian Federation",
+      "sidebarDescCitizen": "Citizenship",
       "sidebarDescWebinar": "Webinar Academy",
       "sidebarDescOther": "Other Services"
     },
     "contacts": {
       "contactsTitle": "CONTACTS",
-      "contactsDesc": "29 Vernadskogo avenue, Moscow city, 119331"
+      "contactsDesc": "29 Vernadskogo avenue, Moscow, 119331"
     },
     "components": {
       "buttonMore": "More",
@@ -310,19 +310,19 @@
       "about": {
         "titleAbout": "ABOUT COMPANY",
         "aboutTextBegin": "The ",
-        "aboutText": "is a multifaceted area within which the creative and architectural solutions are generated for the free implementation of business processes. Our unique solutions become the ‘must have’ in their field. As of today, we have already had 15 years of a proven experience in the provision of the visa-related and other migration-related services",
-        "aboutTextSpan": "MELLENNUIUM TRAVEL "
+        "aboutText": "is a multifaceted area within which the creative and architectural solutions are generated for the free implementation of business processes. Our unique solutions become the ‘must haves’ in their field. As of today, we have already had 15 years of a proven experience in the provision of the visa-related and other migration-related services.",
+        "aboutTextSpan": "Mellennium Travel "
       },
       "service": {
         "serviceTitle": "ABOUT SERVICE",
-        "serviceTextPhrase": "«Customers are personalities, and the templates are ineffective with the personalities...»",
+        "serviceTextPhrase": "‘Customers are personalities, and the templates are ineffective with the personalities...’",
         "serviceTextDesc": "As we understand that, top class service is a service which focuses on the customer’s innermost needs. When providing a customer-focused service, human factor plays a very big role. Our concept is based on the continuous improvement both of our professional behavior and of the modes of the provision of services. Our customers’ demands are the promoters for our development and growth. And while the numerous questions arise for our customers when they deal with the visa- and other migration-related authorities, we have an answer for each of them.",
         "serviceTextSlogan": "High quality service is our ‘secret weapon’!"
       },
       "cooperation": {
         "cooperationTitle": "COOPERATION",
         "cooperationTextBegin": "The ",
-        "cooperationTextSpan": "Mellennium travel ",
+        "cooperationTextSpan": "Mellennium Travel ",
         "cooperationText": "offers several options of cooperation for its customers."
       },
       "advantages": {
@@ -342,7 +342,7 @@
       },
       "news": {
         "newsTitle": "NEWS",
-        "newsText1": "According to the tenor of the related draft law posted on the official portal of the draft regulations, the Ministry of Internal Affairs of the Russian Federation proposes to introduce an administrative fine to be imposed on the companies and executive officers which have not taken care of timely departure of the foreigners invited by them, from the country.",
+        "newsText1": "According to the tenor of the related draft law posted on the official portal of the draft regulations, the MIA of the RF proposes to introduce an administrative fine to be imposed on the companies and executive officers which have not taken care of timely departure of the foreigners invited by them, from the country.",
         "newsText2": "In an open hearing, the Constitutional Court of the Russian Federation ruled the provisions of the Russian migration-related law, which oblige the foreigners to be registered at a place of stay, as unconstitutional and inconsistent with the Constitution of Russia.",
         "newsText3": "The paper migration cards under the seal of the Border Guard, which are issued to the foreigners when entering the Russian Federation, will be superseded by their electronic versions, i.e., by the digital migration cards in the foreseeable future."
       },
@@ -370,7 +370,7 @@
         "busInvitDesc2": "Such invitation letters are executed via the General Administration for Migration Issues of the Ministry of Internal Affairs (only upon request of a corporate entity accredited at the General Administration for Migration Issues of the Ministry of Internal Affairs). Also, there is an opportunity to get executed such Invitation Letter via the Chamber of Commerce and Industry of the Russian Federation (for representative offices) or via the Ministry of Foreign Affairs (for execution of an Invitation Letter on behalf of a state or public institution). The Invitation Letter shall contain the following particulars: surname, given name(s) (to be spelled successively both in Russian alphabet and in Latin alphabet), date and place of birth, sex, nationality of the person being invited; country of his/her residence, number and date of issue of his/her document of identification; purpose of travel; expected period of stay in the Russian Federation; expected places to be visited within the Russian Federation; name of the host company and its corporate seat, or surname and given name of the inviting individual person and his/her place of residence; number and date of the decision on the issuance of the Invitation Letter, and period of validity of the Invitation Letter.",
         "busInvitTitleItems1": "OPTIONS AS FOR THE NUMBER ",
         "busInvitText1": "(of the permitted entries into the Russian Federation under the Invitation Letter): single; double; multiple",
-        "busInvitTitleItems2": "OPTIONS AS FOR THE PERIOD OF VALIDITY:",
+        "busInvitTitleItems2": "OPTIONS AS FOR THE PERIOD OF VALIDITY",
         "busInvitText2": "for 1 or 3 months; for 6 months or 1 year"
       },
       "busInvitReg": {
@@ -400,7 +400,7 @@
         "touristsInvitTitleItem2": "EMPLOYMENT INVITATION LETTER FOR THE HQS",
         "touristsInvitText2": "Such Invitation Letter is executed for the professionals under the special procedure established for the Highly Qualified Specialists (HQS). An Employment Visa is initially processed at a Russian Consulate abroad; and the extension of its validity is carried on by a relevant authorized migration authority in the territory of the Russian Federation.",
         "touristsInvitTime2": "TERM: FROM 1 YEAR AND OVER",
-        "touristsInvitQust": "Where Should You Apply to in Order to Obtain an Employment Invitation Letter?",
+        "touristsInvitQust": "Where Should You Apply to Obtain an Employment Invitation Letter?",
         "touristsInvitDesc3": "The authorized representatives of the corporate entities shall petition for the issuance of such Invitation Letter at the location of their corporate seat. The corporate seat of a corporate entity is its registered office address. The authorized representatives of the foreign corporate entities and of their branch offices shall petition for the issuance of such Invitation Letter at the place of their registration with tax authorities."
       }
       },
@@ -435,12 +435,12 @@
         "workPermitVksWarning":"The foreigners may not be engaged in the labor activities within the Russian Federation as the HQS for the carrying-out of the preaching or other religious activities including the ministration or officiating of other religious rites and ceremonies, the teaching of any religion, and the religious upbringing of the followers of any religion."
       },
       "workPermitAdvant":{
-        "workPermitAdvantTitle":"The Highly Qualified Specialists are enrolled regardless of the applicable quotas, and the employers do not need to obtain a special permission for them.",
+        "workPermitAdvantTitle":"ADVANTAGES OF INVOLVEMENT OF THE FOREIGN PROFESSIONALS (HQS)",
         "workPermitAdvantItem1":"The Highly Qualified Specialists are enrolled regardless of the applicable quotas, and the employers do not need to obtain a special permission for them.",
-        "workPermitAdvantItem2":"It is not necessary to publish information on the related employment vacancy on the networked resource of the relevant territorial Employment Office, and it is not necessary to report this employment vacancy to the relevant territorial Employment Office.",
+        "workPermitAdvantItem2":"It is not necessary to publish information on the related employment vacancy on the networked resource of the relevant territorial Employment Office.",
         "workPermitAdvantItem3":"A Work Permit for a Highly Qualified Specialist may be executed for a term of 3 years, provided that such term is specified in the related Employment Contract/Agreement.",
         "workPermitAdvantItem4":"When submitting the documents for the obtainment of a Work Permit for a HQS, it is not necessary to present the medical certificates and a documentary evidence of the Russian language proficiency.",
-        "workPermitAdvantItem5":"It is allowed not to be registered with the migration registration authorities when entering the Russian Federation for a period up to 90 days (when staying in the country within a period over 90 days, it is necessary to be registered).",
+        "workPermitAdvantItem5":"It is allowed not to be registered with the migration registration authorities when entering the Russian Federation for a period up to 90 days.",
         "workPermitAdvantItem6":"A Highly Qualified Specialist may arrange the visas for his/her accompanying family members for the period of validity of his/her Visa."
       },
       "workPermitNotice":{
@@ -448,21 +448,21 @@
         "workPermitNoticeText1":"Within 3 business days from the date of conclusion of an EC/EA, it is necessary to notify the General Administration for Migration Issues of the Ministry of Internal Affairs of the conclusion of an EC/EA with a foreigner (not to be confused with the actual date of hire of the related foreigner; meanwhile, the date of conclusion of an EC/EA is filled out in the top right corner on the first page of an EC/EA); such notification may be either submitted to the General Administration for Migration Issues of the Ministry of Internal Affairs directly in person, or sent by the registered mail with a request for acknowledgement of receipt. All the original documents received (such as the Permit to Engage Foreign Labor, the plastics, the Notification of Conclusion of an EC/EA, and so on) shall be delivered to the customer, and the customer company shall be obliged to keep them on file in-house.",
         "workPermitNoticeTitle2":"Quarterly Notification of the HQS’ Wages",
         "workPermitNoticeText2":"Upon notifying the migration service authorities of the conclusion of an EC/EA with an HQS, the employee starts the performance of his/her employment duties, and the employer puts the four related ticks in the Time-Schedule, and thus, the employer shall thereafter quarterly notify the relevant local authorities of the General Administration for Migration Issues of the Ministry of Internal Affairs of the performance of its obligations for the payment of wages (remuneration) to the HQS.",
-        "workPermitNoticeSpan1":"Pursuant to the Article 13.2 paragraph 13 of the Federal Law No. 115-ФЗ, dated the 25.07. 2002 “On the Legal Status of the Foreign Citizens in the Russian Federation” ",
+        "workPermitNoticeSpan1":"Pursuant to the Article 13.2 paragraph 13 of the Federal Law No. 115-ФЗ, dated the 25.07. 2002 «On the Legal Status of the Foreign Citizens in the Russian Federation»",
         "workPermitNoticeText3":"(hereinafter referred to as the “Federal Law on the Legal Status”), the employer shall be obliged to send such notifications quarterly no later than the last business day of the month following the reported quarter. Such notification shall contain the data which are actual as of the last day of the relevant quarter of the calendar year."
       }
     },
     "citizen":{
       "citizenOrder":{
         "citizenOrderTitle":"CITIZENSHIP",
-        "citizenOrderDesc":"The citizenship of the Russian Federation may be acquired either under the standard procedure or under the simplified procedure.",
+        "citizenOrderDesc":"The citizenship of the Russian Federation may be acquired either under the standard procedure or under the simplified procedure",
         "citizenOrderStage":"When acquiring the citizenship under the standard procedure, it is necessary to undergo the following stages:",
         "citizenOrderBlockTitle1":"OBTAINING OF A TEMPORARY RESIDENCE PERMIT",
         "citizenOrderBlockTitle2":"OBTAINING OF A PERMANENT RESIDENT CARD",
         "citizenOrderBlockTitle3":"ACQUIRING OF THE CITIZENSHIP OF THE RUSSIAN FEDERATION",
-        "citizenOrderText1":"The relevant legal grounds specified by the Russian legislation, must be present with regard to the concerned foreign citizen or apatride for the acquisition of the citizenship of the Russian Federation under the simplified procedure; that is, the grounds related to the existence of the life circumstances which entitle the concerned person for such a kind of the ‘privileged’ acquisition of the citizenship of the Russian Federation.",
+        "citizenOrderText1":"The relevant legal grounds specified by the Russian legislation, must be present with regard to the concerned foreign citizen or apatride for the acquisition of the citizenship of the Russian Federation under the simplified procedure; that is, the grounds related to the existence of the life circumstances which entitle the concerned person for such a kind of the  «privileged» acquisition of the citizenship of the Russian Federation.",
         "citizenOrderText2":"Our managers will assist you to undergo such procedure comfortably, and to estimate the possible options for the acquisition of the citizenship of the Russian Federation.",
-        "citizenOrderText3":"The citizenship of the Russian Federation may be acquired pursuant to the Article 11 of the Federal Law “On the Citizenship of the Russian Federation”, as follows:",
+        "citizenOrderText3":"The citizenship of the Russian Federation may be acquired pursuant to the Article 11 of the Federal Law «On the Citizenship of the Russian Federation», as follows:",
         "citizenOrderSpan1":"by birth;",
         "citizenOrderSpan2":"as a consequence of the conferment of citizenship ",
         "citizenOrderDesc2":"of the Russian Federation under the standard procedure;",
@@ -512,7 +512,7 @@
     },
     "otherServices":{
       "otherServicesTitle":"OTHER SERVICES",
-      "otherServicesDesc":"Beside the core services, the Mellennium Travel company additionally provides such extra services as follows:",
+      "otherServicesDesc":"Beside the core services, the Mellennium Travel company additionally provides such extra services as follows",
       "otherServicesSpan1":"Legal Services",
       "otherServicesText1":"Having a great hands on experience in the field of the migration related services, our company holds itself ready to provide a competent legal support concerning the application of the federal migration related laws, and concerning the representation of the customers’ interests before the state authorities.",
       "otherServicesSpan2":"Translation of the Documents",
@@ -528,7 +528,7 @@
     },
     "webinar":{
       "webinarTitle1":"WEBINAR ACADEMY",
-      "webinarDesc":"The Webinar Academy of the “Mellennium Travel” is an on-line learning platform created for the convenience of the learning and provision of information for our customers, as well as for the building-up of a new type of communication, which is based on the convenience of the information provision. We establish the new standards of the on-line learning, which assist us to share a unique experience with our customers, easily to impart knowledge, and thus to take the business processes to the next level.",
+      "webinarDesc":"The Webinar Academy of the Mellennium Travel is an on-line learning platform created for the convenience of the learning and provision of information for our customers, as well as for the building-up of a new type of communication, which is based on the convenience of the information provision. We establish the new standards of the on-line learning, which assist us to share a unique experience with our customers, easily to impart knowledge, and thus to take the business processes to the next level.",
       "webinarTitle2":"TRAINING WEBINARS",
       "webinarText1":"Assistance for the expatriates needs some extra competencies at many companies. The purpose of our training webinars is an insight into the basic essentials, rules and regulations which should be taken into consideration when working with the foreigners.",
       "webinarText1Span1":"Such webinars are intended for the groups of 10 to 100 persons.",

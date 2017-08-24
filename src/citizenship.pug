@@ -53,18 +53,17 @@ body#header
                   .row
                     .col-xs-12
                       .section__citiz-text
-                        .citiz-text_invitation
-                          =content.citizen.citizenOrder.citizenOrderText1
-                        .citiz-text_manager
-                          =content.citizen.citizenOrder.citizenOrderText2
-                        .citiz-text_law
-                          =content.citizen.citizenOrder.citizenOrderText3
+                        .citiz-text_invitation=content.citizen.citizenOrder.citizenOrderText1
+                          span=content.citizen.citizenOrder.citizenOrderText2
+
 
               .section__citiz_enumeration.section
                 .section__citiz_enumeration-bg.section__bg
                 .section__citiz_enumeration-content.section__content
                   .row
                     .col-xs-12
+                      .citiz-text_law
+                        =content.citizen.citizenOrder.citizenOrderText3
                       ul.section__citiz_enumeration-list
                         li.section__citiz_enumeration-item
                           span=content.citizen.citizenOrder.citizenOrderSpan1
