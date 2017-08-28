@@ -998,6 +998,8 @@ ul, li {
   color: #951b81;
   margin-top: 90px; }
   .citiz-text_invitation span {
+    display: inline-block;
+    margin-top: 35px;
     color: #9fa1a3; }
 
 .citiz-text_manager {

@@ -1356,6 +1356,8 @@ ul, li{
   color: $color-purple;
   margin-top: 90px;
     span{
+      display: inline-block;
+      margin-top: 35px;
       color: $color-grey;
     }
 }

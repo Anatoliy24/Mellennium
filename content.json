@@ -26,7 +26,7 @@
     "aboutCompany": {
       "about": {
         "titleAbout": "О компании",
-        "aboutText": "- это многогранное пространство в котором создаются творческие и структурные решения для свободной реализации бизнесс-процессов. Наши уникальные решения становятся must-haves в своей области. На сегодняшний день – это 15 лет успешного опыта предоставления сервиса в визовово-миграционной сфере. Высокая квалификация сотрудников, качество предоставляемых услуг, гибкий подход - позволили завоевать доверие многих российских и иностранных компаний из различных сфер бизнеса  и сформировать репутацию надежного бизнес-партнера.",
+        "aboutText": "- это многогранное пространство в котором создаются творческие и структурные решения для свободной реализации бизнесс-процессов. Наши уникальные решения становятся must-haves в своей области. На сегодняшний день – это 15 лет успешного опыта предоставления сервиса в визово-миграционной сфере. Высокая квалификация сотрудников, качество предоставляемых услуг, гибкий подход - позволили завоевать доверие многих российских и иностранных компаний из различных сфер бизнеса  и сформировать репутацию надежного бизнес-партнера.",
         "aboutTextSpan": "Mellennium Travel "
       },
       "service": {
@@ -125,12 +125,17 @@
     "workPermit":{
       "workPermitDesc":{
         "workPermitDescTitle":"Разрешение на работу",
-        "workPermitDescText":"Разрешение на работу – это обязательный документ для трудоустройства иностранных граждан на территории РФ в качестве наемных работников. Порядок осуществления трудовой деятельности иностранными гражданами регулируется Федеральным законом от 25 июля 2002 г. № 115-ФЗ <br> «О правовом положении иностранных граждан в РФ»",
+        "workPermitDescText":"Разрешение на работу – это обязательный документ для трудоустройства иностранных граждан на территории РФ в качестве наемных работников. Порядок осуществления трудовой деятельности иностранными гражданами регулируется Федеральным законом от 25 июля 2002 г. <br>№ 115-ФЗ  «О правовом положении иностранных граждан в РФ»",
         "workPermitDescDep":"В зависимости от выбранной процедуры и категории иностранного гражданина разрешения на работу можно подразделить на следующие виды:",
         "workPermitDescBlock1":"Разрешение на работу ВКС",
         "workPermitDescBlock2":"Разрешение на работу на 1 год",
         "workPermitDescBlock3":"Граждане ЕАЭС",
-        "workPermitDescBlock4":"Патент"
+        "workPermitDescBlock4":"Патент",
+        "workPermitLink1":"./assets/files/Схематическая модель оформления РНР ВКС.pdf",
+        "workPermitLink2":"./assets/files/Схематическая модель оформления РНР на 1 год (станд.процедура).pdf",
+        "workPermitLink3":"./assets/files/Схематическая модель оформления ЕВРАЗЭС.pdf",
+        "workPermitLink4":"./assets/files/Схематическая модель оформления  Патент.pdf"
+
       },
       "workPermitVks":{
         "workPermitVksTitle":"Разрешение на работу ВКС",
@@ -251,7 +256,7 @@
       "webinarText1":"Во многих компаниях  поддержка экспатов требует дополнительных компетенций. Целью наших обучающих вебинаров является ознакомление с базовыми моментами и правилами, на которые стоит обратить внимание при работе с иностранными гражданами.",
       "webinarText1Span1":"Вебинары рассчитаны на группы от 10 до 100 человек",
       "webinarBlockTitle1":"Информационные",
-      "webinarBlockText1":"Миграционное законодательство быстро меняется и порой трудно отследить все нововведения. Информационные вебинары призваны устранить данные пробелы и донести да наших клиентов актуальную информацию, связанную с миграционными и визовыми вопросами. С нами Вы будете в курсе событий!",
+      "webinarBlockText1":"Миграционное законодательство быстро меняется и порой трудно отследить все нововведения. Информационные вебинары призваны устранить данные пробелы и донести до наших клиентов актуальную информацию, связанную с миграционными и визовыми вопросами. <br>С нами Вы будете в курсе событий!",
       "webinarBlockText1Span1":"Вебинары рассчитаны на группы от 50 до 500 человек",
       "webinarBlockTitle2":"Индивидуальные",
       "webinarBlockText2":"Индивидуальные вебинары сочетают в себе преимущества обучающих и информационных вебинаров. Программа составляется в соответствии с пожеланиями наших заказчиков учитывая их актуальные запросы. В ходе проведения вебинара все вопросы от участников разбираются детально, предоставляются практические примеры.",
@@ -315,9 +320,9 @@
       },
       "service": {
         "serviceTitle": "ABOUT SERVICE",
-        "serviceTextPhrase": "‘Customers are personalities, and the templates are ineffective with the personalities...’",
+        "serviceTextPhrase": "«Customers are personalities, and the templates are ineffective with the personalities...»",
         "serviceTextDesc": "As we understand that, top class service is a service which focuses on the customer’s innermost needs. When providing a customer-focused service, human factor plays a very big role. Our concept is based on the continuous improvement both of our professional behavior and of the modes of the provision of services. Our customers’ demands are the promoters for our development and growth. And while the numerous questions arise for our customers when they deal with the visa- and other migration-related authorities, we have an answer for each of them.",
-        "serviceTextSlogan": "High quality service is our ‘secret weapon’!"
+        "serviceTextSlogan": "High quality service is our «secret weapon»!"
       },
       "cooperation": {
         "cooperationTitle": "COOPERATION",
@@ -412,7 +417,12 @@
         "workPermitDescBlock1": "Work Permit for the HQS",
         "workPermitDescBlock2": "Work Permit for 1 year",
         "workPermitDescBlock3": "For the citizens of the EAEU member countries",
-        "workPermitDescBlock4": "Licensed"
+        "workPermitDescBlock4": "Licensed",
+        "workPermitLink1":"./assets/files/Схематическая модель оформления РНР ВКС.docx",
+        "workPermitLink2":"./assets/files/Схематическая_модель_оформления_РНР_на_1_год_(станд.процедура).DOCX",
+        "workPermitLink3":"./assets/files/Схематическая_модель_оформления_ЕВРАЗЭС.DOCX",
+        "workPermitLink4":"./assets/files/Схематическая модель оформления  Патент.docx"
+
       },
       "workPermitVks":{
         "workPermitVksTitle":"WORK PERMIT FOR THE HQS",
