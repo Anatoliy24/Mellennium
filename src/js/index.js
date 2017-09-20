@@ -119,12 +119,60 @@ $('form').on('submit','',function(event) {
 });
 
 
-// (function($){
-//   $(window).on("load",function(){
-//     $("a[rel='m_PageScroll2id']").mPageScroll2id({
-//       offset: 185
-//     });
-//   });
-// })(jQuery);
+(function($){
+  var page = 1;
+  var newsContainer = $('#news-page__block');
+  $('#news-page__link').on('click', function(e){
+    page++;
+    e.preventDefault();
+    $.ajax({
+      url:'/assets/json/news.json',
+      type: 'GET',
+      dataType: 'html',
+      data:{page:page},
+      success: function(res){
+        res =[
+          {
+            'date':'15.09.2017',
+            'text':'МВД РФ предлагает ввести штраф для компаний и должностных лиц, которые не озаботились своевременным выездом приглашенных ими иностранцев, следует из текста законопроекта, размещенномна портале проектов нормативных актов [...]',
+            'url':'./news_detail.html'
+          },
+          {
+            'date':'16.09.2017',
+            'text':'В продолжение нашей рассылки об увеличении сроков рассмотрения документов на визу в США в РФ, спешим проинформировать о возможности сокращения сроков назначения собеседования при подаче документов в третьей стране [...]',
+            'url':'./news_detail.html'
+          },
+          {
+            'date':'20.06.2017',
+            'text':'Конституционный суд (КС) РФ в открытом заседании признал не соответствующими Конституции нормы российского миграционного закона, обязывающие иностранцев вставать на учет по месту пребывания [...]',
+            'url':'./news_detail.html'
+          },
+          {
+            'date':'01.07.2017',
+            'text':'Спешим сообщить срочные новости по текущей ситуации с оформлением виз в США. Процедура выдачи неиммиграционных виз будет возобновлена, но в значительно сокращенном объеме [...]',
+            'url':'./news_detail.html'
+          }
+        ];
+        if(typeof res === 'string')
+        {
+          res = JSON.parse(res);
+        }
+
+        var len = res.length;
+        for(var i=0;i<len;i++) {
+          var item = res[i],
+          itemHtml = "<a href='"+item.url+"' class='news-page__item padding_news1'>" +
+            "<div class='news-page__date'>"+item.date+"</div>" +
+            "<div class='news-page__text'>"+item.text+"</div>" +
+            "</a>";
+          if(i>0 && (i+1)%2===0) {
+            itemHtml += '<div class="clearfix"></div>';
+          }
+          newsContainer.append(itemHtml);
+        }
+      }
+    });
+  })
+})(jQuery);
 
 

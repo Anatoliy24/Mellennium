@@ -1,0 +1,84 @@
+include _components/head
+  title Новости
+body
+  wrapper
+    include _components/header
+    main
+      .page-wrapper
+        include _components/sidebar
+        .content-wrapper
+          .container-block
+            .row
+              .section__header.section
+                .section__header-bg.section__bg
+                  img.section__header-img.img-responsive(src="./assets/img/header/fon_up_paris.jpg" alt='')
+                .section__header-title THE ART OF SERVICES
+              .section__news.section
+                .news-page__bg.section__bg
+                .news-page__content.section__content
+                  .row
+                    .col-xs-12
+                      .section__news-title.section__title_purple
+                        h1=content.aboutCompany.news.newsTitle
+                  .row
+                    .col-sm-12
+                      .news-page__block#news-page__block
+                        a(href="./news_detail.html").news-page__item.padding_news1
+                          .news-page__date 15.09.2017
+                          .news-page__text МВД РФ предлагает ввести штраф для компаний и должностных лиц, которые не озаботились своевременным выездом приглашенных ими иностранцев, следует из текста законопроекта, размещенномна портале проектов нормативных актов [...]
+                        a(href="./news_detail.html").news-page__item.padding_news2
+                          .news-page__date 16.09.2017
+                          .news-page__text В продолжение нашей рассылки об увеличении сроков рассмотрения документов на визу в США в РФ, спешим проинформировать о возможности сокращения сроков назначения собеседования при подаче документов в третьей стране [...]
+                        a(href="./news_detail.html").news-page__item.padding_news1
+                          .news-page__date 20.06.2017
+                          .news-page__text Конституционный суд (КС) РФ в открытом заседании признал не соответствующими Конституции нормы российского миграционного закона, обязывающие иностранцев вставать на учет по месту пребывания [...]
+                        a(href="./news_detail.html").news-page__item.padding_news2
+                          .news-page__date 01.07.2017
+                          .news-page__text Спешим сообщить срочные новости по текущей ситуации с оформлением виз в США. Процедура выдачи неиммиграционных виз будет возобновлена, но в значительно сокращенном объеме [...]
+                        .clearfix
+                      //a(href="#").news-page__link#news-page__link
+                        img.section__web-btn_img(src='./assets/img/page_5/arrow.png' alt='Смотреть видео' width='27' height='27')
+                        .news-page__link-text Читать все новости
+                      .news-page__block-static
+                        .news-page__item-static.padding_news2
+                          .news-page__date-static 20.06.2017
+                          .news-page__text-static
+                            | Информируем Вас о случаях отказа УВМ ГУ МВД России по г. Москве (ММЦ Сахарово), при оформлении разрешение на
+                            | привлечение и использование иностранных работников по процедуре - разрешение на работу на 1 год [...]
+                        .news-page__item-static.padding_news2
+                          .news-page__date-static 01.07.2017
+                          .news-page__text-static
+                            |В обозримом будущем на смену бумажным миграционным карточкам с печатью сотрудников пограничной службы, которые выдаются иностранным гражданам при въезде в РФ, придет их электронная версия [...]
+                        .clearfix
+                    a(href="#").news-page__link#news-page__link
+                      img.section__web-btn_img(src='./assets/img/page_5/arrow.png' alt='Смотреть видео' width='27' height='27')
+                      .news-page__link-text Читать все новости
+
+                //.row
+                //  .news
+                //    #news_list.news_list
+                //      -for(var i=0;i<4;i++){
+                //        a(href="#").news_list-item
+                //          .news_list-item-date 21.12.2012
+                //          .news_list-item-text 213213213123123213[...]
+                //      -}
+                //    a.load_more#load_more Load more
+                //
+                //.row
+                //  .news
+                //    #news_list.news_list
+                //
+                //      -for(var i=0;i<4;i++){
+                //        a(href="#").news_list-item
+                //          .news_list-item-date 21.12.2012
+                //          .news_list-item-text 213213213123123213[...]
+                //      -}
+                //    a.load_more#load_more Load more
+              include _components/contacts
+              include _components/map
+              include _components/form
+
+  include _components/scripts
+
+
+

@@ -1,0 +1,43 @@
+include _components/head
+  title Новости
+body
+  wrapper
+    include _components/header
+    main
+      .page-wrapper
+        include _components/sidebar
+        .content-wrapper
+          .container-block
+            .row
+              .section__header.section
+                .section__header-bg.section__bg
+                  img.section__header-img.img-responsive(src="./assets/img/header/fon_up_paris.jpg" alt='')
+                .section__header-title THE ART OF SERVICES
+              .section__news.section
+                .news-page__bg.section__bg
+                .news-page-details__content.section__content
+                  .row
+                    .col-sm-12
+                      .news-page-details__block
+                        .news-page-details__date 20.06.2017
+                        h4.news-page-details__block-title МВД РФ предлагает ввести штраф
+                        .news-page__text-block1
+                          | МВД РФ предлагает ввести штраф для компаний и должностных лиц, которые не озаботились
+                          | своевременным выездом приглашенных ими иностранцев, следует из текста законопроекта,
+                          | размещенном на портале проектов нормативных актов.
+                        .news-page__text-block2
+                          | Авторы проекта предлагают внести изменения в эту статью, установив штраф для должностных лиц — от 45 тысяч до 50 тысяч рублей, а на юридических лиц — от 400 тысяч до 500 тысяч рублей.
+                        .news-page__text-block3
+                          | В пояснительной записке также описана проблема, в связи с которой предлагается поправка в КоАП:
+                          | в настоящее время в РФ, по утверждению авторов, мигранты нарушают заявленную цель въезда, а также
+                          | установленный срок проживания в стране. В прошлом году, как следует из текста, территориальные органы МВД пресекли больше 130 тысяч подобных нарушений.
+                        .news-page__text-block4
+                          | Наши специалисты внимательно следят за ходом принятия данных изменений.
+              include _components/contacts
+              include _components/map
+              include _components/form
+
+  include _components/scripts
+
+
+

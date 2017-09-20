@@ -88,7 +88,7 @@ gulp.task('scripts', function() {
         console.log('Error: ' + error.message);
         this.emit('end');
       }}))
-    .pipe(uglify()) //Минификация скриптов.
+    // .pipe(uglify()) //Минификация скриптов.
     .pipe(gulp.dest('public/js'));
 });
 
@@ -98,12 +98,14 @@ gulp.task('browser-sync', function() {
     server: {
       baseDir: './public/'
     },
-    startPath: '/index.html'
+    // startPath: '/index.html'
     // startPath: '/visa.html'
     // startPath: '/citizenship.html'
     // startPath: '/other-services.html'
     // startPath: '/webinar.html'
     // startPath: '/work-permit.html'
+    // startPath: '/news.html'
+    startPath: '/news_detail.html'
   });
 });
 
