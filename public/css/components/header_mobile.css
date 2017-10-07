@@ -1,0 +1,57 @@
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 20px; } }
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 20px; } }
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 20px; } }
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 18px; } }
+
+@media screen and (max-width: 836px) {
+  html {
+    font-size: 18px; } }
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 16px; } }
+
+@media screen and (max-width: 560px) {
+  html {
+    font-size: 12px; }
+  .container {
+    width: auto; } }
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 12px; }
+  .container {
+    width: auto; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 12px; }
+  .container {
+    width: auto; } }
+
+/*---------- header-mobile----------*/
+.header__mobile-icon {
+  /*(min-width: $screen-sm-min)*/ }
+  @media (max-width: 768px) {
+    .header__mobile-icon {
+      position: absolute;
+      top: 50%;
+      left: 22px;
+      margin-top: -12.5px;
+      width: 27px;
+      height: 25px;
+      cursor: pointer;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url("../../assets/img/header/header_hamburger.png"); } }

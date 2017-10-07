@@ -99,13 +99,13 @@ gulp.task('browser-sync', function() {
       baseDir: './public/'
     },
     // startPath: '/index.html'
-    // startPath: '/visa.html'
+    startPath: '/visa.html'
     // startPath: '/citizenship.html'
     // startPath: '/other-services.html'
     // startPath: '/webinar.html'
     // startPath: '/work-permit.html'
     // startPath: '/news.html'
-    startPath: '/news_detail.html'
+    // startPath: '/news_detail.html'
   });
 });
 

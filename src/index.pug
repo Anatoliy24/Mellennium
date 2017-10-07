@@ -3,15 +3,17 @@ include _components/head
 body#header
   wrapper
     include _components/header
+
     main
       .page-wrapper
+
         include _components/sidebar
         .content-wrapper
           .container-block
             .row
               .section__header.section
                 .section__header-bg.section__bg
-                  img.section__header-img.img-responsive(src="./assets/img/header/fon_up_paris_1.jpg" alt='')
+                  .section__header-img.header-img-about.img-responsive
                 .section__header-title The art of services
 
               .section__about.section
@@ -58,34 +60,36 @@ body#header
                         span=content.aboutCompany.cooperation.cooperationTextSpan
                         =content.aboutCompany.cooperation.cooperationText
                   .row
-                    .col-sm-3
-                      .section__cooperation-item
-                        .section__cooperation-photo
-                          img.section__cooperation-img(src='../../../assets/img/page_1/cooperation/project_manager.png' alt='Менеджер проектов')
-                        .section__cooperation-post
-                          span Project&nbsp;
-                          | manager
-                    .col-sm-3
-                      .section__cooperation-item
-                        .section__cooperation-photo
-                          img.section__cooperation-img(src='../../../assets/img/page_1/cooperation/implant_manager.png' alt='Менеджер проектов')
-                        .section__cooperation-post
-                          span Implant&nbsp;
-                          | manager
-                    .col-sm-3
-                      .section__cooperation-item
-                        .section__cooperation-photo
-                          img.section__cooperation-img(src='../../../assets/img/page_1/cooperation/account_manager.png' alt='Менеджер проектов')
-                        .section__cooperation-post
-                          span Key account&nbsp;
-                          | manager
-                    .col-sm-3
-                      .section__cooperation-item
-                        .section__cooperation-photo
-                          img.section__cooperation-img(src='../../../assets/img/page_1/cooperation/option_manager.png' alt='Менеджер проектов')
-                        .section__cooperation-post
-                          span Your option&nbsp;
-                          | manager
+                    .section__cooperation-item-wrapper
+                      .col-xs-6.col-sm-3
+                        .section__cooperation-item
+                          .section__cooperation-photo
+                            img.section__cooperation-img(src='../../../assets/img/page_1/cooperation/project_manager.png' alt='Менеджер проектов')
+                          .section__cooperation-post
+                            span Project&nbsp;
+                            | manager
+                      .col-xs-6.col-sm-3
+                        .section__cooperation-item
+                          .section__cooperation-photo
+                            img.section__cooperation-img(src='../../../assets/img/page_1/cooperation/implant_manager.png' alt='Менеджер проектов')
+                          .section__cooperation-post
+                            span Implant&nbsp;
+                            | manager
+                    .section__cooperation-item-wrapper
+                      .col-xs-6.col-sm-3
+                        .section__cooperation-item
+                          .section__cooperation-photo
+                            img.section__cooperation-img(src='../../../assets/img/page_1/cooperation/account_manager.png' alt='Менеджер проектов')
+                          .section__cooperation-post
+                            span Key account&nbsp;
+                            | manager
+                      .col-xs-6.col-sm-3
+                        .section__cooperation-item
+                          .section__cooperation-photo
+                            img.section__cooperation-img(src='../../../assets/img/page_1/cooperation/option_manager.png' alt='Менеджер проектов')
+                          .section__cooperation-post
+                            span Your option&nbsp;
+                            | manager
 
 
 
@@ -151,17 +155,17 @@ body#header
                           .section__news-date
                             span 20.06.2017
                           .section__news-text=content.aboutCompany.news.newsText1
-                          button.section__btn=content.components.buttonMore
+                          a(href=baseUrl + "news.html").section__btn=content.components.buttonMore
                         .section__news-item.padding_news2
                           .section__news-date
                             span 01.07.2017
                           .section__news-text=content.aboutCompany.news.newsText2
-                          button.section__btn=content.components.buttonMore
+                          a(href=baseUrl + "news.html").section__btn=content.components.buttonMore
                         .section__news-item.padding_news3
                           .section__news-date
                             span 15.07.2017
                           .section__news-text=content.aboutCompany.news.newsText3
-                          button.section__btn=content.components.buttonMore
+                          a(href=baseUrl + "news.html").section__btn=content.components.buttonMore
 
               .section__clients.section
                 .section__clients-bg.section__bg.clients-bg

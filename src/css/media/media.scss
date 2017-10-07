@@ -1,0 +1,143 @@
+@media screen and (max-width: 1400px) { //desktop_1400
+  html {
+    font-size: 20px;
+  }
+  .container {
+    //width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) { //desktop_1200
+  html {
+    font-size: 20px;
+  }
+  .container {
+    //width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) { //desktop_992
+  html {
+    font-size: 20px;
+  }
+  .container {
+    //width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) { //desktop_900
+  html {
+    font-size: 18px;
+  }
+  .container {
+    //width: auto;
+  }
+}
+
+@media screen and (max-width: 836px) { //desktop_836
+  html {
+    font-size: 18px;
+  }
+  .container {
+    //width: auto;
+  }
+}
+
+
+
+
+@media screen and (max-width: 768px) { //laptop_768
+  html {
+    font-size: 16px;
+  }
+  .container {
+  	//width: auto;
+ }
+}
+@media screen and (max-width: 560px) { //tablets_560
+  html {
+    font-size: 12px;
+  }
+  .container {
+  	width: auto;
+ }
+}
+
+@media screen and (max-width: 480px) { //tablets_480
+  html {
+    font-size: 12px;
+  }
+  .container {
+  	width: auto;
+  }
+}
+@media screen and (max-width: 320px) { //phones
+  html {
+    font-size: 12px;
+  }
+  .container {
+    width: auto;
+  }
+
+}
+
+@function rem($px) {
+  @return $px / 20px + 0rem;
+}
+
+@mixin desktop_1400 { /* (min-width: $screen-md-min)*/
+  @media (max-width: 1400px){
+    @content;
+  }
+}
+@mixin desktop_1200 { /* (min-width: $screen-md-min)*/
+  @media (max-width: 1200px){
+    @content;
+  }
+}
+
+@mixin desktop_992 { /* (min-width: $screen-md-min)*/
+  @media (max-width: 992px){
+    @content;
+  }
+}
+
+@mixin desktop_900 {
+  @media (max-width: 900px){
+    @content;
+  }
+}
+
+@mixin desktop_836 {
+  @media (max-width: 836px){
+    @content;
+  }
+}
+
+@mixin laptop_768 { /*(min-width: $screen-sm-min)*/
+  @media  (max-width: 768px){
+    @content;
+  }
+}
+
+@mixin tablets_560 {
+  @media (max-width: 560px){
+    @content;
+  }
+}
+
+@mixin tablets_480 {
+  @media (max-width: 480px){
+    @content;
+  }
+}
+
+@mixin phones {
+  @media (max-width: 320px){
+    @content;
+  }
+}
+@mixin landscape { /*(min-width: $screen-sm-min)*/
+  @media  (orientation: landscape){
+    @content;
+  }
+}

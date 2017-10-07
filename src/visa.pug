@@ -11,7 +11,8 @@ body#header
             .row
               .section__header.section
                 .section__header-bg.section__bg
-                  img.section__header-img.img-responsive(src="./assets/img/header/bg-header_page2_1.jpg" alt='')
+                  //img.section__header-img.img-responsive(src="./assets/img/header/bg-header_page2_1.jpg" alt='')
+                  img.section__header-img.header-img-viza.img-responsive
                 .section__header-title justifying confidence
 
               .section__visa.section
@@ -74,7 +75,8 @@ body#header
                     .col-xs-12
                       .invit-quest-title
                         .invit-quest-img
-                        span=content.visa.busInvit.busInvitQuest
+                        .invit-quest-text
+                          =content.visa.busInvit.busInvitQuest
               .section__bus-invit_part-two.section
                 .section__bus-invit-bg.section__bg
                 .section__bus-invit-content.section__content
@@ -83,13 +85,13 @@ body#header
                       .section__bus-invit-text.invit-text-margin
                         =content.visa.busInvit.busInvitDesc2
                   .row
-                    .col-xs-6
+                    .col-xs-12.col-sm-6
                       .section__bus-invit-multiple
                         .bus-invit_title
                           =content.visa.busInvit.busInvitTitleItems1
                         .bus-invit_text
                           =content.visa.busInvit.busInvitText1
-                    .col-xs-6
+                    .col-xs-12.col-sm-6
                       .section__bus-invit-time
                         .bus-invit_title
                           =content.visa.busInvit.busInvitTitleItems2
@@ -139,9 +141,8 @@ body#header
                     .col-xs-12
                       .invit-quest-title
                         .invit-quest-img
-
-                        span=content.visa.touristsInvit.touristsInvitQust
-
+                        .invit-quest-text
+                          =content.visa.touristsInvit.touristsInvitQust
               .section__tourists-invit_part-two.section
                 .section__tourists-invit-bg.section__bg
                 .section__tourists-invit-content.section__content
@@ -193,9 +194,8 @@ body#header
                     .col-xs-12
                       .invit-quest-title
                         .invit-quest-img
-                        span=content.visa.jobInvit.touristsInvitQust
-
-
+                        .invit-quest-text.invit-quest-text-color_mobile
+                          =content.visa.jobInvit.touristsInvitQust
               .section__info-invit.section
                 .section__info-invit-bg.section__bg
                 .section__info-invit-content.section__content

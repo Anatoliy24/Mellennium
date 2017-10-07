@@ -4,12 +4,11 @@
 		<!--base(href="http://mellennium.surge.sh")-->
 		<!--base(href="/")-->
 		<!--base(href="http://verstka.irssystem.ru/mellennium")-->
-		<!--base(href="http://mltravel.ru")-->
-		<base href="http://localhost:3000">
+		<base href="http://mltravel.ru">
+		<!--base(href="http://localhost:3000")-->
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1">
-		<!--link(href="../../../assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet")-->
 		<link href="./assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css">
@@ -22,7 +21,11 @@
 <body id="header">
 	<wrapper>
 		<header class="header">
-			<div class="header-container"><a class="header__logo" href="./en/#header"><img class="header__logo-img img-responsive" src="../../../assets/img/header/logo.png" alt=""></a>
+			<div class="header-container">
+				<!--a.header__logo(href=baseUrl +"#header")-->
+				<div class="header__logo">
+					<div class="header__mobile-icon"></div><img class="header__logo-img img-responsive" src="../../../assets/img/header/logo.png" alt="">
+				</div>
 				<div class="header__contact">
 					<ul class="header__contact-list">
 						<li class="header__contact-item"><a class="header__contact-link" href="tel:+74957838311"><img class="header__contact-img" src="../../../assets/img/header/telefon.png" alt="Телефон" width="27" height="27"><span>+7(495)783 83 11</span></a></li>
@@ -42,8 +45,34 @@
 						</ul>
 					</div>
 				</div>
+				<aside class="sidebar_mobile">
+					<ul class="sidebar__list_mobile">
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/index.html">
+								<div class="sidebar-desc_mobile">ABOUT COMPANY</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/#service">
+								<div class="sidebar-desc_mobile">ABOUT SERVICE</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/#news">
+								<div class="sidebar-desc_mobile">NEWS</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/#contacts">
+								<div class="sidebar-desc_mobile">CONTACTS</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/visa.html">
+								<div class="sidebar-desc_mobile">Russian Visa</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/work-permit.html">
+								<div class="sidebar-desc_mobile">Work Permit</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/exit-visa.html">
+								<div class="sidebar-desc_mobile">Exit Visas</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/citizenship.html">
+								<div class="sidebar-desc_mobile">Citizenship</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/webinar.html">
+								<div class="sidebar-desc_mobile">Webinar Academy</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/other-services.html">
+								<div class="sidebar-desc_mobile">Other Services</div></a></li>
+					</ul>
+				</aside>
 			</div>
 		</header>
+		<!--include ../_components/sidebar_mobile-->
+		<!--.fade-->
 		<main>
 			<div class="page-wrapper">
 				<div class="sidebar">
@@ -66,7 +95,9 @@
 					<div class="container-block">
 						<div class="row">
 							<div class="section__header section">
-								<div class="section__header-bg section__bg"><img class="section__header-img img-responsive" src="./assets/img/header/fon_up_paris_1.jpg" alt=""></div>
+								<div class="section__header-bg section__bg">
+									<div class="section__header-img header-img-about img-responsive"></div>
+								</div>
 								<div class="section__header-title">The art of services</div>
 							</div>
 							<div class="section__about section">
@@ -136,28 +167,32 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-sm-3">
-											<div class="section__cooperation-item">
-												<div class="section__cooperation-photo"><img class="section__cooperation-img" src="../../../assets/img/page_1/cooperation/project_manager.png" alt="Менеджер проектов"></div>
-												<div class="section__cooperation-post"><span>Project&nbsp;</span>manager</div>
+										<div class="section__cooperation-item-wrapper">
+											<div class="col-xs-6 col-sm-3">
+												<div class="section__cooperation-item">
+													<div class="section__cooperation-photo"><img class="section__cooperation-img" src="../../../assets/img/page_1/cooperation/project_manager.png" alt="Менеджер проектов"></div>
+													<div class="section__cooperation-post"><span>Project&nbsp;</span>manager</div>
+												</div>
+											</div>
+											<div class="col-xs-6 col-sm-3">
+												<div class="section__cooperation-item">
+													<div class="section__cooperation-photo"><img class="section__cooperation-img" src="../../../assets/img/page_1/cooperation/implant_manager.png" alt="Менеджер проектов"></div>
+													<div class="section__cooperation-post"><span>Implant&nbsp;</span>manager</div>
+												</div>
 											</div>
 										</div>
-										<div class="col-sm-3">
-											<div class="section__cooperation-item">
-												<div class="section__cooperation-photo"><img class="section__cooperation-img" src="../../../assets/img/page_1/cooperation/implant_manager.png" alt="Менеджер проектов"></div>
-												<div class="section__cooperation-post"><span>Implant&nbsp;</span>manager</div>
+										<div class="section__cooperation-item-wrapper">
+											<div class="col-xs-6 col-sm-3">
+												<div class="section__cooperation-item">
+													<div class="section__cooperation-photo"><img class="section__cooperation-img" src="../../../assets/img/page_1/cooperation/account_manager.png" alt="Менеджер проектов"></div>
+													<div class="section__cooperation-post"><span>Key account&nbsp;</span>manager</div>
+												</div>
 											</div>
-										</div>
-										<div class="col-sm-3">
-											<div class="section__cooperation-item">
-												<div class="section__cooperation-photo"><img class="section__cooperation-img" src="../../../assets/img/page_1/cooperation/account_manager.png" alt="Менеджер проектов"></div>
-												<div class="section__cooperation-post"><span>Key account&nbsp;</span>manager</div>
-											</div>
-										</div>
-										<div class="col-sm-3">
-											<div class="section__cooperation-item">
-												<div class="section__cooperation-photo"><img class="section__cooperation-img" src="../../../assets/img/page_1/cooperation/option_manager.png" alt="Менеджер проектов"></div>
-												<div class="section__cooperation-post"><span>Your option&nbsp;</span>manager</div>
+											<div class="col-xs-6 col-sm-3">
+												<div class="section__cooperation-item">
+													<div class="section__cooperation-photo"><img class="section__cooperation-img" src="../../../assets/img/page_1/cooperation/option_manager.png" alt="Менеджер проектов"></div>
+													<div class="section__cooperation-post"><span>Your option&nbsp;</span>manager</div>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -242,18 +277,15 @@
 											<div class="section__news-block">
 												<div class="section__news-item padding_news1">
 													<div class="section__news-date"><span>20.06.2017</span></div>
-													<div class="section__news-text">According to the tenor of the related draft law posted on the official portal of the draft regulations, the MIA of the RF proposes to introduce an administrative fine to be imposed on the companies and executive officers which have not taken care of timely departure of the foreigners invited by them, from the country.</div>
-													<button class="section__btn">More</button>
+													<div class="section__news-text">According to the tenor of the related draft law posted on the official portal of the draft regulations, the MIA of the RF proposes to introduce an administrative fine to be imposed on the companies and executive officers which have not taken care of timely departure of the foreigners invited by them, from the country.</div><a class="section__btn" href="./en/news.html">More</a>
 												</div>
 												<div class="section__news-item padding_news2">
 													<div class="section__news-date"><span>01.07.2017</span></div>
-													<div class="section__news-text">In an open hearing, the Constitutional Court of the Russian Federation ruled the provisions of the Russian migration-related law, which oblige the foreigners to be registered at a place of stay, as unconstitutional and inconsistent with the Constitution of Russia.</div>
-													<button class="section__btn">More</button>
+													<div class="section__news-text">In an open hearing, the Constitutional Court of the Russian Federation ruled the provisions of the Russian migration-related law, which oblige the foreigners to be registered at a place of stay, as unconstitutional and inconsistent with the Constitution of Russia.</div><a class="section__btn" href="./en/news.html">More</a>
 												</div>
 												<div class="section__news-item padding_news3">
 													<div class="section__news-date"><span>15.07.2017</span></div>
-													<div class="section__news-text">The paper migration cards under the seal of the Border Guard, which are issued to the foreigners when entering the Russian Federation, will be superseded by their electronic versions, i.e., by the digital migration cards in the foreseeable future.</div>
-													<button class="section__btn">More</button>
+													<div class="section__news-text">The paper migration cards under the seal of the Border Guard, which are issued to the foreigners when entering the Russian Federation, will be superseded by their electronic versions, i.e., by the digital migration cards in the foreseeable future.</div><a class="section__btn" href="./en/news.html">More</a>
 												</div>
 											</div>
 										</div>
@@ -332,12 +364,12 @@
 								<div class="section__form-content section__content">
 									<form action="/assets/php/mail.php" method="get">
 										<div class="row">
-											<div class="col-sm-6 col-xs-6 form-group">
+											<div class="col-sm-6 col-xs-12 form-group">
 												<div class="input-group"><span class="input-group-addon">Name</span>
 													<input class="form-control" id="inputGroupSuccess1" name="name" type="text" aria-describedby="inputGroupSuccess1Status">
 												</div>
 											</div>
-											<div class="form-group col-sm-6 col-xs-6">
+											<div class="form-group col-sm-6 col-xs-12">
 												<div class="input-group"><span class="input-group-addon">Email</span>
 													<input class="form-control" id="inputGroupSuccess2" name="email" type="email" aria-describedby="inputGroupSuccess1Status">
 												</div>

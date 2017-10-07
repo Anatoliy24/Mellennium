@@ -1,7 +1,9 @@
 include ./script
 header.header
   .header-container
-    a.header__logo(href=baseUrl +"#header")
+    //a.header__logo(href=baseUrl +"#header")
+    .header__logo
+      .header__mobile-icon
       img.header__logo-img.img-responsive(src="../../../assets/img/header/logo.png" alt='')
     .header__contact
       ul.header__contact-list
@@ -33,8 +35,42 @@ header.header
             a(href=baseUrl + "#news").header__menu-link=content.header.headerMenuNews
           li.header__menu-item
             a(href=baseUrlContact + "#contacts").header__menu-link=content.header.headerMenuContacts
+    aside.sidebar_mobile
+      ul.sidebar__list_mobile
+        li.sidebar__list-item_mobile
+          a(href=baseUrl + "index.html").sidebar-link_mobile
+            .sidebar-desc_mobile=content.header.headerMenuAbout
+        li.sidebar__list-item_mobile
+          a(href=baseUrl + "#service").sidebar-link_mobile
+            .sidebar-desc_mobile=content.header.headerMenuService
+        li.sidebar__list-item_mobile
+          a(href=baseUrl + "#news").sidebar-link_mobile
+            .sidebar-desc_mobile=content.header.headerMenuNews
+        li.sidebar__list-item_mobile
+          a(href=baseUrl + "#contacts").sidebar-link_mobile
+            .sidebar-desc_mobile=content.header.headerMenuContacts
 
+        li.sidebar__list-item_mobile
+          a(href=baseUrl + "visa.html").sidebar-link_mobile
+            .sidebar-desc_mobile=content.sidebar.sidebarDescVisa
+        li.sidebar__list-item_mobile
+          a(href=baseUrl + "work-permit.html").sidebar-link_mobile
+            .sidebar-desc_mobile=content.sidebar.sidebarDescWork
+        li.sidebar__list-item_mobile
+          a(href=baseUrl + "exit-visa.html").sidebar-link_mobile
+            .sidebar-desc_mobile=content.sidebar.sidebarDescExitVisa
+        li.sidebar__list-item_mobile
+          a(href=baseUrl + "citizenship.html").sidebar-link_mobile
+            .sidebar-desc_mobile=content.sidebar.sidebarDescCitizen
+        li.sidebar__list-item_mobile
+          a(href=baseUrl + "webinar.html").sidebar-link_mobile
+            .sidebar-desc_mobile=content.sidebar.sidebarDescWebinar
+        li.sidebar__list-item_mobile
+          a(href=baseUrl + "other-services.html").sidebar-link_mobile
+            .sidebar-desc_mobile=content.sidebar.sidebarDescOther
 
+//include ../_components/sidebar_mobile
+//.fade
 
 
 

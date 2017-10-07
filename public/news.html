@@ -4,12 +4,11 @@
 		<!--base(href="http://mellennium.surge.sh")-->
 		<!--base(href="/")-->
 		<!--base(href="http://verstka.irssystem.ru/mellennium")-->
-		<!--base(href="http://mltravel.ru")-->
-		<base href="http://localhost:3000">
+		<base href="http://mltravel.ru">
+		<!--base(href="http://localhost:3000")-->
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1">
-		<!--link(href="../../../assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet")-->
 		<link href="./assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css">
@@ -22,7 +21,11 @@
 <body>
 	<wrapper>
 		<header class="header">
-			<div class="header-container"><a class="header__logo" href="./#header"><img class="header__logo-img img-responsive" src="../../../assets/img/header/logo.png" alt=""></a>
+			<div class="header-container">
+				<!--a.header__logo(href=baseUrl +"#header")-->
+				<div class="header__logo">
+					<div class="header__mobile-icon"></div><img class="header__logo-img img-responsive" src="../../../assets/img/header/logo.png" alt="">
+				</div>
 				<div class="header__contact">
 					<ul class="header__contact-list">
 						<li class="header__contact-item"><a class="header__contact-link" href="tel:+74957838311"><img class="header__contact-img" src="../../../assets/img/header/telefon.png" alt="Телефон" width="27" height="27"><span>+7(495)783 83 11</span></a></li>
@@ -42,8 +45,34 @@
 						</ul>
 					</div>
 				</div>
+				<aside class="sidebar_mobile">
+					<ul class="sidebar__list_mobile">
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./index.html">
+								<div class="sidebar-desc_mobile">О компании</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./#service">
+								<div class="sidebar-desc_mobile">О сервисе</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./#news">
+								<div class="sidebar-desc_mobile">Новости</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./#contacts">
+								<div class="sidebar-desc_mobile">Контакты</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./visa.html">
+								<div class="sidebar-desc_mobile">Виза в Россию</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./work-permit.html">
+								<div class="sidebar-desc_mobile">Разрешение на работу</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./exit-visa.html">
+								<div class="sidebar-desc_mobile">Выездные визы</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./citizenship.html">
+								<div class="sidebar-desc_mobile">Гражданство РФ</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./webinar.html">
+								<div class="sidebar-desc_mobile">Вебинар академия</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./other-services.html">
+								<div class="sidebar-desc_mobile">Другие услуги</div></a></li>
+					</ul>
+				</aside>
 			</div>
 		</header>
+		<!--include ../_components/sidebar_mobile-->
+		<!--.fade-->
 		<main>
 			<div class="page-wrapper">
 				<div class="sidebar">
@@ -92,10 +121,6 @@
 													<div class="news-page__text">Спешим сообщить срочные новости по текущей ситуации с оформлением виз в США. Процедура выдачи неиммиграционных виз будет возобновлена, но в значительно сокращенном объеме [...]</div></a>
 												<div class="clearfix"></div>
 											</div>
-											<!--a(href="#").news-page__link#news-page__link
-											img.section__web-btn_img(src='./assets/img/page_5/arrow.png' alt='Смотреть видео' width='27' height='27')
-											.news-page__link-text Читать все новости
-											-->
 											<div class="news-page__block-static">
 												<div class="news-page__item-static padding_news2">
 													<div class="news-page__date-static">20.06.2017</div>
@@ -104,7 +129,7 @@
 														привлечение и использование иностранных работников по процедуре - разрешение на работу на 1 год [...]
 													</div>
 												</div>
-												<div class="news-page__item-static padding_news2">
+												<div class="news-page__item-static padding_news2 news-page__item-static_pad-bot">
 													<div class="news-page__date-static">01.07.2017</div>
 													<div class="news-page__text-static">В обозримом будущем на смену бумажным миграционным карточкам с печатью сотрудников пограничной службы, которые выдаются иностранным гражданам при въезде в РФ, придет их электронная версия [...]</div>
 												</div>
@@ -114,26 +139,6 @@
 											<div class="news-page__link-text">Читать все новости</div></a>
 									</div>
 								</div>
-								<!--.row-->
-								<!--  .news-->
-								<!--    #news_list.news_list-->
-								<!--      -for(var i=0;i<4;i++){-->
-								<!--        a(href="#").news_list-item-->
-								<!--          .news_list-item-date 21.12.2012-->
-								<!--          .news_list-item-text 213213213123123213[...]-->
-								<!--      -}-->
-								<!--    a.load_more#load_more Load more-->
-								<!---->
-								<!--.row-->
-								<!--  .news-->
-								<!--    #news_list.news_list-->
-								<!---->
-								<!--      -for(var i=0;i<4;i++){-->
-								<!--        a(href="#").news_list-item-->
-								<!--          .news_list-item-date 21.12.2012-->
-								<!--          .news_list-item-text 213213213123123213[...]-->
-								<!--      -}-->
-								<!--    a.load_more#load_more Load more-->
 							</div>
 							<div class="section__contacts section">
 								<div class="section__contacts-bg section__bg"></div>
@@ -177,12 +182,12 @@
 								<div class="section__form-content section__content">
 									<form action="/assets/php/mail.php" method="get">
 										<div class="row">
-											<div class="col-sm-6 col-xs-6 form-group">
+											<div class="col-sm-6 col-xs-12 form-group">
 												<div class="input-group"><span class="input-group-addon">Name</span>
 													<input class="form-control" id="inputGroupSuccess1" name="name" type="text" aria-describedby="inputGroupSuccess1Status">
 												</div>
 											</div>
-											<div class="form-group col-sm-6 col-xs-6">
+											<div class="form-group col-sm-6 col-xs-12">
 												<div class="input-group"><span class="input-group-addon">Email</span>
 													<input class="form-control" id="inputGroupSuccess2" name="email" type="email" aria-describedby="inputGroupSuccess1Status">
 												</div>

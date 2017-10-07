@@ -17,14 +17,14 @@ jQuery(document).ready(function(){
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
-          arrows: false
+          arrows: true
         }
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
-          arrows: false
+          slidesToShow: 2,
+          arrows: true
         }
       }
       // You can unslick at a given breakpoint now by adding:
@@ -41,26 +41,38 @@ jQuery(document).ready(function(){
     var fixed_offset = 185;
     $('html,body').stop().animate({ scrollTop: $(id).offset().top - fixed_offset }, 1000);
   }
+
   var hash = location.hash+'';
   location.hash='';
 
   if(hash!==''){
     scroll(hash);
   }
-  $("body").on('click', '[href*="#"]', function(e){
+
+  $(".header__menu-link").on('click', function(e){
     scroll(this.hash);
     e.preventDefault();
   });
 
-
-
-
-
   // $("body").on('click', '[href*="#"]', function(e){
-  //   var fixed_offset = 185;
-  //   $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
+  //   scroll(this.hash);
   //   e.preventDefault();
   // });
+
+  function scrollMobile(id) {
+    var fixed_offset = 100;
+    $('html,body').stop().animate({ scrollTop: $(id).offset().top - fixed_offset }, 1000);
+  }
+
+
+  if(hash!==''){
+    scrollMobile(hash);
+  }
+
+  $(".sidebar-link_mobile").on('click', function(e){
+    scrollMobile(this.hash);
+    e.preventDefault();
+  });
 
 
 
@@ -100,6 +112,37 @@ $('form').on('submit','',function(event) {
 
 })
 
+  //sidebar_mobile
+
+
+  $(document).ready(function () {
+    var trigger = $('.hamburger'),
+      overlay = $('.overlay'),
+      isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+    }
+
+    $('[data-toggle="offcanvas"]').click(function () {
+      $('#wrapper').toggleClass('toggled');
+    });
+  });
 
 
 
@@ -176,3 +219,13 @@ $('form').on('submit','',function(event) {
 })(jQuery);
 
 
+/*-----------sidebar-toggle -jQuery  --------------*/
+
+$(".header__mobile-icon").on('click', function () {       // Функция для отображения/скрытия,  по клику на иконку, выпадающего меню (мобильная версия)
+    $(".sidebar_mobile").toggleClass("sidebar_mobile_active");          // изменить класс, и меняем его при кликена противоположный
+  }
+);
+$(".sidebar__list-item_mobile").on('click', function () {       // Функция для отображения/скрытия,  по клику на иконку, выпадающего меню (мобильная версия)
+    $(".sidebar_mobile").removeClass("sidebar_mobile_active");          // изменить класс, и меняем его при кликена противоположный
+  }
+);

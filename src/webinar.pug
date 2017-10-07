@@ -11,7 +11,7 @@ body#header
             .row
               .section__header.section
                 .section__header-bg.section__bg
-                  img.section__header-img.img-responsive(src="./assets/img/header/bg-header_page5_1.jpg" alt='')
+                  img.section__header-img.header-img-web.img-responsive
                 .section__header-title our webinar academy
 
               .section__web.section
@@ -27,7 +27,7 @@ body#header
                         =content.webinar.webinarDesc
                   .row
                     .web__video-block
-                      .col-xs-6
+                      .col-xs-12.col-sm-6
                         .web__video-block_desc
                           .web__video-block-title
                             h3=content.webinar.webinarTitle2
@@ -35,7 +35,7 @@ body#header
                             =content.webinar.webinarText1
                           .web__video-block-text_time
                             =content.webinar.webinarText1Span1
-                      .col-xs-6
+                      .col-xs-12.col-sm-6
                         .web__video-block_webinar
                           .web__video-block-video
                             iframe(src="https://www.youtube.com/embed/icx6vh23_D8?start=347&amp;rel=0&amp;showinfo=0?ecver=2" width="640" height="360" frameborder="0" allowfullscreen)
@@ -57,11 +57,11 @@ body#header
                       .web__info-block_desc
                         .web__info-block-title
                           h3=content.webinar.webinarBlockTitle2
-                        .web__info-block-text
+                        .web__info-block-text.web__info-block-text_color
                           =content.webinar.webinarBlockText2
                         .web__info-block-text_people
                           =content.webinar.webinarBlockText2Span2
-                        button(data-target="#myModalBox" data-toggle="modal").section__web-btn
+                        button(data-target="#myModalBox" data-toggle="modal").section__web-btn.section__web-btn_color
                           img.section__web-btn_img(src='./assets/img/page_5/arrow.png' alt='Смотреть видео' width='27' height='27')
                           span=content.components.buttonWatch
 

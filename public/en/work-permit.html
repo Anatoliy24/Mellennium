@@ -4,12 +4,11 @@
 		<!--base(href="http://mellennium.surge.sh")-->
 		<!--base(href="/")-->
 		<!--base(href="http://verstka.irssystem.ru/mellennium")-->
-		<!--base(href="http://mltravel.ru")-->
-		<base href="http://localhost:3000">
+		<base href="http://mltravel.ru">
+		<!--base(href="http://localhost:3000")-->
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1">
-		<!--link(href="../../../assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet")-->
 		<link href="./assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css">
@@ -22,7 +21,11 @@
 <body id="header">
 	<wrapper>
 		<header class="header">
-			<div class="header-container"><a class="header__logo" href="./en/#header"><img class="header__logo-img img-responsive" src="../../../assets/img/header/logo.png" alt=""></a>
+			<div class="header-container">
+				<!--a.header__logo(href=baseUrl +"#header")-->
+				<div class="header__logo">
+					<div class="header__mobile-icon"></div><img class="header__logo-img img-responsive" src="../../../assets/img/header/logo.png" alt="">
+				</div>
 				<div class="header__contact">
 					<ul class="header__contact-list">
 						<li class="header__contact-item"><a class="header__contact-link" href="tel:+74957838311"><img class="header__contact-img" src="../../../assets/img/header/telefon.png" alt="Телефон" width="27" height="27"><span>+7(495)783 83 11</span></a></li>
@@ -42,8 +45,34 @@
 						</ul>
 					</div>
 				</div>
+				<aside class="sidebar_mobile">
+					<ul class="sidebar__list_mobile">
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/index.html">
+								<div class="sidebar-desc_mobile">ABOUT COMPANY</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/#service">
+								<div class="sidebar-desc_mobile">ABOUT SERVICE</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/#news">
+								<div class="sidebar-desc_mobile">NEWS</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/#contacts">
+								<div class="sidebar-desc_mobile">CONTACTS</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/visa.html">
+								<div class="sidebar-desc_mobile">Russian Visa</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/work-permit.html">
+								<div class="sidebar-desc_mobile">Work Permit</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/exit-visa.html">
+								<div class="sidebar-desc_mobile">Exit Visas</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/citizenship.html">
+								<div class="sidebar-desc_mobile">Citizenship</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/webinar.html">
+								<div class="sidebar-desc_mobile">Webinar Academy</div></a></li>
+						<li class="sidebar__list-item_mobile"><a class="sidebar-link_mobile" href="./en/other-services.html">
+								<div class="sidebar-desc_mobile">Other Services</div></a></li>
+					</ul>
+				</aside>
 			</div>
 		</header>
+		<!--include ../_components/sidebar_mobile-->
+		<!--.fade-->
 		<main>
 			<div class="page-wrapper">
 				<div class="sidebar">
@@ -66,7 +95,10 @@
 					<div class="container-block">
 						<div class="row">
 							<div class="section__header section">
-								<div class="section__header-bg section__bg"><img class="section__header-img img-responsive" src="./assets/img/header/bg-header_page7_1.jpg" alt=""></div>
+								<div class="section__header-bg section__bg">
+									<!--img.section__header-img.img-responsive(src="./assets/img/header/bg-header_page7_1.jpg" alt='')-->
+									<div class="section__header-img header-img-work-permit img-responsive"></div>
+								</div>
 								<div class="section__header-title">Attention to details</div>
 							</div>
 							<div class="section__work-permit section">
@@ -93,25 +125,25 @@
 												<div class="section__three-blocks_block section__two-blocks_block">
 													<div class="three-blocks_block-item section__two-blocks_item"><img class="three-blocks-img img-responsive" src="./assets/img/page_7/men.jpg" alt="Разрешение на работу ВКС">
 														<div class="three-blocks-bg">
-															<div class="three-blocks-bg_title section__two-bg_title">Work Permit for the HQS</div><a href="./assets/files/Схематическая модель оформления РНР ВКС.docx" download>
+															<div class="three-blocks-bg_title section__two-bg_title">Work Permit for the HQS</div><a href="./assets/files/Schematic model of the design of WP HQS.pdf" download>
 																<button class="section__btn">More</button></a>
 														</div>
 													</div>
 													<div class="three-blocks_block-item section__two-blocks_item"><img class="three-blocks-img img-responsive" src="./assets/img/page_7/worker.jpg" alt="Разрешение на работу на 1 год">
 														<div class="three-blocks-bg">
-															<div class="three-blocks-bg_title section__two-bg_title">Work Permit for 1 year</div><a href="./assets/files/Схематическая модель оформления РНР ВКС.docx" download>
+															<div class="three-blocks-bg_title section__two-bg_title">Work Permit for 1 year</div><a href="./assets/files/Schematic model of the design of WP HQS.pdf" download>
 																<button class="section__btn">More</button></a>
 														</div>
 													</div>
 													<div class="three-blocks_block-item section__two-blocks_item"><img class="three-blocks-img img-responsive" src="./assets/img/page_7/eais.jpg" alt="Граждане ЕАЭС">
 														<div class="three-blocks-bg">
-															<div class="three-blocks-bg_title section__two-bg_title">For the citizens of the EAEU member countries</div><a href="./assets/files/Схематическая модель оформления РНР ВКС.docx" download>
+															<div class="three-blocks-bg_title section__two-bg_title">For the citizens of the EAEU member countries</div><a href="./assets/files/Schematic model of the design of WP HQS.pdf" download>
 																<button class="section__btn">More</button></a>
 														</div>
 													</div>
 													<div class="three-blocks_block-item section__two-blocks_item"><img class="three-blocks-img img-responsive" src="./assets/img/page_7/patent.jpg" alt="Патент">
 														<div class="three-blocks-bg">
-															<div class="three-blocks-bg_title section__two-bg_title">Licensed</div><a href="./assets/files/Схематическая модель оформления РНР ВКС.docx" download>
+															<div class="three-blocks-bg_title section__two-bg_title">Licensed</div><a href="./assets/files/Schematic model of the design of WP HQS.pdf" download>
 																<button class="section__btn">More</button></a>
 														</div>
 													</div>
@@ -194,21 +226,21 @@
 										</div>
 									</div>
 									<div class="row section__advantages-expat-block">
-										<div class="col-sm-4">
+										<div class="col-sm-6 col-md-4">
 											<div class="section__advantages-expat-item">
 												<div class="section__advantages-expat-icon"></div>
 												<div class="section__advantages-expat-text">The Highly Qualified Specialists are enrolled regardless of the applicable quotas, and the employers do not need to obtain a special permission for them.
 												</div>
 											</div>
 										</div>
-										<div class="col-sm-4">
+										<div class="col-sm-6 col-md-4">
 											<div class="section__advantages-expat-item">
 												<div class="section__advantages-expat-icon"></div>
 												<div class="section__advantages-expat-text">It is not necessary to publish information on the related employment vacancy on the networked resource of the relevant territorial Employment Office.
 												</div>
 											</div>
 										</div>
-										<div class="col-sm-4">
+										<div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
 											<div class="section__advantages-expat-item">
 												<div class="section__advantages-expat-icon"></div>
 												<div class="section__advantages-expat-text">A Work Permit for a Highly Qualified Specialist may be executed for a term of 3 years, provided that such term is specified in the related Employment Contract/Agreement.
@@ -217,21 +249,21 @@
 										</div>
 									</div>
 									<div class="row section__advantages-expat-block">
-										<div class="col-sm-4">
+										<div class="col-sm-6 col-md-4">
 											<div class="section__advantages-expat-item">
 												<div class="section__advantages-expat-icon"></div>
 												<div class="section__advantages-expat-text">When submitting the documents for the obtainment of a Work Permit for a HQS, it is not necessary to present the medical certificates and a documentary evidence of the Russian language proficiency.
 												</div>
 											</div>
 										</div>
-										<div class="col-sm-4">
+										<div class="col-sm-6 col-md-4">
 											<div class="section__advantages-expat-item">
 												<div class="section__advantages-expat-icon"></div>
 												<div class="section__advantages-expat-text">It is allowed not to be registered with the migration registration authorities when entering the Russian Federation for a period up to 90 days.
 												</div>
 											</div>
 										</div>
-										<div class="col-sm-4">
+										<div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
 											<div class="section__advantages-expat-item">
 												<div class="section__advantages-expat-icon"></div>
 												<div class="section__advantages-expat-text">A Highly Qualified Specialist may arrange the visas for his/her accompanying family members for the period of validity of his/her Visa.
@@ -308,12 +340,12 @@
 								<div class="section__form-content section__content">
 									<form action="/assets/php/mail.php" method="get">
 										<div class="row">
-											<div class="col-sm-6 col-xs-6 form-group">
+											<div class="col-sm-6 col-xs-12 form-group">
 												<div class="input-group"><span class="input-group-addon">Name</span>
 													<input class="form-control" id="inputGroupSuccess1" name="name" type="text" aria-describedby="inputGroupSuccess1Status">
 												</div>
 											</div>
-											<div class="form-group col-sm-6 col-xs-6">
+											<div class="form-group col-sm-6 col-xs-12">
 												<div class="input-group"><span class="input-group-addon">Email</span>
 													<input class="form-control" id="inputGroupSuccess2" name="email" type="email" aria-describedby="inputGroupSuccess1Status">
 												</div>
