@@ -366,6 +366,19 @@ ul, li{
 }
 
 
+.header-img-news-page{
+  background: url('../assets/img/header/fon_up_paris.jpg') no-repeat;
+  @include laptop_768{
+    background: url('../assets/img/header/bg-header_anoth-ser_mobile.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  @include landscape{
+    background: url('../assets/img/header/fon_up_paris.jpg') no-repeat;
+  }
+
+}
+
 .header-img-news-page-details{
   background: url('../assets/img/header/fon_up_paris_1.jpg') no-repeat;
   @include laptop_768{

@@ -552,6 +552,19 @@ ul, li {
     .header-img-other-services {
       background: url("../assets/img/header/bg-header_page8.jpg") no-repeat; } }
 
+.header-img-news-page {
+  background: url("../assets/img/header/fon_up_paris.jpg") no-repeat;
+  /*(min-width: $screen-sm-min)*/
+  /*(min-width: $screen-sm-min)*/ }
+  @media (max-width: 768px) {
+    .header-img-news-page {
+      background: url("../assets/img/header/bg-header_anoth-ser_mobile.jpg") no-repeat;
+      background-size: cover;
+      background-position: center center; } }
+  @media (orientation: landscape) {
+    .header-img-news-page {
+      background: url("../assets/img/header/fon_up_paris.jpg") no-repeat; } }
+
 .header-img-news-page-details {
   background: url("../assets/img/header/fon_up_paris_1.jpg") no-repeat;
   /*(min-width: $screen-sm-min)*/
